@@ -1,0 +1,54 @@
+# Template
+
+# Metadata
+
+Course:
+Topic:
+Author:
+Date:
+
+# Learning Goals
+
+1.
+2.
+3.
+
+# Learning Objectives
+
+# Materials
+
+Videos, readings, websites, etc.
+
+# Activities
+
+These are components of Active Learning Sessions.
+
+Think, Pair, Share
+
+Pair Programming
+
+Challenges
+
+# Assessments
+
+## Quiz
+
+## Homework
+
+- General Description
+- Why am I doing this?
+- What am I going to do?
+- Tips for success
+- How will I know I have succeeded? -> Spec Rubric
+
+# Evaluation
+
+Rubrics for measurably evaluating outcomes.
+
+Rubrics will inform the experimental design to assess the variances in learning that occurs in an active learning environment when compared to a lecture format. 
+
+
+# Review
+
+Cumulative assessments.
+
