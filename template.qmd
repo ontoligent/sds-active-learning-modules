@@ -2,9 +2,8 @@
 
 # Metadata
 
-Course:
-Topic:
-Author:
+Topic: Python Data Types and Data Structures
+Author: R.C. Alvarado
 Date:
 
 # Learning Goals
