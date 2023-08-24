@@ -2,6 +2,8 @@
 
 See [website](https://ontoligent.github.io/sds-active-learning-modules/)
 
+----
+
 President and Provost's Fund for Institutionally Related Research: Data Science Active Learning Lab.
 
 # Project Description
