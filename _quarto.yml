@@ -25,10 +25,25 @@ book:
       - modules/M02_BasicPython/M02-99-2-Quiz.txt
       - modules/M02_BasicPython/HW/M02-HW.ipynb
 
+  sidebar:
+    style: docked
+    # style: floating
+    background: light
+    collapse-level: 1
+    subtitle: Summer 2023
+
 bibliography: references.bib
+
+comments:
+  hypothesis: true
 
 format:
   html:
+    toc: true
     theme: cosmo
+    number-sections: false
+    fig-cap-location: bottom
+    link-external-icon: true
+    link-external-newwindow: true
   # pdf:
-  #   documentclass: scrreprt
+  #   documentclass: scrreport    
