@@ -1,0 +1,492 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DS 1001 Active Learning Modules",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "rubric.html#project-description",
+    "href": "rubric.html#project-description",
+    "title": "1  Rubric Active Learning Lab Sessions",
+    "section": "1.1 PROJECT DESCRIPTION",
+    "text": "1.1 PROJECT DESCRIPTION\nActive learning approaches have not been widely applied and tested in data science courses despite significant research supporting their benefits and its successful adoption in computer science. One study notes a 33% increase in pass rates for computer science courses employing active learning as compared to traditional lecture classes [3]. The Academy for Teaching Excellence has thousands of resources to aid in the teaching of computer science content with hundreds of assignments, but essentially no empirically tested resources for data science [4].\nA key component of the active learning approach is the design, development, and testing of authentic and transparent assessments. Authentic assignments asks students to either inhabit a role seen in the discipline or do the work of the discipline. Transparent assignments explicity state their purpose, tasks, and criteria. Research has shown that transparent assignments improve a wide range of student success metrics, including a sense of belonging which can be a significant factor in the retention of underrepresented student populations, particularly in STEM.\nA major obstacle to creating authentic and transparent active learning assessments is the time and effort required to develop, implement, and test them. The Data Science Active Learning Lab will provide the resources and structure necessary for collaborative course development. The Lab will enable faculty and graduate students to work together to develop and empirically test active learning activities in their data science courses. This will result in the identification and validation of best practices along with practical tools that can be shared broadly and openly across the field of Data Science.\nThe Lab will reduce the time burden on faculty to create effective assessments. More important, it will establish a trusted research framework and tools that have been empirically tested for effectiveness. Such a resource is currently unavailable in data science pedagogy. We also have a unique opportunity, given the newness of the field, to develop cultural norms around teaching that are known to benefit underrepresented groups and first-generation students. This funding will go a long way to advance that effort by establishing a pedological research lab specifically focused on student success in a historically fast-growing field."
+  },
+  {
+    "objectID": "rubric.html#project-goals",
+    "href": "rubric.html#project-goals",
+    "title": "1  Rubric Active Learning Lab Sessions",
+    "section": "1.2 PROJECT GOALS",
+    "text": "1.2 PROJECT GOALS\nIn pursuit of the mission to provide resources to enable faculty to create effective active learning assessments for data science, the project has the following goals.\n\nBe a preeminent resource for empirically tested best practices in data science education.\nEstablish a testing and validation framework for data science oriented active learning tools.\nCreate and socialize teaching norms in data science that are proven to benefit underrepresented groups and first-generation students.\nDevelop and test active learning assessments (labs) specifically for courses in the proposed data science undergraduate major. (Projected courses include the Foundation of Data Science, Foundations of Machine Learning, Computation Probability, Data Science Ethics and Policy, and Data Science Systems.)\nDisseminate open instructional content in accordance with the School of Data Science open access policy and UVA’s Open Scholarship agreement.\n\nThe goal of the summer is for each faculty member to create three implementable active learning sessions that can be embedded into classes in the next academic year. These active learning sessions should include the following materials covering a roughly two-week period.\n\nSummary of the learning objectives for the session.\nPre-reading and/or video material.\nTwo Active learning lecture sessions and associated material\nAssessments – assignments, reflections, quizzes, group work etc.\nEvaluation rubrics for learning outcomes.\nReview process to encourage retention.\n\nThe remainder of this document will describe each of these elements."
+  },
+  {
+    "objectID": "rubric.html#materials",
+    "href": "rubric.html#materials",
+    "title": "1  Rubric Active Learning Lab Sessions",
+    "section": "1.3 MATERIALS",
+    "text": "1.3 MATERIALS\n\n1.3.1 Learning Goals\nLearning goals should be the overarching goals of the class to which learning objectives could then align.\nExamples of Learning Goals for a Machine Learning Class might be:\n\nBe able to describe and execute the necessary steps to prepare data for machine learning models.\nDemonstrate understanding of the mathematical and computation machine requirements for several machine learning approaches and when they should be used.\nDemonstrate understanding of effective evaluation methods given different machine learning approaches.\n\n\n\n1.3.2 I. Learning Objectives.\nLearning Session: Data Preparation 1\nLearning Objectives:\n1.1a) Describe the reasons for and effectively demonstrate partitioning a dataset into train, test and tune.\n2.1a) Effectively describe and demonstrate why it is necessary to one-hot encode factor and standardize continuous variables specific to various machine learning models.\n3.1a) Execute and effectively describe dealing with missing data\nII. Pre-Reading and/or Video Material – This should reference specific sections in books known to be of high quality related to the content. I have a tendency to lean more heavily on books that include “theory” explanations aside from simple how-to text given that much of the how-to will be provided in the class.\nVideos can be very simple explaining the topics through presentation materials or code at a high level. I would work to limit the length of videos to 10 minutes or less and if several topics are covered break them into individual video segments. As a technic to consider, I often build a “stop and think” question in the video that I then discuss at the beginning of class to encourage students to watch and engage with the content. I also usually place these videos on YouTube as unlisted, but this does still allow you to track the watch time.\nIII. Active Learning Sessions – The definition of active learning is fairly broad, but in it’s simplest form it suggests that students should not be passive in their learning. This doesn’t eliminate classical lecturing methods but augments them to include directed moments when students are either engaging with each other or with the professor in more robust way than a traditional Q and A session. An example that Pete and I use a lot is “think, pair, share”. This includes use asking a question, having the students think on the answer alone, then discussing with a partner and then finally sharing with the class as a team. A good book on methods on Teaching Methods provided by CTE is Teaching at its Best by Linda B. Nelson, I’ve got a copy and can purchased more if needed (also please feel free to share other references).\nAs a reference I found this quote from a 2021 paper focused on developing a framework for active learning helpful: “To clarify, we synthesized a working definition of active learning that operates within an elaborative framework, which we call the construction-of-understanding ecosystem. A cornerstone of this framework is that undergraduate learners should be active agents during instruction and that the social construction of meaning plays an important role for many learners, above and beyond their individual cognitive construction of knowledge.”\nThe article is available here: https://journals.sagepub.com/doi/pdf/10.1177/1529100620973974\nIV. Assessments can be the hardest and potentially the most time-consuming portion of course materials. The traditional path in most Data Science oriented classes is an assessment that focuses on implementing a method in code. I would encourage you to continue this practice but also consider adding written or verbal approaches to evaluating learning. This might include prompts in the coding assessments that require further written explanations or reflections on what was the most challenging/enjoyable portion of the assignment or what areas the students believe they need more practice. This information can then be used in a follow-up session that highlights the areas that a majority of students saw as needing more coverage. It is also important to create clear expectations on how the assessment will be evaluated and what the expectations are for the assessment. Below is an example assessment Pete developed for the DS 1001, though not a coding-based assessment the general structure is still relevant.\n----------------------------------------\nLOOK Rubric – Systems\nDS 1001 – Spring 2023 - Professors Alonzi & Wright\nDue Date Target: Noon, April 28; Due date final: Noon, May 10 (last day of reading days)\nSubmission format: File upload to canvas\nIndividual Assignment\nGeneral Description: This assignment is all about understanding the systems behind popular social media and content apps. You will select a popular app, like Instagram or Netflix, and do a deep dive on the systems behind it that keep it running. Then you will produce a short report detailing the goal of the app, the software needs to make it work, and the hardware required to make it so. This will focus on the business side. Imagine you are the Chief Data and Technical officer for the company and producing a report for the Chief Executive and Operations officers.\nPreparatory Assignments: READ #7-9 and Labs #7-9.\nWhy am I doing this? In the systems portion of this course, we have been studying hardware and software as well as understanding the scale involved. This assignment puts you in the position of a company that delivers a product at scale through an app. You will need to understand the goal of the company and then the necessary software and hardware to make that happen. This process of studying a company and thinking through their needs will reinforce the learning about hardware, software, and scale.\n\nLO: Identify the hardware and software components of a computer and describe their function\nLO: Describe the different scales of computer operation\n\nWhat am I going to do? First you will select a company to study, choosing from the list of Instagram, Facebook, Twitter, or Netflix (if there is another you would like to do get clearance from a professor first). Once you have that chosen you will figure out what it takes to power their app. Put another way you will determine the goal, not the business goal of “make more money”, but the technical goal. For example, Netflix streams video content. Then you will research the software and hardware needs of the company to achieve that goal. Finally once you have done that research you will produce a short report detailing the various components.\nTips for success:\n\nPick an app that you use.\nTake this opportunity to learn more about something you use, be curious.\nOften apps are very different in different locations, for this assignment you can simplify and stick to the US market.\nThink about yourself and the goal of college. What software do you need to use? What hardware does that software require? Taking a few minutes to think that out can help focus you for the assignment.\n\nHow will I know I have succeeded? I will meet spec when I follow the criteria in this rubric.\n\n\n\nSpec Category\nSpec Details\n\n\n\n\nFormatting\n\nSubmit a single PDF.\n\nGive it a header stating the assignment.\n\n\n\n“Look Ahead assignment – Systems.”\nName, course, date\n\n3 page maximum, including tables and figures.\nExecutive Summary\nGoal statement\nSoftware requirements\nHardware requirements\nReferences\n\n\n\nExecutive Summary\n\nGoal: A short declarative sentence or two describing the contents of the report and the major takeaways.\nList the components of the report.\nState the key figures and scale.\nHighlight any major takeaways the reader should look out for.\n\n\n\n\nGoal Statement\n\nGoal: This is a short paragraph describing the technical goal the app is trying to achieve, for example Netflix streams video.\nInclude the scale involved, how much data is stored, how much computing power is needed, etc.\nThis is not a detailed description, just a coherent statement of the mission\n\n\n\nSoftware Requirements\n\nGoal: Present a detailed description of the software used to achieve the goal.\nThis is a major section of the assignment and is about half of the length of the assignment.\nMention the major software components and their needs.\nInclude a table summarizing the software needs.\nInclude a visualization of the software needs\n\n\n\nHardware Requirements\n\nGoal: Present a detailed description of the hardware used to achieve the goal.\nThis is a major section of the assignment and is about half of the length of the assignment.\nMention the major hardware components of the system.\nInclude a table summarizing the hardware.\nInclude a visualization summarizing the hardware.\n\n\n\nReferences\n\nAll references should be listed at the end of the document\nUse IEEE Documentation style (link)\n\n\n\n\nAcknowledgements: Special thanks to Jess Taggart from UVA CTE for coaching us. This structure is from Streifer & Palmer (2020).\n-----------------------------------------------\nV. Evaluation rubrics for learning outcomes –\nThis step can likely be included in the development of assessments but having it as a standalone emphasizes the need for thoughtful design.\nThe goal here should be evaluation measures tailored to the assessments but also universal enough to be used in a standard lecture format.\nMeaning that the rubrics will be included as part of the experimental design to assess the variances in learning that occurs in an active learning environment when compared to a lecture format.\nIn the above example the quality of answers to the final question, “How do the answers to the questions make you feel as it relates to the presence of data driven technologies in our everyday lives?”, could be a focus on the evaluation rubric as it relates to the specific learning outcome around “understanding the growing influence of data on society”.\nVI. Review process to encourage retention – The idea here is to not compartmentalize the learning objectives but blend them together from week to week to help reinforce the topics throughout the semesters.\nOne method example is to have quizzes that include questions from all weeks in the class not just the current topic. I think for this use case, simple direct sessions that are short in nature, 10-15 minutes, that review topics from the session makes more sense.\nExamples might include a guided back and forth on the key topics from the previous week or a team assignment that is short in nature but requires the students to pull previous information forward.\nIf the previous week’s topic was Decision Trees, I’ve shown some code and an image of DT in class that had three errors and ask the students to find and describe the errors in 10 minutes, as an example, before moving into the new session for the week."
+  },
+  {
+    "objectID": "rubric.html#iii.-additional-notes",
+    "href": "rubric.html#iii.-additional-notes",
+    "title": "1  Rubric Active Learning Lab Sessions",
+    "section": "1.4 III. Additional Notes",
+    "text": "1.4 III. Additional Notes\n\nWe want to publish these materials online, so when building please consider the goal is to make the materials publicly available.\nWe are also hoping to “empirically” test these in a classroom in the Spring of 24, so also be thinking about the development of non-active learning materials and where best to measure results.\nYou’ve got great ideas, this is just a framework, so feel free to move as you see fit.\nThis process should be useful for future and current SDS faculty. So, keep an eye on the ideal that we are in some ways culture building/establishing best practices, which I hope gets noticed.\nPete and I will create a Team site with folders for your content and as a placeholder for documentation on the project. You do not need to use these folders, just an option."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#topics",
+    "href": "modules/M02_BasicPython/M02-00-1-Intro.html#topics",
+    "title": "M02 Introducing Python",
+    "section": "Topics",
+    "text": "Topics\n\nRunning Python code\nPython’s basic data types\nPython’s primary operators associated with each data type\nPython’s built-in data structures"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#readings",
+    "href": "modules/M02_BasicPython/M02-00-1-Intro.html#readings",
+    "title": "M02 Introducing Python",
+    "section": "Readings",
+    "text": "Readings\n\nRequired\n\n\nKatz and Katz 2019, Section 1, Preparing the Workspace\n\n\nLutz, Learning Python, Part I: Getting Started, Chapter 2\n\n\nLutz, Learning Python, Part I: Getting Started, Chapter 3\n\n\nLutz, Learning Python, Part II: Types and Operations, Chapters 4–9\n\n\n\n\nOptional\n\n\nKatz and Katz 2019, Section 1, First Steps in Coding - Variables and Data Types\n\n\nBuilt-in Types (Official)\n\n\nPython Data Types (GFG)\n\n\nPython Operators (W3S)\n\n\nImmutable vs Mutable Data Types in Python (Medium)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-2-OnData.html#code-should-be-simple",
+    "href": "modules/M02_BasicPython/M02-00-2-OnData.html#code-should-be-simple",
+    "title": "2  Data and Code",
+    "section": "2.1 Code should be simple",
+    "text": "2.1 Code should be simple\nAn important principle for writing effective and intelligible code is that code should be simple — to quote Einstein, as simple as possible but no simpler.\n\nA contributing factor to code simplicity is how it is related to the data it is designed to process.\nThis relationship depends largely on how the data are structured.\nA program is always written with data in mind — what kind of data it is and how it is structured."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-2-OnData.html#simplicity-of-code-follows-from-the-structure-of-data",
+    "href": "modules/M02_BasicPython/M02-00-2-OnData.html#simplicity-of-code-follows-from-the-structure-of-data",
+    "title": "2  Data and Code",
+    "section": "2.2 Simplicity of code follows from the structure of data",
+    "text": "2.2 Simplicity of code follows from the structure of data\nThere is a view among programmers which, although not orthodoxy, is commonplace.\n\nIt is the idea that the complexity of a program — its algorithms — is a function of the quality of the data structure it processes.\nIf a data structure is not well designed, algorithms may be excessively complex and hard to understand.\nHowever if a data structure is well designed, the algorithms that process them are more robust and intelligible."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-2-OnData.html#supporting-references",
+    "href": "modules/M02_BasicPython/M02-00-2-OnData.html#supporting-references",
+    "title": "2  Data and Code",
+    "section": "2.3 Supporting References",
+    "text": "2.3 Supporting References\nConsider these quotes cited in an essay on Data Structures. by Igor Budasov, reproduced here:\nHere’s a quote from Linus Torvalds in 2006:\n\nI’m a huge proponent of designing your code around the data, rather than the other way around, and I think it’s one of the reasons git has been fairly successful . . . I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his [sic] code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships.\n\nWhich sounds a lot like Eric Raymond’s “Rule of Representation” from 2003:\n\nFold knowledge into data, so program logic can be stupid and robust.\n\nWhich was just his summary of ideas like this one from Rob Pike in 1989:\n\nData dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.\n\nWhich cites Fred Brooks from 1975:\n\nRepresentation is the Essence of Programming\n\nBeyond craftsmanship lies invention, and it is here that lean, spare, fast programs are born. Almost always these are the result of strategic breakthrough rather than tactical cleverness. Sometimes the strategic breakthrough will be a new algorithm, such as the Cooley-Tukey Fast Fourier Transform or the substitution of an n log n sort for an n 2 set of comparisons.\n\n\nMuch more often, strategic breakthrough will come from redoing the representation of the data or tables. This is where the heart of your program lies. Show me your flowcharts and conceal your tables, and I shall be continued to be mystified. Show me your tables, and I won’t usually need your flowcharts; they’ll be obvious.\n\n\n\n\n\n\n\nNote\n\n\n\nSee video on Canvas."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#which-python",
+    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#which-python",
+    "title": "3  Activity: Hello, World!",
+    "section": "3.1 Which Python?",
+    "text": "3.1 Which Python?\nOnce you are in Rivanna, you will want to know which version of Python you have installed as the default.\nTo find out, from the command line type:\nwhich python\nThis will show you the “path” to a python interpreter. For example:\n\nIf you do not see “anaconda” in that path, then run the following command:\nmodule load anaconda\nThis will update your environment to use Anaconda’s distribution of Python.\nAfter running the command, enter the command to see which pythion is being used to confirm that it is the one from Ancaconda."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#aside",
+    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#aside",
+    "title": "3  Activity: Hello, World!",
+    "section": "3.2 Aside",
+    "text": "3.2 Aside\nNote that you can use module to run other programs on your Rivanna account.\nType module list to see which programs have already been installed on your account.\nType module spider to see all the programs you can install."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
+    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
+    "title": "3  Activity: Hello, World!",
+    "section": "3.3 The Python Interactive Shell",
+    "text": "3.3 The Python Interactive Shell\nFrom the command line, enter python\nYou should get the Python Shell:\n\nThis is also called the Python standard REPL, which stands for “Read-Eval-Print Loop”.\nMake sure you see that you are using version 3 of Python.\nIf you see Python 2, exit the shell by entering quit() and try again by entering python3 at the command line.\nAt the >>> prompt type print(\"Hello, World!\") and press return.\nIf you’ve never used Python, you’ve just completed an important ritual. If you have used Python, well, you did it again :-)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#try-this",
+    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#try-this",
+    "title": "3  Activity: Hello, World!",
+    "section": "3.4 Try this",
+    "text": "3.4 Try this\nNow, enter following line at the prompt and press return:\nimport this\nWhat do you see?\nTo exit the Python Shell, enter quit() or exit() and hit return."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#running-python-files",
+    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#running-python-files",
+    "title": "3  Activity: Hello, World!",
+    "section": "3.5 Running Python Files",
+    "text": "3.5 Running Python Files\nNow create a file called hello.py using the command line editor nano. Enter the same commands you used above.\nThen run it from the command line by directly invoking the Python interpreter python.\n\n\n\n\n\n\nNote\n\n\n\nSee video in Canvas."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html",
+    "href": "modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html",
+    "title": "4  Activity: Jupyter Lab",
+    "section": "",
+    "text": "Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.\nGo the OnDemand site to access Rivanna. As a reminder, the URL is https://rivanna-portal.hpc.virginia.edu/.\nFrom the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session. Your form should have the following values:\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that you may increase the number of hours, cores, and megabytes of RAM, but asking for too much will increase the time it takes to start your session. So select just the resources needed and enter our course allocation ds1001 if this value is different than in the image above).\n\n\nOnce the session is ready, launch the notebook.\nOnce you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class — one for course content from the instructor, and one for your own course work. Use the latter for this exercise.\nIn a code cell in the notebook, enter the code to print \"Hello, World!\", and run the cell.\nSave your notebook as hello-world.ipynb."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "",
+    "text": "6 Python Data Types\nWe declare a number of variables with different value types.\nBy ‘type’ we mean object type.\nData types and data structures are both types of object.\nData types are created by the way they are written or as keywords …\nHere is a series of literal values (called literals):\nIntegers\nFloats (decimals)\nStrings\nType of quote does not matter, but they must be straight quotes, not “smart quotes” that some word processors use.\nNote that there is no explicit character type as in Java and other languages.\nBoolean\nNothing\nIt evaluates to nothing!\nComplex\nFor the physicists and signal processors.\nYou can always find out what kind of type you are working with by calling the type() function.\nData are assigned to variables using the assignment operator =.\nThe variable is always on the left, the value assigned to it on the right.\nThis is not the same as mathemtical equality.\nVariables are assigned types dynamically.\nThis is in contrast to static typing, where you have define variables by asserting what kind of data values they can hold.\nPython figures out what type of data is being set to the variable and implicitly stores that info.\nNote that type() returns the type of the value that a variable holds, not the type “variable”.\nYou can’t delete values!\nThis function returns the identity of an object.\nThe identity is a number that is guaranteed to be unique and constant for this object during its lifetime (during the program session).\nYou can think of it as the address of the object in memory.\nIt is possible to convert between types (when it makes sense to do so).\nSometimes conversions are “lossy” – you lose information in the process\nIf variables are nouns, and values meanings, then operators are verbs.\nIn effect, they are elementary functions that are expressed in sequential syntax.\na + b could have been expressed as add(a, b).\nBasically, each data type is associated with a set of operators that allow you to manipulate the data in way that makes sense for its type. Numeric data types are subject to mathematical operations, booleans to logical ones, and so forth.\nThere are also operations appropriate to structures. For example, list-like things have membership.\nThe relationship between types and operators is a microcosm of the relationship betweed data structures and algorithms. Data structures imply algorithms and algorithms assume data structures.\nThe w3schools site has a good summary.\nHere are some you may not have seen.\nPython offers a short-cut for most operators. When updating a variable with an operation to that variable, such as:\nYou can do this:\nPython supports many operators this way. Here are some:\nVariables, literal values, and operators are the building blocks of ebxpressions.\nFor example, the following combines three operators and four variables:\nPython employs operator precedence when evaluating expressions:\nYou can use parentheses to group them to force the order of operations you want:\nVariables and literal values can be combined:\nExpresssion can be very complex.\nExpressions evaluate to a value, just as single variables do.\nTherefore, they can be put anywhere a value is accepted."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#int",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#int",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "11.1 int()",
+    "text": "11.1 int()\n\nint?\n\nInit signature: int(self, /, *args, **kwargs)\nDocstring:     \nint([x]) -> integer\nint(x, base=10) -> integer\n\nConvert a number or string to an integer, or return 0 if no arguments\nare given.  If x is a number, return x.__int__().  For floating point\nnumbers, this truncates towards zero.\n\nIf x is not a number or if base is given, then x must be a string,\nbytes, or bytearray instance representing an integer literal in the\ngiven base.  The literal can be preceded by '+' or '-' and be surrounded\nby whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.\nBase 0 means to interpret the base from the string as an integer literal.\n>>> int('0b100', base=0)\n4\nType:           type\nSubclasses:     bool, IntEnum, IntFlag, _NamedIntConstant\n\n\nFloat to Int\n\nval = 3.8\nprint(val, type(val))\n\n3.8 <class 'float'>\n\n\n\nval_int = int(val)\nprint(val_int, type(val_int))\n\n3 <class 'int'>\n\n\nString to Float\n\nval = '3.8'\nprint(val, type(val))\n\n3.8 <class 'str'>\n\n\n\nval_int = float(val)\nprint(val_int, type(val_int))\n\n3.8 <class 'float'>\n\n\nConverting string decimal to integer will fail:\n\nval = '3.8'\nprint(val, type(val))\n\n3.8 <class 'str'>\n\n\n\nval_int = int(val)\nprint(val_int, type(val_int))\n\nValueError: invalid literal for int() with base 10: '3.8'"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#ord",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#ord",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "11.2 ord()",
+    "text": "11.2 ord()\nConverting a character to it’s code point\n\nord?\n\nSignature: ord(c, /)\nDocstring: Return the Unicode code point for a one-character string.\nType:      builtin_function_or_method\n\n\n\nord('a'), ord('A')\n\n(97, 65)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#arithmetic-operators",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#arithmetic-operators",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "12.1 Arithmetic Operators",
+    "text": "12.1 Arithmetic Operators\n\n12.1.1 floor division //\n\n5 // 2\n\n2\n\n\n\n-5 // 2\n\n-3\n\n\n\n5.5 // 2\n\n2.0\n\n\n\n\n12.1.2 modulus %\nReturns the remainder\n\n5 % 2\n\n1\n\n\nodd integers % 2 = 1\neven integers % 2 = 0\nLook at this …\n\n5.5 / 2, 5.5 // 2, 5.5 % 2\n\n(2.75, 2.0, 1.5)\n\n\n\n\n12.1.3 exponentiation **\n\n5**3\n\n125"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#string-operators",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#string-operators",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "12.2 String Operators",
+    "text": "12.2 String Operators\n\n12.2.1 concatenation +\nThe plus sign is an ovderloaded operator in Python.\n\nmyString = 'This: '\n\n\nmy2ndString = myString + ' Goodbye, world!'\n\n\nmy2ndString\n\n'This:  Goodbye, world!'\n\n\n\n\n12.2.2 repetition *\n\n# print('-' * 80)\n\n\nmyString*2                     \n\n'This: This: '\n\n\n\nmyString * 5\n\n'This: This: This: This: This: '\n\n\n\nbart_S1E3 = 'I will not skateboard in the halls'\n\n\nprint((bart_S1E3 + '\\n') * 5)\n\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\n\n\n\n\nprint('-' * 80)\n\n--------------------------------------------------------------------------------\n\n\nSee them all :-)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#assignment-operator",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#assignment-operator",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "12.3 Assignment Operator =",
+    "text": "12.3 Assignment Operator =\nWe’ve used this already, but it too is an operator.\n\nepoch = 20\nprint('epoch:', epoch)\n\nepoch: 20"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#comparison-operators",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#comparison-operators",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "12.4 Comparison Operators",
+    "text": "12.4 Comparison Operators\nComparisons are questions.\nThey return a boolean value.\n\n12.4.1 equality ==\n\n0 == (10 % 5)\n\nTrue\n\n\n\n'Boo' == 'Hoo'\n\nFalse\n\n\nCan we compare strings\n\n'A' < 'B'\n\nTrue\n\n\n\nord('A'), ord('B')\n\n(65, 66)\n\n\n\n\n12.4.2 inequality !=\n\n5/9 != 0.5555\n\nTrue"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-01-DataTypes.html#logical-operators",
+    "href": "modules/M02_BasicPython/M02-01-DataTypes.html#logical-operators",
+    "title": "5  NB: Data Types, Operators, and Expressions",
+    "section": "12.5 Logical Operators",
+    "text": "12.5 Logical Operators\nPython uses words where other languages will use other symbols.\n\n12.5.1 Conjunctions and, or, not\nNote the we group comparisons with parentheses.\n\nx = 10\n\n(x % 10 == 0) or (x < -1)\n\nTrue\n\n\n\n(x % 10 == 0) and (x < -1)\n\nFalse\n\n\n\nnot x == 5\n\nTrue\n\n\n\n\n12.5.2 Identity is\nThe is keyword is used to test if two variables refer to the same object.\nThe test returns True if the two objects are the same object.\nThe test returns False if they are not the same object, even if the two objects are 100% equal.\nUse the == operator to test if two variables are equal.\n– from W3Schools on Identity Operators\nis\n\nx = 'fail'\n\n\nx is 'fail'\n\n<>:1: SyntaxWarning: \"is\" with a literal. Did you mean \"==\"?\n<>:1: SyntaxWarning: \"is\" with a literal. Did you mean \"==\"?\n/var/folders/14/rnyfspnx2q131jp_752t9fc80000gn/T/ipykernel_53814/1139635342.py:1: SyntaxWarning: \"is\" with a literal. Did you mean \"==\"?\n  x is 'fail'\n\n\nTrue\n\n\nis not\n\nx is not 'fail'\n\n<>:1: SyntaxWarning: \"is not\" with a literal. Did you mean \"!=\"?\n<>:1: SyntaxWarning: \"is not\" with a literal. Did you mean \"!=\"?\n/var/folders/14/rnyfspnx2q131jp_752t9fc80000gn/T/ipykernel_53814/1754352910.py:1: SyntaxWarning: \"is not\" with a literal. Did you mean \"!=\"?\n  x is not 'fail'\n\n\nFalse\n\n\n\nx = 'foo'\ny = 'foo'\nx is y\n\nTrue\n\n\n\nx = ['a']\ny = ['a']\nx is y\n\nFalse\n\n\n\n\n12.5.3 Negation not\n\nnot True, not False, not 0, not 1, not 1000, not None\n\n(False, True, True, False, False, True)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html",
+    "title": "6  NB: Numbers",
+    "section": "",
+    "text": "7 Built-in Functions\nThese are built-in mathematical functions for numbers.\nSee the Python docs on the math library.\nSee random — Generate pseudo-random numbers for more info."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#pow-power",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#pow-power",
+    "title": "6  NB: Numbers",
+    "section": "7.1 pow() Power",
+    "text": "7.1 pow() Power\n\npow(2,3) # 2 raised to 3 = 8"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#abs-absolute-value",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#abs-absolute-value",
+    "title": "6  NB: Numbers",
+    "section": "7.2 abs() Absolute value",
+    "text": "7.2 abs() Absolute value\n\nabs(-2) # returns 2, the absolute value of its argument"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#round-round",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#round-round",
+    "title": "6  NB: Numbers",
+    "section": "7.3 round() Round",
+    "text": "7.3 round() Round\nRounding up or down its argument (to closest whole number).\n\nround(2.8) # rounds up to 3.0\n\n3\n\n\n\nround(1.1) # rounds down to 1.0\n\n1"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#math.sqrt-square-root",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#math.sqrt-square-root",
+    "title": "6  NB: Numbers",
+    "section": "8.1 math.sqrt() Square root",
+    "text": "8.1 math.sqrt() Square root\n\nmath.sqrt?\n\nSignature: math.sqrt(x, /)\nDocstring: Return the square root of x.\nType:      builtin_function_or_method\n\n\n\n# sqrt(intOne)\n\n\nmath.sqrt(12) # using the square-root function from the math library\n\n3.4641016151377544\n\n\n\nprint(math.floor(2.5)) # returns largest whole number less than the argument\nprint(math.floor(2.9))\nprint(math.floor(2.1))\n\n2\n2\n2"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#math.log",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#math.log",
+    "title": "6  NB: Numbers",
+    "section": "8.2 math.log()",
+    "text": "8.2 math.log()\n\nmath.log?\n\n\nmath.log(100, 10)\n\n\nmath.log(256, 2)"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#random.random",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#random.random",
+    "title": "6  NB: Numbers",
+    "section": "9.1 random.random()",
+    "text": "9.1 random.random()\n\nrandom.random?\n\n\nprint(random.random()) # using random() function in random library\n    # will return a number between 0 and 1"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-02-Numbers.html#random.randint",
+    "href": "modules/M02_BasicPython/M02-02-Numbers.html#random.randint",
+    "title": "6  NB: Numbers",
+    "section": "9.2 random.randint()",
+    "text": "9.2 random.randint()\n\nrandom.randint?\n\n\nprint(random.randint(1,100)) # specify a range in the parenthesis\n    # this will return a random integer in the range 1-100"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-03-Booleans.html",
+    "href": "modules/M02_BasicPython/M02-03-Booleans.html",
+    "title": "7  NB: Booleans",
+    "section": "",
+    "text": "A boolean value takes one of True or False, which are built-in values\ncheck if cache is True, using if statement\nif statement using a bool evaluates to True or False\n\ncache = True\n\nif cache:\n   print('data will be cached')\n\ndata will be cached\n\n\n\nprint(type(cache))\n\n<class 'bool'>\n\n\nBooleans are frequently used in if/then statements.\nWe’ll cover these later.\n\ncache = True\noome = False\n\nif cache or oome:\n    print('condition met!')\nelse:\n    print(\"No dice.\")\n\nAND statements will short circuit if an early condition fails.\n\nif oome and cache:\n    print('condition met!')\n\nIn this case, since oome is False, the check on cache never happens."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html",
+    "title": "8  NB: Strings",
+    "section": "",
+    "text": "9 Kinds of quotes\nStrings are signified by quotes.\nSingle and double quotes are identical in function.\nThey must be “straight quotes” though – cutting and pasting from a Word document with smart quotes won’t work.\nPython uses a print function.\nPython supports special “escape characters” in strings that produce effects when printed.\nNote that these are not unique to Python. They are part of almost all languages.\nThe print function puts spaces between strings and a newline at the end, but you can change that:\nComments are lines of code that aren’t read by the interpreter.\nThey are used to explain blocks of code, or to remove code from execution when debugging.\nThese following are multiline strings that can serve as comments:\nNote that multiline comments also evaluate as values.\nActually, they are list-like.\nHere are some functions applicable to strings because they are lists."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#quote-prefixes",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#quote-prefixes",
+    "title": "8  NB: Strings",
+    "section": "9.1 Quote prefixes",
+    "text": "9.1 Quote prefixes\n\n9.1.1 r strings\nPrefixing a string causes escape characters to be uninterpreted.\n\nprint(\"Sentence one.\\nSentence two.\")\n\n\nprint(r\"Sentence one.\\nSentence two.\")\n\n\n\n9.1.2 f strings\nPrefixing a string with f allows variable interpolation – inplace evaluation of variables in strings.\n\nppl = 'knights'\ngreeting = 'Ni'\n\n\nprint(f'We are the {ppl} who say {greeting}!') # Output: We are the knights who say Ni!\n\nThe brackets and characters within them (called format fields) are replaced with the passed objects.\n\nprint(b\"This is a sentence.\")\n\n\nprint(\"This is a sentence.\")"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#lower-.upper",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#lower-.upper",
+    "title": "8  NB: Strings",
+    "section": "13.1 .lower(), .upper()",
+    "text": "13.1 .lower(), .upper()\n\n'BOB'.lower() #.upper()\n\n'bob'"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#split",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#split",
+    "title": "8  NB: Strings",
+    "section": "13.2 .split()",
+    "text": "13.2 .split()\nParase a string based on a delimiter, which defaults to whitespace.\nNOTE: This does not use regular expressions.\nThis returns a list.\n\nmontyPythonQuote = 'are.you.suggesting.coconuts.migrate'\n\n\n'are.you.suggesting.coconuts.migrate'.split('.')\n\n['are', 'you', 'suggesting', 'coconuts', 'migrate']\n\n\n\nmontyPythonQuote\n\n'are.you.suggesting.coconuts.migrate'\n\n\n\nmontyPythonQuote.split('.') # split by the '.' delimiter. Result: a list!\n\n['are', 'you', 'suggesting', 'coconuts', 'migrate']"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#strip-.rstrip-lstrip-strip-methods",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#strip-.rstrip-lstrip-strip-methods",
+    "title": "8  NB: Strings",
+    "section": "13.3 .strip(), .rstrip(), lstrip() Strip methods",
+    "text": "13.3 .strip(), .rstrip(), lstrip() Strip methods\nStrip out extra whitespace using strip(), rstrip() and lstrip() functions\n.strip() removes white space from anywhere\n.rstrip() only removes white space from the right-hand-side of the string\n.lstrip() only removes white space from the left-hand-side of the string\n\nstr1 = '  hello, world!'    # white space at the beginning\nstr2 = '  hello, world!  '  # white space at both ends\nstr3 = 'hello, world!  '    # white space at the end\n\n\nstr1, str2, str3\n\n\nstr1.lstrip(), str1.rstrip()\n\n\nstr2.strip(), str2.rstrip()\n\n\nstr2.lstrip(), str3.rstrip()\n\n\nstatus.startswith('a')\n\n\nstatus.endswith('s')"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#replace",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#replace",
+    "title": "8  NB: Strings",
+    "section": "13.4 .replace()",
+    "text": "13.4 .replace()\n\n\"latina\".replace(\"a\", \"x\")"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#format",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#format",
+    "title": "8  NB: Strings",
+    "section": "13.5 .format()",
+    "text": "13.5 .format()\nVariable values can be embedding in strings using the format() function.\nPlace {} in the string in order from left to right. followed by .format(var1, var2, ...)`\n\nepoch = 20\nloss = 1.55\n\nprint('Epoch: {}, loss: {}'.format(epoch, loss))\n\nThis breaks, as three variables are required based on number of {}\n\nprint('Epoch: {}, loop: {}, loss: {}'.format(epoch, loss))"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#zfill",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#zfill",
+    "title": "8  NB: Strings",
+    "section": "13.6 .zfill()",
+    "text": "13.6 .zfill()\nBasic usage of the str.zfill() method (pads a numeric string on the left with zeros) It understands about plus and minus signs\n\nprint('12'.zfill(5))       # Output: 00012\nprint('-3.14'.zfill(7))    # Output: -003.14\nprint('3.141592'.zfill(5)) # Output: 3.141592"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-04-Strings.html#len-length",
+    "href": "modules/M02_BasicPython/M02-04-Strings.html#len-length",
+    "title": "8  NB: Strings",
+    "section": "14.1 len() Length",
+    "text": "14.1 len() Length\nThis is built-in length funciton tells us how many characters in the string.\nIt also applys to any list-like object, including strings, lists, dicts, sets, and dataframes.\n\nlen?\n\n\nmy_new_tring = 'This is a string'\n\n\nlen(my_new_tring)\n\n\n14.1.1 Indexing\nSince strings are sequences in Python, each character of the string has a unique position that can be indexed.\nIndexes are indicated by suffixed brackets, e.g. foo[]\n\nmy_new_tring[0] # displays the first character of the string\n            # first position is position zero. Will display 'h'\n\n\nmy_new_tring[-1] # displays the last character. Negatives count backwords.\n\n\n\n14.1.2 Slicing\nWe can used the colon to ‘slice’ strings (and lists)\n\nmy_new_tring[0:4] # First four characters (index positions 0-3)\n\n\nmy_new_tring[:4]  # Beginning (0) to (n-1) position\n\n\nmy_new_tring[4:]  # Fifth character and onwards until the end of the string\n\nit is NOT possible to reassign elements of a string. Python strings are immutable.\n\nstatus = 'success'\nstatus[0] = 't'\n\nAdd strings and handle pathing"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html",
+    "title": "9  NB: Structures",
+    "section": "",
+    "text": "10 Lists\nA list is an ordered sequence of items.\nEach element of a list is associated with an integer that represents the order in which the element appears.\nLists are indexed with brackets [].\nList elements are accessed by providing their order number in the brackets.\nLists are mutable, meaning you can modify them after they have been created.\nThey can contain mixed types.\nLike a hash table.\nHas key-value pairs.\nElements are indexed using brackets [] (like lists).\nBut they are constructed used braces {}.\nKey names are unique. If you re-use a key, you overwrite its value.\nKeys don’t have to be strings – they can be numbers or tuples or expressions that evaluate to one of these.\nA tuple is like a list but with one big difference: a tuple is an immutable object!\nYou can’t change a tuple once it’s created.\nA tuple can contain any number of elements of any datatype.\nAccessed with brackets [] but constructed with parentheses ().\nA set is an unordered collection of unique objects.\nThey are subject to set operations.\nNote the set is deduped\nSince sets are unordered, they don’t have an index. This will break:\nCheck if a value is in the set using in\nCombine two sets\nThis fails:\nThis succeeds:\nGet the set intersection\nA range is a sequence of integers, from start to stop by step. - The start point is zero by default.\n- The step is one by default.\n- The stop point is NOT included.\nRanges can be assigned to a variable.\nMore often, ranges are used in iterations, which we will cover later.\nanother range:\nVery often you will want to build a dictionary from some data source, and add keys as they appear. The default dict type in Python, however, requires that the key exists before you can mutate it. The defaultdict type in the collections module solves this problem. Here’s an example."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#constructing",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#constructing",
+    "title": "9  NB: Structures",
+    "section": "10.1 Constructing",
+    "text": "10.1 Constructing\nThey can be constructed in several ways:\n\nlist1 = []\nlist2 = list()\nlist3 = \"some string\".split()\nnumbers = [1,2,3,4]"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#indexing",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#indexing",
+    "title": "9  NB: Structures",
+    "section": "10.2 Indexing",
+    "text": "10.2 Indexing\nZero-based indexing\nPython uses xzero-based indexing, which means for a collection mylist\nmylist[0] references the first element\nmylist[1] references the second element, etc\nFor any iterable object of length N:\nmylist[:n] will return the first n elements from index 0 to n-1\nmylist[-n:] will return the last n elements from index N-n to N-1\n\nnumbers[0] # Access first element (output: 1)\n\n1\n\n\n\nnumbers[-1]\n\n4\n\n\n\nnumbers[0] + numbers[3] # doing arithmetic with the values (output: 5)\n\n5\n\n\n\nnumbers[len(numbers)]\n\nIndexError: list index out of range"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#slicing",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#slicing",
+    "title": "9  NB: Structures",
+    "section": "10.3 Slicing",
+    "text": "10.3 Slicing\n\nnumbers[0:2] # Output: [1, 2]\n\n[1, 2]\n\n\n\nnumbers[1:3] # Output: [2, 3]\n\n[2, 3]\n\n\n\nlen(numbers) # use len() function to find the size. Output: 4\n\n4\n\n\n\nnumbers[2:]  # Output: [3, 4]\n\n[3, 4]"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#multiply-lists-by-a-scalar",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#multiply-lists-by-a-scalar",
+    "title": "9  NB: Structures",
+    "section": "10.4 Multiply lists by a scalar",
+    "text": "10.4 Multiply lists by a scalar\nA scalar is a single value number.\n\nnumbers * 2"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#concatenate-lists-with",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#concatenate-lists-with",
+    "title": "9  NB: Structures",
+    "section": "10.5 Concatenate lists with +",
+    "text": "10.5 Concatenate lists with +\n\nnumbers2 = [30, 40, 50]\n\n\nnumbers + numbers2 # concatenate two lists"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-mix-types",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-mix-types",
+    "title": "9  NB: Structures",
+    "section": "10.6 Lists can mix types",
+    "text": "10.6 Lists can mix types\n\nmyList = ['coconuts', 777, 7.25, 'Sir Robin', 80.0, True]\n\n\nmyList\n\nWhat happens if we multiply a list with strings?\n\n# myList * 2"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-be-nested",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-be-nested",
+    "title": "9  NB: Structures",
+    "section": "10.7 Lists can be nested",
+    "text": "10.7 Lists can be nested\n\nnames = ['Darrell', 'Clayton', ['Billie', 'Arthur'], 'Samantha']\nnames[2] # returns a *list*\nnames[0] # returns a *string*\n\ncannot subset into a float, will break\n\nnames[2][0]"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-concatenated-with",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#lists-can-concatenated-with",
+    "title": "9  NB: Structures",
+    "section": "10.8 Lists can concatenated with +",
+    "text": "10.8 Lists can concatenated with +\n\nvariables = ['x1', 'x2', 'x3']\nresponse = ['y']\n\n\nvariables + response\n\n['x1', 'x2', 'x3', 'y']"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#constructing-1",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#constructing-1",
+    "title": "9  NB: Structures",
+    "section": "11.1 Constructing",
+    "text": "11.1 Constructing\n\ndict1 = {\n    'a': 1,\n    'b': 2,\n    'c': 3\n}\n\n\ndict2 = dict(x=55, y=29, z=99) # Note the absence of quotes around keys\n\n\ndict2\n\n{'x': 55, 'y': 29, 'z': 99}\n\n\n\ndict3 = {'A': 'foo', 99: 'bar', (1,2): 'baz'}\n\n\ndict3\n\n{'A': 'foo', 99: 'bar', (1, 2): 'baz'}"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#retrieve-a-value",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#retrieve-a-value",
+    "title": "9  NB: Structures",
+    "section": "11.2 Retrieve a value",
+    "text": "11.2 Retrieve a value\nJust write a key as the index.\n\nphonelist = {'Tom':123, 'Bob':456, 'Sam':897}\n\n\nphonelist['Bob']"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#print-list-of-keys-values-or-both",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#print-list-of-keys-values-or-both",
+    "title": "9  NB: Structures",
+    "section": "11.3 Print list of keys, values, or both",
+    "text": "11.3 Print list of keys, values, or both\nUse the .keys(), .values()', or.items()` methods.\nKeys are not sorted. For example, they are not ordered in order in which they were added.\n\nphonelist.keys() # Returns a list\n\n\nphonelist.values() # Returns a list\n\n\nphonelist.items() # Returns a list of tuples\n\n\nphonelist # note the data returned is not the same as the data entered"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#constructing-2",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#constructing-2",
+    "title": "9  NB: Structures",
+    "section": "12.1 Constructing",
+    "text": "12.1 Constructing\nCreated with comma-separated values, with or without parenthesis.\n\nletters = 'a', 'b', 'c', 'd'\n\n\nletters\n\n\nnumbers = (1,2,3,4) # numbers 1,2,3,4 stored in a tuple\n\nA single valued tuple must include a comma ,, e.g.\n\ntuple0 = (29)\n\n\ntuple0, type(tuple0)\n\n\ntuple1 = (29,)\n\n\ntuple1, type(tuple1)\n\n\nlen(numbers)\n\n\nnumbers[0] = 5 # Trying to assign a new value 5 to the first position"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#membership-with-in",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#membership-with-in",
+    "title": "9  NB: Structures",
+    "section": "13.1 Membership with in",
+    "text": "13.1 Membership with in\nReturns a boolean.\n\n'Sam' in phonelist"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#try-with-dict",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#try-with-dict",
+    "title": "9  NB: Structures",
+    "section": "16.1 Try with dict",
+    "text": "16.1 Try with dict\n\nwords = {}\nfor word in source_data:\n    words[word] += 1"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#use-try-and-except",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#use-try-and-except",
+    "title": "9  NB: Structures",
+    "section": "16.2 Use try and except",
+    "text": "16.2 Use try and except\n\nfor word in source_data:\n    try:\n        words[word] += 1\n    except KeyError:\n        words[word] = 1\n\n\nwords"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#or-use-.get",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#or-use-.get",
+    "title": "9  NB: Structures",
+    "section": "16.3 Or use .get()",
+    "text": "16.3 Or use .get()\n\nfor word in source_data:\n    words[word] = words.get(word, 0) + 1"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-05-Structures.html#use-collections.defaultdict",
+    "href": "modules/M02_BasicPython/M02-05-Structures.html#use-collections.defaultdict",
+    "title": "9  NB: Structures",
+    "section": "16.4 Use collections.defaultdict",
+    "text": "16.4 Use collections.defaultdict\n\nfrom collections import defaultdict\n\n\nwords2 = defaultdict(int) # Not the type must be set\n\n\nfor word in source_data:\n    words2[word] += 1\n\n\nwords2"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html",
+    "title": "11  Metadata",
+    "section": "",
+    "text": "12 Student Info\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below. For each task, create a code block to perform the task.\nSave your notebook in the M02 directory as hw02.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\n10 Points"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-1",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-1",
+    "title": "11  Metadata",
+    "section": "15.1 Task 1",
+    "text": "15.1 Task 1\nUsing the data in Table 1, create a dictionary called gradebook where the keys contain the names and the values are the associated grades. Print the dictionary. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-2",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-2",
+    "title": "11  Metadata",
+    "section": "15.2 Task 2",
+    "text": "15.2 Task 2\nIndex into the gradebook to print Mike’s grade. Do NOT use the get() method for this. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-3",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-3",
+    "title": "11  Metadata",
+    "section": "15.3 Task 3",
+    "text": "15.3 Task 3\nAttempt to index into gradebook to print Jeff’s grade. Show the result. Do NOT use the get() method for this. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-4",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-4",
+    "title": "11  Metadata",
+    "section": "15.4 Task 4",
+    "text": "15.4 Task 4\nUsing Table 2, build a list from the names called names and print it. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-5",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-5",
+    "title": "11  Metadata",
+    "section": "15.5 Task 5",
+    "text": "15.5 Task 5\nSort the list in ascending order and print it. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-6",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-6",
+    "title": "11  Metadata",
+    "section": "15.6 Task 6",
+    "text": "15.6 Task 6\nBuild a set from the names in Table 2 and print it. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-7",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-7",
+    "title": "11  Metadata",
+    "section": "15.7 Task 7",
+    "text": "15.7 Task 7\nBuild a dictionary from the touchdowns data, calling it td, and print it. Use lists to store the values. Remember that dictionary keys must be unique. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-8",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-8",
+    "title": "11  Metadata",
+    "section": "15.8 Task 8",
+    "text": "15.8 Task 8\nCompute the sum of Alex’s touchdowns using the appropriate built-in function. (1 PT)\n\n# Put code here"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-9",
+    "href": "modules/M02_BasicPython/HW/M02-HW.html#task-9",
+    "title": "11  Metadata",
+    "section": "15.9 Task 9",
+    "text": "15.9 Task 9\nGet the keys from td and save them as a sorted list list1. Then get a set from names and save them as a sorted list called list2. Compare them with a boolean operator to see if they are equal. (2 PTS)\n\n# Put code here"
+  }
+]

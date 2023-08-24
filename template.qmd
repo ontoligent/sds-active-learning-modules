@@ -1,5 +1,16 @@
 # Template
 
+# TOC
+
+- Metadata
+- Learning Goals
+- Learning Objectives
+- Materials
+- Activities (Activities, Exercises)
+- Assessments (Quiz, HW)
+- Evaluation
+- Review 
+
 # Metadata
 
 Topic: Python Data Types and Data Structures
