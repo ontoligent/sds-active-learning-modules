@@ -422,70 +422,70 @@
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html",
     "href": "modules/M02_BasicPython/HW/M02-HW.html",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "",
     "text": "Student Info\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below. For each task, create a code block to perform the task.\nSave your notebook in the M02 directory as hw02.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\n10 Points"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-1",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-1",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 1",
     "text": "Task 1\nUsing the data in Table 1, create a dictionary called gradebook where the keys contain the names and the values are the associated grades. Print the dictionary. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-2",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-2",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 2",
     "text": "Task 2\nIndex into the gradebook to print Mike’s grade. Do NOT use the get() method for this. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-3",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-3",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 3",
     "text": "Task 3\nAttempt to index into gradebook to print Jeff’s grade. Show the result. Do NOT use the get() method for this. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-4",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-4",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 4",
     "text": "Task 4\nUsing Table 2, build a list from the names called names and print it. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-5",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-5",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 5",
     "text": "Task 5\nSort the list in ascending order and print it. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-6",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-6",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 6",
     "text": "Task 6\nBuild a set from the names in Table 2 and print it. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-7",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-7",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 7",
     "text": "Task 7\nBuild a dictionary from the touchdowns data, calling it td, and print it. Use lists to store the values. Remember that dictionary keys must be unique. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-8",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-8",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 8",
     "text": "Task 8\nCompute the sum of Alex’s touchdowns using the appropriate built-in function. (1 PT)\n\n# Put code here"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html#task-9",
     "href": "modules/M02_BasicPython/HW/M02-HW.html#task-9",
-    "title": "Metadata",
+    "title": "M02 Homework",
     "section": "Task 9",
     "text": "Task 9\nGet the keys from td and save them as a sorted list list1. Then get a set from names and save them as a sorted list called list2. Compare them with a boolean operator to see if they are equal. (2 PTS)\n\n# Put code here"
   }
