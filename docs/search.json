@@ -632,9 +632,9 @@
   {
     "objectID": "modules/M03_ControlStructures/HW/M03-HW.html",
     "href": "modules/M03_ControlStructures/HW/M03-HW.html",
-    "title": "Metadata",
+    "title": "M03 Homework",
     "section": "",
-    "text": "Course:   DS 5100\nTerm:     Fall 2023\nModule:   M03 Homework\nAuthor:   R.C. Alvarado\nDate:     19 August 2023 (revised)\n\nStudent Info\n\nName:\nNet ID:\nURL of this file in GitHub:\n\n\n\nInstructions\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create a code cell to perform the task.\nSave your notebook in the M03 directory as hw03.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\n12 points\n\n\nTask 1\n(6 points)\nUsing the for loop and if statement control structures, write a script that generates the integers from \\(1\\) to \\(100\\) and does the following things:\n\nIf \\(3\\) is a factor of the number, print Wahoo.\nIf \\(5\\) is a factor of the number, print wah!.\nIf the number meets none of the above conditions, print nothing, not even a line break.\nIf the number meets both of the conditions, print the strings on the same line with no space between them.\nMake sure that the line printed for each iteration in which a condition is met ends with a line break.\nWhen the loop is finished, print the number of times either conidtion was met, i.e. the number of lines that were printed.\n\nHint: You may not need to use elif and else to accomplish these tasks.\n\n# CODE\n\n\n\nTask 2\n(3 points)\nRewrite the for loop as a while loop.\nThis time, only print lines where both conditions are met.\nInclude a final line which prints the number of times both conditions are met.\n\n# CODE\n\n\n\nTask 3\n(3 points)\nWrite a list comprehension that iterates through the integers from \\(1\\) to \\(100\\) and returns a list containing the sum of the boolean values of the two conditions described in Task 1.\n\n# CODE"
+    "text": "Name:\n\nInstructions\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create a code cell to perform the task.\nSave your notebook in the M03 directory as hw03.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\n12 points\n\n\nTask 1\n(6 points)\nUsing the for loop and if statement control structures, write a script that generates the integers from \\(1\\) to \\(100\\) and does the following things:\n\nIf \\(3\\) is a factor of the number, print Wahoo.\nIf \\(5\\) is a factor of the number, print wah!.\nIf the number meets none of the above conditions, print nothing, not even a line break.\nIf the number meets both of the conditions, print the strings on the same line with no space between them.\nMake sure that the line printed for each iteration in which a condition is met ends with a line break.\nWhen the loop is finished, print the number of times either conidtion was met, i.e. the number of lines that were printed.\n\nHint: You may not need to use elif and else to accomplish these tasks.\n\n# CODE\n\n\n\nTask 2\n(3 points)\nRewrite the for loop as a while loop.\nThis time, only print lines where both conditions are met.\nInclude a final line which prints the number of times both conditions are met.\n\n# CODE\n\n\n\nTask 3\n(3 points)\nWrite a list comprehension that iterates through the integers from \\(1\\) to \\(100\\) and returns a list containing the sum of the boolean values of the two conditions described in Task 1.\n\n# CODE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-00-1-Intro.html#topics",
@@ -919,84 +919,84 @@
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "",
-    "text": "Student Info\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create one or more code cells to perform the task.\nSave your notebook in the M04 directory as hw04.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\nTOTAL POINTS: 14\nIn this homework, you will work with the Forest Fires Data Set from UCI.\nThere is a local copy of these data as a CSV file in the HW directory for this module in the course repo.\nYou will create a group of related functions to process these data.\nThis notebook will set the table for you by importing and structuring the data first.\nFirst, we read in our local copy of the dataset and save it as a list of lines.\nThen, we inspect first ten lines, replacing commas with tabs for readability.\nFor the first tasks, we grab the first two columns of our table, which define the spatial coordinates within the Monteshino park map.\nNext, we work the area column of our data.\nThe month column contains months of the year in abbreviated form — jan to dec.\nDMC - DMC index from the FWI system: 1.1 to 291.3\nFFMC - FFMC index from the FWI system: 18.7 to 96.20"
+    "text": "Instructions\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create one or more code cells to perform the task.\nSave your notebook in the M04 directory as hw04.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\nTOTAL POINTS: 14\nIn this homework, you will work with the Forest Fires Data Set from UCI.\nThere is a local copy of these data as a CSV file in the HW directory for this module in the course repo.\nYou will create a group of related functions to process these data.\nThis notebook will set the table for you by importing and structuring the data first.\nFirst, we read in our local copy of the dataset and save it as a list of lines.\nThen, we inspect first ten lines, replacing commas with tabs for readability.\nFor the first tasks, we grab the first two columns of our table, which define the spatial coordinates within the Monteshino park map.\nNext, we work the area column of our data.\nThe month column contains months of the year in abbreviated form — jan to dec.\nDMC - DMC index from the FWI system: 1.1 to 291.3\nFFMC - FFMC index from the FWI system: 18.7 to 96.20"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#convert-csv-into-datafame-like-data-structure",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#convert-csv-into-datafame-like-data-structure",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Convert CSV into Datafame-like Data Structure",
     "text": "Convert CSV into Datafame-like Data Structure\nWe use a helper function to convert the data into the form of a dataframe-like dictionary.\nThat is, we convert a list of rows into a dictionary of columns, each cast to the appropriate data type.\nLater, we will use Pandas and R dataframes to do this work.\nFirst, we define the data types by inspecting the data and creating a dictionary of lambda functions to do our casting.\n\ndtypes = ['i', 'i', 's', 's', 'f', 'f', 'f', 'f', 'f', 'i', 'f', 'f', 'f']\n# dtypes = list(\"iissfffffifff\") # We could have done it this way, too\n\ncaster = {\n    'i': lambda x: int(x),\n    's': lambda x: str(x),\n    'f': lambda x: float(x)\n}\n\nNext, we grab the column names from the first row or list.\nNote that .strip() is a string function that removes extra whitespace from before and after a string.\n\ncols = data_file[0].strip().split(',')\n\nFinally, we iterate through the list of rows and flip them into a dictionary of columns.\nThe key of each dictionary element is the columns name, and the value is a list of values with a common data type.\n\n# Get the rows, but not the first, and convert them into lists\nrows = [line.strip().split(',') for line in data_file[1:]]\n\n# Initialize the dataframe by defining a dictionary of lists, with each column name as a key\nfiredata = {col:[] for col in cols}\n\n# Iterate through the rows and convert them to columns \nfor row in rows:\n    for j, col in enumerate(row):\n        firedata[cols[j]].append(caster[dtypes[j]](col))\n\nTest to see if it worked …\n\nfiredata['Y'][:5]\n\n[5, 4, 4, 6, 6]"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-1",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-1",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 1",
     "text": "Task 1\n(2 points)\nWrite a function called coord_builder() with these requirements:\n\nTakes two lists, X and Y, as inputs. X and Y must be of equal length.\nReturns a list of tuples [(x1,y1), (x2,y2), ..., (xn,yn)] where (xi,yi) are the ordered pairs from X and Y.\nUses the zip() function to create the returned list.\nUse a list comprehension to actually build the returned list.\nContains a docstring with short description of the function.\n\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-2",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-2",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 2",
     "text": "Task 2\n(1 PT)\nCall your coord_builder() function, passing in X and Y.\nThen print the first ten tuples.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-3",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-3",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 3",
     "text": "Task 3\n(1 PT)\nWrite code to print the minimum area and maximum area in a tuple (min_value, max_value).\nSave min_value and max_value as floats.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-4",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-4",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 4",
     "text": "Task 4\n(2 PTS)\nWrite a lambda function that applies the following function to \\(x\\):\n\n\\(log_{10}(1 + x)\\)\n\nReturn the rounded value to \\(2\\) decimals.\nAssign the function to the variable mylog10.\nThen call the lambda function on area and print the last 10 values.\nHints: * Use the log10 function from Python’s math module. You’ll need to import it. * Use a list comprehension to make the lambda function a one-liner. * To get the last members of a list, used negative offset slicing. See the Python documentation on lists for a refresher on slicing.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-5",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-5",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 5",
     "text": "Task 5\n(1 PT)\nCreate a function called get_uniques() that extracts the unique values from a list. * Do not use set() but instead use a dictionary comprehension to capture the unique names. * Hint: They keys in a dictionary are unique. * Hint: You do not need to count how many times a name appears in the source list.\nThen function should optionally return the list as sorted in ascending order.\nThen apply it to the month column of our data with sorting turned on.\nThen print the unique months.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-6",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-6",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 6",
     "text": "Task 6\n(1 PT)\nWrite a lambda function called get_month_for_letter that uses a list comprehension to select all months starting with a given letter from the list of unique month names you just crreated.\nThe function should assume that the list of unique month names exists in the global context.\nThe returned list should contain uppercase strings.\nRun and print the result with a as the paramter.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-7",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-7",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 7",
     "text": "Task 7\n(2 PTS)\nWrite a function called bandpass_filter() with these requirements:\n\nTakes three inputs:\n\nA list of numbers num_list.\nAn integer serving as a lower bound lower_bound.\nAn integer serving as an upper bound upper_bound.\n\nReturns a new array containing only the values from the original array which are greater than lower_bound and less than upper_bound.\n\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-8",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-8",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 8",
     "text": "Task 8\n(1 PT)\nCall bandpass_filter() passing dmc as the list, with lower_bound=25 and upper_bound=35.\nThen print the result.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-9",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-9",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 9",
     "text": "Task 9\n(2 PTS)\nWrite a lambda function get_mean that computes the mean \\(\\mu\\) of a list of numbers. * The mean is jus the sum of a list of numeric values divided by the length of that list.\nWrite another lambda function get_ssd that computes the squared deviation of a number. * The function takes two arguments, a number from a given list and the mean of the numbers in that list. * The function is meant to be used in a for-loop that iterates through a list. * The squared deviation of a list element \\(x_i\\) is \\((x_i - \\mu)^2\\).\nThen write get_sum_sq_err() with these requirements: * Takes a numeric list as input. * Computes the mean \\(\\mu\\) of the list using get_mean. * Computes the sum of squared deviations for the list using a list comprehension that applies get_ssd. * Returns the sum of squared deviations.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/HW/M04-HW.html#task-10",
     "href": "modules/M04_PythonFunctions/HW/M04-HW.html#task-10",
-    "title": "Metadata",
+    "title": "M04 Homework",
     "section": "Task 10",
     "text": "Task 10\n(1 PT)\nCall sum_sq_err() passing ffmc as the list and print the result.\n\n# CODE HERE"
   }
