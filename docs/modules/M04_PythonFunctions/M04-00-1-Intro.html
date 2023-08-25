@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="R.C. Alvarado">
-<meta name="dcterms.date" content="2023-08-23">
 
-<title>DS 1001 Active Learning Modules</title>
+<title>DS 1001 Active Learning Modules - M04 Functions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./rubric.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../modules/M04_PythonFunctions/M04-01-Importing.html" rel="next">
+<link href="../../modules/M03_ControlStructures/HW/M03-HW.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">DS 1001 Active Learning Modules</h1>
+      <h1 class="quarto-secondary-nav-title">M04 Functions</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -85,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">DS 1001 Active Learning Modules</a> 
+      <a href="../../">DS 1001 Active Learning Modules</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -97,22 +96,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./index.html" class="sidebar-item-text sidebar-link active">Preface</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="../../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rubric.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubric Active Learning Lab Sessions</span></a>
+  <a href="../../rubric.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubric Active Learning Lab Sessions</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./modules/M02_BasicPython/M02-00-1-Intro.html" class="sidebar-item-text sidebar-link">M02 Introducing Python</a>
+            <a href="../../modules/M02_BasicPython/M02-00-1-Intro.html" class="sidebar-item-text sidebar-link">M02 Introducing Python</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -120,59 +119,59 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-00-2-OnData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data and Code</span></a>
+  <a href="../../modules/M02_BasicPython/M02-00-2-OnData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data and Code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Hello, World!</span></a>
+  <a href="../../modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Hello, World!</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Jupyter Lab</span></a>
+  <a href="../../modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Jupyter Lab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-01-DataTypes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Data Types, Operators, and Expressions</span></a>
+  <a href="../../modules/M02_BasicPython/M02-01-DataTypes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Data Types, Operators, and Expressions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-02-Numbers.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Numbers</span></a>
+  <a href="../../modules/M02_BasicPython/M02-02-Numbers.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Numbers</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-03-Booleans.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Booleans</span></a>
+  <a href="../../modules/M02_BasicPython/M02-03-Booleans.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Booleans</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-04-Strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Strings</span></a>
+  <a href="../../modules/M02_BasicPython/M02-04-Strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Strings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-05-Structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Structures</span></a>
+  <a href="../../modules/M02_BasicPython/M02-05-Structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02-05-Structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Structures</span></a>
+  <a href="../../modules/M02_BasicPython/M02-05-Structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/HW/M02-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M02 Homework</span></a>
+  <a href="../../modules/M02_BasicPython/HW/M02-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M02 Homework</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./modules/M03_ControlStructures/M03-00-1-Intro.html" class="sidebar-item-text sidebar-link">M03 Control Structures</a>
+            <a href="../../modules/M03_ControlStructures/M03-00-1-Intro.html" class="sidebar-item-text sidebar-link">M03 Control Structures</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -180,87 +179,87 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-02-IterablesAndIterators.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Iterables and Iterators</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-02-IterablesAndIterators.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Iterables and Iterators</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-03-Comprehensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Comprehensions</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-03-Comprehensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Comprehensions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Exercises</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/HW/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metadata</span></a>
+  <a href="../../modules/M03_ControlStructures/HW/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metadata</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./modules/M04_PythonFunctions/M04-00-1-Intro.html" class="sidebar-item-text sidebar-link">M04 Functions</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a href="../../modules/M04_PythonFunctions/M04-00-1-Intro.html" class="sidebar-item-text sidebar-link active">M04 Functions</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-01-Importing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Importing Functions</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-01-Importing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Importing Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-02-Functions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Introduction to Functions</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-02-Functions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Introduction to Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-03-LambdaFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Lambda Functions</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-03-LambdaFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Lambda Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-04-RecursiveFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Recursion</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-04-RecursiveFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Recursion</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-05-Scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Variable Scope</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-05-Scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Variable Scope</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-06-FunctionsCallingFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Functions Calling Functions</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-06-FunctionsCallingFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Functions Calling Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/M04-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M04 Exercises</span></a>
+  <a href="../../modules/M04_PythonFunctions/M04-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M04 Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M04_PythonFunctions/HW/M04-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metadata</span></a>
+  <a href="../../modules/M04_PythonFunctions/HW/M04-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metadata</span></a>
   </div>
 </li>
       </ul>
@@ -274,7 +273,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link active" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a>
+  <ul class="collapse">
+  <li><a href="#required" id="toc-required" class="nav-link" data-scroll-target="#required">Required</a></li>
+  <li><a href="#optional" id="toc-optional" class="nav-link" data-scroll-target="#optional">Optional</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -283,26 +287,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">DS 1001 Active Learning Modules</h1>
+<h1 class="title d-none d-lg-block">M04 Functions</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>R.C. Alvarado </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 23, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -310,12 +302,65 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<ul>
+<li>Built-in functions</li>
+<li>User-defined functions</li>
+<li>Variable scope</li>
+<li>Lambda functions</li>
+<li>Design of functions</li>
+<li>Recursion</li>
+</ul>
+<!-- ## Outcomes
+- Be able to use Pythons native and imported functions
+- Be able to write your own functions
+- Understand concept of variable scope 
+- Be able to write lambda functions and understand their use cases
+- Grasp basic principles of function design
+- Implement simple recursion functions -->
+</section>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<section id="required" class="level3">
+<h3 class="anchored" data-anchor-id="required">Required</h3>
+<ul>
+<li>
+<a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch16.html">Lutz 2019, Part IV, Chapter 16: Function Basics</a>
+</li>
+<li>
+<a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch17.html">Lutz 2019, Part IV, Chapter 17: Scopes</a> Non-local is for advanced users
+</li>
+<li>
+<a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch18.html">Lutz 2019, Part IV, Chapter 18. Arguments</a>
+</li>
+<li>
+<a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch19.html">Lutz 2019, Part IV, Chapter 19: Advanced Function Topics</a>
+</li>
+</ul>
+</section>
+<section id="optional" class="level3">
+<h3 class="anchored" data-anchor-id="optional">Optional</h3>
+<ul>
+<li>
+McKinney, Python for Data Analysis,<span>&nbsp;</span><a target="_new" href="https://learning.oreilly.com/library/view/python-for-data/9781449323592/apa.html">Appendix A: Python Language Essentials</a>
+</li>
+<li>
+Read section on Functions
+</li>
+<li>
+<a target="_new" href="https://www.w3schools.com/python/python_functions.asp">Functions (W3S)</a>
+</li>
+<li>
+<a target="_new" href="https://www.geeksforgeeks.org/global-local-variables-python/?ref=lbp">Global and Local Variables (GFG)</a>
+</li>
+<li>
+<a target="_new" href="https://realpython.com/python-lambda/">Lambda Functions (Real Python)</a>
+</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -470,10 +515,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../modules/M03_ControlStructures/HW/M03-HW.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Metadata</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./rubric.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Rubric Active Learning Lab Sessions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../modules/M04_PythonFunctions/M04-01-Importing.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">NB: Importing Functions</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

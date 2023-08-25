@@ -11,7 +11,7 @@ book:
     - part: index.qmd
       chapters:
       - rubric.md
-    - part: modules/M02_BasicPython/M02-00-1-Intro.qmd # M02 
+    - part: modules/M02_BasicPython/M02-00-1-Intro.qmd                    # M02 
       chapters:
         - modules/M02_BasicPython/M02-00-2-OnData.qmd
         - modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.qmd
@@ -24,7 +24,7 @@ book:
         - modules/M02_BasicPython/M02-05-Structures.ipynb
         - modules/M02_BasicPython/M02-99-2-Quiz.txt
         - modules/M02_BasicPython/HW/M02-HW.ipynb
-    - part: modules/M03_ControlStructures/M03-00-1-Intro.qmd # M03
+    - part: modules/M03_ControlStructures/M03-00-1-Intro.qmd              # M03
       chapters:
         - modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.qmd
         - modules/M03_ControlStructures/M03-01-ControlStructures.ipynb
@@ -34,7 +34,17 @@ book:
         - modules/M03_ControlStructures/M03-99-1-Exercises.ipynb
         - modules/M03_ControlStructures/M03-99-2-Quiz.txt
         - modules/M03_ControlStructures/HW/M03-HW.ipynb
-        
+    - part: modules/M04_PythonFunctions/M04-00-1-Intro.qmd                 # M04
+      chapters:
+        - modules/M04_PythonFunctions/M04-01-Importing.ipynb
+        - modules/M04_PythonFunctions/M04-02-Functions.ipynb
+        - modules/M04_PythonFunctions/M04-03-LambdaFunctions.ipynb
+        - modules/M04_PythonFunctions/M04-04-RecursiveFunctions.ipynb
+        - modules/M04_PythonFunctions/M04-05-Scope.ipynb
+        - modules/M04_PythonFunctions/M04-06-FunctionsCallingFunctions.ipynb
+        - modules/M04_PythonFunctions/M04-99-1-Exercises.ipynb
+        - modules/M04_PythonFunctions/M04-99-2-Quiz.txt
+        - modules/M04_PythonFunctions/HW/M04-HW.ipynb
   sidebar:
     style: docked
     # style: floating
