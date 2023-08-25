@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DS 1001 Active Learning Modules - 4&nbsp; Activity: Jupyter Lab</title>
+<title>DS 1001 Active Learning Modules - 12&nbsp; Values, Variables, Expressions, and Statements</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../modules/M02_BasicPython/M02-01-DataTypes.html" rel="next">
-<link href="../../modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html" rel="prev">
+<link href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" rel="next">
+<link href="../../modules/M03_ControlStructures/M03-00-1-Intro.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity: Jupyter Lab</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -112,11 +112,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../modules/M02_BasicPython/M02-00-1-Intro.html" class="sidebar-item-text sidebar-link">M02 Introducing Python</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../modules/M02_BasicPython/M02-00-2-OnData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data and Code</span></a>
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity: Jupyter Lab</span></a>
+  <a href="../../modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Jupyter Lab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -172,14 +172,14 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../modules/M03_ControlStructures/M03-00-1-Intro.html" class="sidebar-item-text sidebar-link">M03 Control Structures</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -219,14 +219,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link active" data-scroll-target="#definitions">Definitions</a></li>
+  <li><a href="#statement-types" id="toc-statement-types" class="nav-link" data-scroll-target="#statement-types">Statement Types</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity: Jupyter Lab</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></h1>
 </div>
 
 
@@ -241,31 +248,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.</p>
-<p>Go the OnDemand site to access Rivanna. As a reminder, the URL is <a href="https://rivanna-portal.hpc.virginia.edu/">https://rivanna-portal.hpc.virginia.edu/</a>.</p>
-<p>From the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session. Your form should have the following values:</p>
-<div style="border: 1px solid gray;">
-<p><img src="../../media/jupyter-on-rivanna-form.png" class="img-fluid"></p>
-</div>
-<div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Note that you may increase the number of hours, cores, and megabytes of RAM, but asking for too much will increase the time it takes to start your session. So select just the resources needed and enter our course allocation <code>ds1001</code> if this value is different than in the image above).</p>
-</div>
-</div>
-<p>Once the session is ready, launch the notebook.</p>
-<p>Once you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class — one for course content from the instructor, and one for your own course work. Use the latter for this exercise.</p>
-<p>In a code cell in the notebook, enter the code to print <code>"Hello, World!"</code>, and run the cell.</p>
-<p>Save your notebook as <code>hello-world.ipynb</code>.</p>
+<section id="definitions" class="level2">
+<h2 class="anchored" data-anchor-id="definitions">Definitions</h2>
+<ul>
+<li><strong>Values</strong>: Raw data elements represented in a program, e.g.&nbsp;numbers and strings.</li>
+<li><strong>Variables</strong>: Names to which values are assigned.</li>
+<li><strong>Expressions</strong>: Combinations of values, variables, operators, functions, and other expressions that evaluate to a value.</li>
+<li><strong>Statements</strong>: Groupings of expressions that produce some result. Statements <strong>do</strong> things.</li>
+</ul>
+</section>
+<section id="statement-types" class="level2">
+<h2 class="anchored" data-anchor-id="statement-types">Statement Types</h2>
+<p>See <a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch10.html#python_statements">Statement Types</a> in Lutz.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -419,13 +416,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Activity: Hello, World!</span></span>
+      <a href="../../modules/M03_ControlStructures/M03-00-1-Intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">M03 Control Structures</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../modules/M02_BasicPython/M02-01-DataTypes.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">NB: Data Types, Operators, and Expressions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">NB: Control Structures</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
