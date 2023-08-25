@@ -8,7 +8,7 @@ book:
   author: "R.C. Alvarado"
   date: "8/23/2023"
   chapters:
-    - part: index.qmd
+    - part: index.qmd                                                     # Preface
       chapters:
       - rubric.md
     - part: modules/M02_BasicPython/M02-00-1-Intro.qmd                    # M02 
