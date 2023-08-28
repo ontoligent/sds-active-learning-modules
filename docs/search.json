@@ -53,28 +53,21 @@
     "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#running-python",
     "title": "M02: Basic Python",
     "section": "Running Python",
-    "text": "Running Python\nOutcome: Write a simple Python script and run it from a notebook or from the command line.\nRead this:\n\nKatz and Katz 2019, Section 1, Preparing the Workspace\nLutz, Learning Python, Part I: Getting Started, Chapter 2\nLutz, Learning Python, Part I: Getting Started, Chapter 3\n\nDo this:\n\nActivity 1\nActivity 2\n\nAnswer this:\nWhich of the following are valid ways to run lines of Python code?\nA. From within the GitHub website, by clicking on a Jupyter notebook.\nB. From the command line, by typing in python, pressing return, and then interactively entering the lines.\nC. From within a code cell in a Jupyter notebook running on Jupyter Lab.\nD. From a text file, with a .py extension. as an argument to calling Python from the command line.\nAnswer:\nB, C, and D all represent valid ways of running a Python program. A is not because although GitHub allows you to see rendered Jupyter notebools, it does not have a place to run them."
+    "text": "Running Python\nOutcome: Write a simple Python script and run it from a notebook or from the command line.\nRead this:\n\nKatz and Katz 2019: Preparing the Workspace\nLutz 2013: Chapter 2\nLutz 2013: Chapter 3\n\nDo this:\n\nActivity 1: Hello, World!\nActivity 2: Jupyter on Rivanna\n\nAnswer this:\nWhich of the following are valid ways to run lines of Python code?\nA. From within the GitHub website, by clicking on a Jupyter notebook.\nB. From the command line, by typing in python, pressing return, and then interactively entering the lines.\nC. From within a code cell in a Jupyter notebook running on Jupyter Lab.\nD. From a text file, with a .py extension. as an argument to calling Python from the command line.\nAnswer:\nB, C, and D all represent valid ways of running a Python program. A is not because although GitHub allows you to see rendered Jupyter notebools, it does not have a place to run them."
   },
   {
     "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#values-literals-and-variables",
     "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#values-literals-and-variables",
     "title": "M02: Basic Python",
     "section": "Values, Literals, and Variables",
-    "text": "Values, Literals, and Variables\nOutcome: Know the distinction between a literal value and a variable.\nRead this:\nDo this:\nAnswer this:"
+    "text": "Values, Literals, and Variables\nOutcomes:\n\nKnow the distinction between a literal value and a variable.\nKnow to assign a value to a variable.\n\nRead this:\n\nKatz 2019: Assigning variables\nKatz 2019: Naming the variable\n\nDo this:\nAnswer this:"
   },
   {
-    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-to-assign-a-value-to-a-variable",
-    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-to-assign-a-value-to-a-variable",
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#data-types",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#data-types",
     "title": "M02: Basic Python",
-    "section": "Know to assign a value to a variable",
-    "text": "Know to assign a value to a variable"
-  },
-  {
-    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-names-of-primary-data-types-in-python-floats-integers-booleans-and-strings-and-how-to-represent-literal-values-for-each",
-    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-names-of-primary-data-types-in-python-floats-integers-booleans-and-strings-and-how-to-represent-literal-values-for-each",
-    "title": "M02: Basic Python",
-    "section": "Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each",
-    "text": "Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each"
+    "section": "Data Types",
+    "text": "Data Types\nOutcome: Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each\nRead this:\n\nKatz and Katz 2019, Section 1, First Steps in Coding—Variables and Data Types\n\nUnderstanding data types\nShow More Items\nConverting the data types\n\nBuilt-in Types (Official)\nPython Data Types (GFG)\nPython Operators (W3S)\nImmutable vs Mutable Data Types in Python (Medium)"
   },
   {
     "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-basic-operators-functions-and-methods-associated-with-each-data-type",

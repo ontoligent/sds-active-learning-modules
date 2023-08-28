@@ -1,0 +1,83 @@
+1. (1 point)
+Which of the following are valid ways to run lines of Python code?
+
+A. From within the GitHub website, by clicking on a Jupyter notebook.
+B. From the command line, by typing in python, pressing return, and then interactively entering the lines.
+C. From within a code cell in a Jupyter notebook running on Jupyter Lab.
+D. From a text file, with a .py extension. as an argument to calling Python from the command line.
+
+Question at position 2
+2. (1 point)
+What statement best describes the difference between data types and data structures?
+
+A. There is no real difference; the expressions are interchangeable.
+B. Data types refer to primitive kinds of data, whereas data structures organize data types into collections with specific organizational properties.
+C. Data types refer to built-in objects, whereas data structures are imported.
+D. Data types don't have associated operators, whereas data types do.
+
+3. (1 point)
+Which of the following items have corresponding Python data types? 
+
+A. Integers
+B. Booleans
+C. Characters (e.g. individual letters)
+D. Reals
+
+4. (1 point)
+What built-in Python function returns the object type (i.e. class name) of a value stored in the Python variable x?
+
+A. class(x)
+B. type(x)
+C. id(x)
+D. ord(x)
+
+5. (1 point)
+Which of the following literals would Python interpret as integers?
+A. 1
+B. 1.
+C. "1"
+D. +1
+
+6. (1 point)
+What value does the following expression return:
+int(1.) == 1
+
+True
+False
+
+7. (1 point)
+ 
+Which are valid constructors of a Python list named x?
+
+A. x = []
+B. x = list()
+C. x = ()
+D. x = {}
+
+8. (1 point)
+Given the list
+    x = [1, 2, 4, 8]
+what will the expression the following evaluate to? 
+    x[1:4] 
+
+A. [1, 2, 4, 8]
+B. [2, 4, 8]
+C. [1, 2, 4]
+D. [1, 4]
+
+9. (1 point)
+What value will the following expression evaluate to?
+    [1, 2, 4] * 2
+
+A. [2, 4, 8]
+B. None # The * operator does not work with lists
+C. [1, 2, 4, 1, 2, 4]
+D. [1, 2, 4, 2]
+
+10. (1 point)
+Which of the following are built-in Python data structures?
+
+A. list
+B. dict
+C. set
+D. tuple

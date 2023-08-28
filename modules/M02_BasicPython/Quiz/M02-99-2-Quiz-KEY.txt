@@ -1,0 +1,62 @@
+1. (2.0 points)
+<p>Which of the following are valid ways to run lines of Python code?</p>
+A. From within the GitHub website, by clicking on a Jupyter notebook.
+*B. From the command line, by typing in python, pressing return, and then interactively entering the lines.
+*C. From within a code cell in a Jupyter notebook running on Jupyter Lab.
+*D. From a text file, with a .py extension. as an argument to calling Python from the command line.
+
+2. (2.0 points)
+<p>What type of data is this?</p>  <p><code>Role: Drummer</code></p> 
+A. <p>continuous data</p> 
+B. <p>instrumental data</p> 
+*C. <p>categorical data</p> 
+D. <p>quantitative data</p> 
+#FBOK:<p>Roles can have various types but usually would be from a given set, ?Drummer? being one of them (possibly ?Lead Vocals? being another.) So this kind of data is best described as categorical data.</p> 
+#FBNOK:<p>Roles can have various types but usually would be from a given set, ?Drummer? being one of them (possibly ?Lead Vocals? being another.) So this kind of data is best described as categorical data.</p> 
+
+3. (2.0 points)
+<p>What type of data is this?</p>  <p><code>Name: Edgar Codd</code></p> 
+A. <p>quantitative data</p> 
+B. <p>discrete data</p> 
+C. <p>categorical data</p> 
+*D. <p>qualitative data</p> 
+#FBOK:<p>Names are typically qualitative. Qualitative data are descriptive, and a name of a person falls under the ?descriptive? attribute.�</p> 
+#FBNOK:<p>Names are typically qualitative. Qualitative data are descriptive, and a name of a person falls under the ?descriptive? attribute.�</p> 
+
+4. (2.0 points)
+<p>Is the following statement true or false?</p>  <blockquote> <p>?It is better to leave data in the original, given form, because any attempt to present the same data in another way is considered dishonest.</p> </blockquote> 
+True
+*False
+#FBOK:<p>It is perfectly fine, and in fact encouraged, to play with the data and find the best way to visualize the data so that the ideas and trends you hope to highlight are clearly communicated. �Getting creative in the way you present data is not being dishonest because you aren?t changing the values, trends, or outcomes. So this statement is false.�</p> 
+#FBNOK:<p>It is perfectly fine, and in fact encouraged, to play with the data and find the best way to visualize the data so that the ideas and trends you hope to highlight are clearly communicated. �Getting creative in the way you present data is not being dishonest because you aren?t changing the values, trends, or outcomes. So this statement is false.�</p> 
+
+5. (2.0 points)
+<p>Value can be added to data to turn the data into information by _______.�</p>  <p>(If you feel statements A, B, and C are all true, then <strong>only </strong>select option D - all of the above.)</p> 
+A. <p>contextualizing the data</p> 
+B. <p>finding patterns and/or associations in the data</p> 
+C. <p>performing calculations on the data</p> 
+*D. <p>all of the above</p> 
+#FBOK:<p>Information is a level up from data, and can be obtained by adding context, finding patterns or associations, or performing calculations on the data. Therefore, the answer is D - all of the above.�</p> 
+#FBNOK:<p>Information is a level up from data, and can be obtained by adding context, finding patterns or associations, or performing calculations on the data. Therefore, the answer is D - all of the above.�</p> 
+
+6. (2.0 points)
+<p>Is the following statement about knowledge true or false?</p>  <blockquote> <p>Knowledge is derived from extensive amounts of experience dealing with information that has been learned, analyzed, applied, and understood.</p> </blockquote> 
+*True
+False
+#FBOK:<p>Knowledge is usually something that can be acted upon. Information is turned into knowledge through extensive analysis, through applied means, and through a better understanding of the context, information, and scenario.�</p> 
+#FBNOK:<p>Knowledge is usually something that can be acted upon. Information is turned into knowledge through extensive analysis, through applied means, and through a better understanding of the context, information, and scenario.�</p> 
+
+7. (2.0 points)
+<p>Which statement is true about the &quot;CDDB&quot; (CD database) example that we looked at in class?</p> 
+A. <p>It is a data product because it only manufactures new information out of the data</p> 
+*B. <p>It is a data product because it creates new value from the data to generate more data</p> 
+C. <p>It is a data product because the data it generates (output) becomes the data that it uses to operate (input)</p> 
+D. <p>It is a tool that performs look-ups to find related musical information, therefore it is a data product</p> 
+#FBOK:<p><strong>Answer: B</strong> --�It is a data product because it creates new value from the data to generate more data</p> 
+#FBNOK:<p><strong>Answer: B</strong> --�It is a data product because it creates new value from the data to generate more data</p> 
+
+8. (2.0 points)
+<p>Give an example of categorical data, and include a couple of the possible values in that example.</p> 
+
+9. (2.0 points)
+<p>Can the color ?red,? often considered to be an example of qualitative data, be <strong>categorical </strong>data? Answer yes or no and justify your answer.</p> 
