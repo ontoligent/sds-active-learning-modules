@@ -3,11 +3,14 @@
 # TOC
 
 - Metadata
-- Learning Goals
-- Learning Objectives
+- Goals
+- Objectives
 - Materials
-- Activities (Activities, Exercises)
-- Assessments (Quiz, HW)
+
+- Activities
+
+- Assessments
+
 - Evaluation
 - Review 
 

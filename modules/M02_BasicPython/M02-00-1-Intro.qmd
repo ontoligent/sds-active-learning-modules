@@ -1,50 +1,41 @@
 # M02 Introducing Python
 
-## Topics
+## Learning Goals
 
--   Running Python code
--   Python's basic data types
--   Python's primary operators associated with each data type
--   Python's built-in data structures
+- Become acquainted with the Python programming language
+- Understand the concept of data-centric programming
+- Understand the distinction between data types and data structures
+- Become familiar with the most basic basic data types and their operations
+- Become familiar with the most basic basic data structures and their operations
 
-```{=html}
-<!-- 
-## Outcomes
+## Learning Outcomes
 
-* Run Python from the command line on Rivanna.
-* Create and run a Jupyter Notebook on Rivanna.
-* Describe the difference between data from the perspective of data science versus computer science.
-* Know the primary data types in Python and their basic operators.
-* Know the built-in list-like data structures in Python and the basic methods and functions associated with them. -->
-```
+- Describe the idea of programming from the perspective of data science
+- Know how write a simple Python script and run it from a notebook or from the command line
+- Know the distinction between a literal value and a variable
+- Know to assign a value to a variable
+- Know the names of primary data types in Python -- floats, integers, booleans, and strings -- and how to represent literal values for each
+- Know the basic operators, functions, and methods associated with each data type
+- Understand the distinction between and operator, function, and method
+- Know how to convert a value of one type to another
+- Know how to find our the type of value or variable
+- Know Python's built-in data structures -- tuples, lists, dictionaries, and sets
+- Know the basic operators, methods, and functions associated with each data structure
+- Understand the concept of an expression and its relation to literals, variables, operators, and functions
+
 ## Readings
 
 ### Required
 
-<ul>
-
-<li><a target="_new" href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/8f352965-cebb-43c0-b2ca-0f6bf944899e.xhtml">Katz and Katz 2019, Section 1, Preparing the Workspace</a></li>
-
-<li><a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch02.html">Lutz, Learning Python, Part I: Getting Started, Chapter 2</a></li>
-
-<li><a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch03.html">Lutz, Learning Python, Part I: Getting Started, Chapter 3</a></li>
-
-<li><a target="_new" href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/part02.html">Lutz, Learning Python, Part II: Types and Operations, Chapters 4--9</a></li>
-
-</ul>
+- [Katz and Katz 2019, Section 1, Preparing the Workspace](https://learning.oreilly.com/library/view/learn-python-by/9781789535365/8f352965-cebb-43c0-b2ca-0f6bf944899e.xhtml)
+- [Lutz, Learning Python, Part I: Getting Started, Chapter 2](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch02.html)
+- [Lutz, Learning Python, Part I: Getting Started, Chapter 3](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch03.html)
+- [Lutz, Learning Python, Part II: Types and Operations, Chapters 4--9](https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/part02.html)
 
 ### Optional
 
-<ul>
-
-<li><a target="_new" href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/5fea535c-b144-4c8b-b20b-0a0ee1c1f157.xhtml">Katz and Katz 2019, Section 1, First Steps in Coding - Variables and Data Types</a></li>
-
-<li><a target="_new" href="https://docs.python.org/3/library/stdtypes.html">Built-in Types (Official)</a></li>
-
-<li><a target="_new" href="https://www.geeksforgeeks.org/python-data-types/">Python Data Types (GFG)</a></li>
-
-<li><a target="_new" href="https://www.w3schools.com/python/python_operators.asp">Python Operators (W3S)</a></li>
-
-<li><a target="_new" href="https://towardsdatascience.com/immutable-vs-mutable-data-types-in-python-e8a9a6fcfbdc">Immutable vs Mutable Data Types in Python (Medium)</a></li>
-
-</ul>
+- [Katz and Katz 2019, Section 1, First Steps in Coding&mdash;Variables and Data Types](https://learning.oreilly.com/library/view/learn-python-by/9781789535365/5fea535c-b144-4c8b-b20b-0a0ee1c1f157.xhtml)
+- [Built-in Types (Official)](https://docs.python.org/3/library/stdtypes.html)
+- [Python Data Types (GFG)](https://www.geeksforgeeks.org/python-data-types/)
+- [Python Operators (W3S)](https://www.w3schools.com/python/python_operators.asp)
+- [Immutable vs Mutable Data Types in Python (Medium)](https://towardsdatascience.com/immutable-vs-mutable-data-types-in-python-e8a9a6fcfbdc)

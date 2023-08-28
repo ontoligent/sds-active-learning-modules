@@ -35,18 +35,116 @@
     "text": "III. Additional Notes\n\nWe want to publish these materials online, so when building please consider the goal is to make the materials publicly available.\nWe are also hoping to “empirically” test these in a classroom in the Spring of 24, so also be thinking about the development of non-active learning materials and where best to measure results.\nYou’ve got great ideas, this is just a framework, so feel free to move as you see fit.\nThis process should be useful for future and current SDS faculty. So, keep an eye on the ideal that we are in some ways culture building/establishing best practices, which I hope gets noticed.\nPete and I will create a Team site with folders for your content and as a placeholder for documentation on the project. You do not need to use these folders, just an option."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#topics",
-    "href": "modules/M02_BasicPython/M02-00-1-Intro.html#topics",
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html",
+    "title": "M02: Basic Python",
+    "section": "",
+    "text": "Topics"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#programming-in-data-science",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#programming-in-data-science",
+    "title": "M02: Basic Python",
+    "section": "Programming in Data Science",
+    "text": "Programming in Data Science\nOutcome: Describe the idea of programming from the perspective of data science\nRead this: On Data\nAnswer this:\nWhich of the following statements make sense based on the reading above?\nA. Algorithm design can always compensate for poorly designed data structures.\nB. Good data design leads to better algorithm design.\nC. Programmers should invest time in understanding how their data are structured.\nD. It’s a good idea for a programmer to convert their knowledge of a problem into the organization of their data, because this allows the program’s algorithms to be simple to understand and easier to maintain and communicate.\nAnswer:\nA. Algorithm design can always compensate for poorly designed data structures.\n\nFALSE. Complicated or poorly structured data may lead to excessively complicated and error-prone algorithms.\n\nB. Good data design leads to better algorithm design.\n\nTRUE. Well designed data makes it easer to produce code that is intelligible and maintainable.\n\nC. Programmers should invest time in understanding how their data are structured.\n\nTRUE. This is essentially the same as B.\n\nD. It’s a good idea for a programmer to convert their knowledge of a problem into the organization of their data, because this allows the program’s algorithms to be simple to understand and easier to maintain and communicate.\n\nTRUE. This follow’s from Eric Raymond’s “Rule of Representation”."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#running-python",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#running-python",
+    "title": "M02: Basic Python",
+    "section": "Running Python",
+    "text": "Running Python\nOutcome: Write a simple Python script and run it from a notebook or from the command line.\nRead this:\n\nKatz and Katz 2019, Section 1, Preparing the Workspace\nLutz, Learning Python, Part I: Getting Started, Chapter 2\nLutz, Learning Python, Part I: Getting Started, Chapter 3\n\nDo this:\n\nActivity 1\nActivity 2\n\nAnswer this:\nWhich of the following are valid ways to run lines of Python code?\nA. From within the GitHub website, by clicking on a Jupyter notebook.\nB. From the command line, by typing in python, pressing return, and then interactively entering the lines.\nC. From within a code cell in a Jupyter notebook running on Jupyter Lab.\nD. From a text file, with a .py extension. as an argument to calling Python from the command line.\nAnswer:\nB, C, and D all represent valid ways of running a Python program. A is not because although GitHub allows you to see rendered Jupyter notebools, it does not have a place to run them."
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#values-literals-and-variables",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#values-literals-and-variables",
+    "title": "M02: Basic Python",
+    "section": "Values, Literals, and Variables",
+    "text": "Values, Literals, and Variables\nOutcome: Know the distinction between a literal value and a variable.\nRead this:\nDo this:\nAnswer this:"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-to-assign-a-value-to-a-variable",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-to-assign-a-value-to-a-variable",
+    "title": "M02: Basic Python",
+    "section": "Know to assign a value to a variable",
+    "text": "Know to assign a value to a variable"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-names-of-primary-data-types-in-python-floats-integers-booleans-and-strings-and-how-to-represent-literal-values-for-each",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-names-of-primary-data-types-in-python-floats-integers-booleans-and-strings-and-how-to-represent-literal-values-for-each",
+    "title": "M02: Basic Python",
+    "section": "Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each",
+    "text": "Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-basic-operators-functions-and-methods-associated-with-each-data-type",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-basic-operators-functions-and-methods-associated-with-each-data-type",
+    "title": "M02: Basic Python",
+    "section": "Know the basic operators, functions, and methods associated with each data type",
+    "text": "Know the basic operators, functions, and methods associated with each data type"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#understand-the-distinction-between-and-operator-function-and-method",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#understand-the-distinction-between-and-operator-function-and-method",
+    "title": "M02: Basic Python",
+    "section": "Understand the distinction between and operator, function, and method",
+    "text": "Understand the distinction between and operator, function, and method"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-how-to-convert-a-value-of-one-type-to-another",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-how-to-convert-a-value-of-one-type-to-another",
+    "title": "M02: Basic Python",
+    "section": "Know how to convert a value of one type to another",
+    "text": "Know how to convert a value of one type to another"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-how-to-find-our-the-type-of-value-or-variable",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-how-to-find-our-the-type-of-value-or-variable",
+    "title": "M02: Basic Python",
+    "section": "Know how to find our the type of value or variable",
+    "text": "Know how to find our the type of value or variable"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets",
+    "title": "M02: Basic Python",
+    "section": "Know Python’s built-in data structures – tuples, lists, dictionaries, and sets",
+    "text": "Know Python’s built-in data structures – tuples, lists, dictionaries, and sets"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-basic-operators-methods-and-functions-associated-with-each-data-structure",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#know-the-basic-operators-methods-and-functions-associated-with-each-data-structure",
+    "title": "M02: Basic Python",
+    "section": "Know the basic operators, methods, and functions associated with each data structure",
+    "text": "Know the basic operators, methods, and functions associated with each data structure"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Experimental/M02-ALL.html#understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions",
+    "href": "modules/M02_BasicPython/Experimental/M02-ALL.html#understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions",
+    "title": "M02: Basic Python",
+    "section": "Understand the concept of an expression and its relation to literals, variables, operators, and functions",
+    "text": "Understand the concept of an expression and its relation to literals, variables, operators, and functions"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#learning-goals",
+    "href": "modules/M02_BasicPython/M02-00-1-Intro.html#learning-goals",
     "title": "M02 Introducing Python",
-    "section": "Topics",
-    "text": "Topics\n\nRunning Python code\nPython’s basic data types\nPython’s primary operators associated with each data type\nPython’s built-in data structures"
+    "section": "Learning Goals",
+    "text": "Learning Goals\n\nBecome acquainted with the Python programming language\nUnderstand the concept of data-centric programming\nUnderstand the distinction between data types and data structures\nBecome familiar with the most basic basic data types and their operations\nBecome familiar with the most basic basic data structures and their operations"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#learning-outcomes",
+    "href": "modules/M02_BasicPython/M02-00-1-Intro.html#learning-outcomes",
+    "title": "M02 Introducing Python",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDescribe the idea of programming from the perspective of data science\nKnow how write a simple Python script and run it from a notebook or from the command line\nKnow the distinction between a literal value and a variable\nKnow to assign a value to a variable\nKnow the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each\nKnow the basic operators, functions, and methods associated with each data type\nUnderstand the distinction between and operator, function, and method\nKnow how to convert a value of one type to another\nKnow how to find our the type of value or variable\nKnow Python’s built-in data structures – tuples, lists, dictionaries, and sets\nKnow the basic operators, methods, and functions associated with each data structure\nUnderstand the concept of an expression and its relation to literals, variables, operators, and functions"
   },
   {
     "objectID": "modules/M02_BasicPython/M02-00-1-Intro.html#readings",
     "href": "modules/M02_BasicPython/M02-00-1-Intro.html#readings",
     "title": "M02 Introducing Python",
     "section": "Readings",
-    "text": "Readings\n\nRequired\n\n\nKatz and Katz 2019, Section 1, Preparing the Workspace\n\n\nLutz, Learning Python, Part I: Getting Started, Chapter 2\n\n\nLutz, Learning Python, Part I: Getting Started, Chapter 3\n\n\nLutz, Learning Python, Part II: Types and Operations, Chapters 4–9\n\n\n\n\nOptional\n\n\nKatz and Katz 2019, Section 1, First Steps in Coding - Variables and Data Types\n\n\nBuilt-in Types (Official)\n\n\nPython Data Types (GFG)\n\n\nPython Operators (W3S)\n\n\nImmutable vs Mutable Data Types in Python (Medium)"
+    "text": "Readings\n\nRequired\n\nKatz and Katz 2019, Section 1, Preparing the Workspace\nLutz, Learning Python, Part I: Getting Started, Chapter 2\nLutz, Learning Python, Part I: Getting Started, Chapter 3\nLutz, Learning Python, Part II: Types and Operations, Chapters 4–9\n\n\n\nOptional\n\nKatz and Katz 2019, Section 1, First Steps in Coding—Variables and Data Types\nBuilt-in Types (Official)\nPython Data Types (GFG)\nPython Operators (W3S)\nImmutable vs Mutable Data Types in Python (Medium)"
   },
   {
     "objectID": "modules/M02_BasicPython/M02-00-2-OnData.html#code-should-be-simple",
@@ -70,43 +168,43 @@
     "text": "Supporting References\nConsider these quotes cited in an essay on Data Structures. by Igor Budasov, reproduced here:\nHere’s a quote from Linus Torvalds in 2006:\n\nI’m a huge proponent of designing your code around the data, rather than the other way around, and I think it’s one of the reasons git has been fairly successful . . . I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his [sic] code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships.\n\nWhich sounds a lot like Eric Raymond’s “Rule of Representation” from 2003:\n\nFold knowledge into data, so program logic can be stupid and robust.\n\nWhich was just his summary of ideas like this one from Rob Pike in 1989:\n\nData dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.\n\nWhich cites Fred Brooks from 1975:\n\nRepresentation is the Essence of Programming\n\nBeyond craftsmanship lies invention, and it is here that lean, spare, fast programs are born. Almost always these are the result of strategic breakthrough rather than tactical cleverness. Sometimes the strategic breakthrough will be a new algorithm, such as the Cooley-Tukey Fast Fourier Transform or the substitution of an n log n sort for an n 2 set of comparisons.\n\n\nMuch more often, strategic breakthrough will come from redoing the representation of the data or tables. This is where the heart of your program lies. Show me your flowcharts and conceal your tables, and I shall be continued to be mystified. Show me your tables, and I won’t usually need your flowcharts; they’ll be obvious.\n\n\n\n\n\n\n\nNote\n\n\n\nSee video on Canvas."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#which-python",
-    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#which-python",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#which-python",
+    "href": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#which-python",
     "title": "Activity: Hello, World!",
     "section": "Which Python?",
     "text": "Which Python?\nOnce you are in Rivanna, you will want to know which version of Python you have installed as the default.\nTo find out, from the command line type:\nwhich python\nThis will show you the “path” to a python interpreter. For example:\n\nIf you do not see “anaconda” in that path, then run the following command:\nmodule load anaconda\nThis will update your environment to use Anaconda’s distribution of Python.\nAfter running the command, enter the command to see which pythion is being used to confirm that it is the one from Ancaconda."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#aside",
-    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#aside",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#aside",
+    "href": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#aside",
     "title": "Activity: Hello, World!",
     "section": "Aside",
     "text": "Aside\nNote that you can use module to run other programs on your Rivanna account.\nType module list to see which programs have already been installed on your account.\nType module spider to see all the programs you can install."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
-    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
+    "href": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#the-python-interactive-shell",
     "title": "Activity: Hello, World!",
     "section": "The Python Interactive Shell",
     "text": "The Python Interactive Shell\nFrom the command line, enter python\nYou should get the Python Shell:\n\nThis is also called the Python standard REPL, which stands for “Read-Eval-Print Loop”.\nMake sure you see that you are using version 3 of Python.\nIf you see Python 2, exit the shell by entering quit() and try again by entering python3 at the command line.\nAt the >>> prompt type print(\"Hello, World!\") and press return.\nIf you’ve never used Python, you’ve just completed an important ritual. If you have used Python, well, you did it again :-)"
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#try-this",
-    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#try-this",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#try-this",
+    "href": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#try-this",
     "title": "Activity: Hello, World!",
     "section": "Try this",
     "text": "Try this\nNow, enter following line at the prompt and press return:\nimport this\nWhat do you see?\nTo exit the Python Shell, enter quit() or exit() and hit return."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#running-python-files",
-    "href": "modules/M02_BasicPython/M02-00-4-ActivityHelloWorld.html#running-python-files",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#running-python-files",
+    "href": "modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html#running-python-files",
     "title": "Activity: Hello, World!",
     "section": "Running Python Files",
     "text": "Running Python Files\nNow create a file called hello.py using the command line editor nano. Enter the same commands you used above.\nThen run it from the command line by directly invoking the Python interpreter python.\n\n\n\n\n\n\nNote\n\n\n\nSee video in Canvas."
   },
   {
-    "objectID": "modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html",
-    "href": "modules/M02_BasicPython/M02-00-5-ActivityJupyterLabOnRivanna.html",
+    "objectID": "modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html",
+    "href": "modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html",
     "title": "Activity: Jupyter Lab",
     "section": "",
     "text": "Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.\nGo the OnDemand site to access Rivanna. As a reminder, the URL is https://rivanna-portal.hpc.virginia.edu/.\nFrom the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session. Your form should have the following values:\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that you may increase the number of hours, cores, and megabytes of RAM, but asking for too much will increase the time it takes to start your session. So select just the resources needed and enter our course allocation ds1001 if this value is different than in the image above).\n\n\nOnce the session is ready, launch the notebook.\nOnce you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class — one for course content from the instructor, and one for your own course work. Use the latter for this exercise.\nIn a code cell in the notebook, enter the code to print \"Hello, World!\", and run the cell.\nSave your notebook as hello-world.ipynb."
@@ -418,6 +516,27 @@
     "title": "NB: Structures",
     "section": "Use collections.defaultdict",
     "text": "Use collections.defaultdict\n\nfrom collections import defaultdict\n\n\nwords2 = defaultdict(int) # Not the type must be set\n\n\nfor word in source_data:\n    words2[word] += 1\n\n\nwords2"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html",
+    "href": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html",
+    "title": "M02 In-Class Exercises",
+    "section": "",
+    "text": "Exercise 2.1\nDefine a string with a length >= 6 and print: - the first three characters of the string - the last three characters of the string\nCreate a new list and assign three values to it.\nThen print the second element from the list.\nCreate to a tuple with three values.\nThen, try to append a fourth value.\nAssign a value to a string.\nAssign three string values to a set.\nCheck if the string is in the set.\nCreate a dictionary containing at least three key-value pairs.\nUse get() to index into the dictionary with one of the keys to extract the corresponding value.\nThen, store the keys in a list and print the list.\nConvert the following sentence into a set of lowercase words sorted alphabetically.\nDo not include the punction mark in the resulting set.\n\"The quick brown fox jumped over the lazy dogs.\"\nCompare the lengths of the preceding list and set.\nIf not equal, give the difference.\nDefine three variables of any type.\nUse an f string to print a string containing each variable name followed by its value, using comma separators between the pairs.\nFor example:\nepoch 1, mode TRAIN, ...\nDefine two variables, assigning them floating point values.\nWrite an expression using an operation on the two variables that will produce a value that may be cast as an integer.\nNext, use a logical operation that uses the integer that evaluates to False. Print the result with print()\nWrite a Python program to print the input string in the format of the output:\nInput:\n“Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are”\nOutput:\nCompute a and b as follows:\nTest to see if a and b are equal.\nWhat is going on? Floating point comparisons are unreliable because of the way the computer stores their values.\nAccoring to The Floating-Point Guide, “Due to rounding errors, most floating-point numbers end up being slightly imprecise.”"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html#solution-1",
+    "href": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html#solution-1",
+    "title": "M02 In-Class Exercises",
+    "section": "Solution 1",
+    "text": "Solution 1\n\nprint(\"Twinkle, twinkle, little star, \\n\\tHow I wonder what you are! \\n\\t\\tUp above the world so high, \\n\\t\\tLike a diamond in the sky. \\nTwinkle, twinkle, little star, \\n\\tHow I wonder what you are!\")\n\nTwinkle, twinkle, little star, \n    How I wonder what you are! \n        Up above the world so high, \n        Like a diamond in the sky. \nTwinkle, twinkle, little star, \n    How I wonder what you are!"
+  },
+  {
+    "objectID": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html#solution-2",
+    "href": "modules/M02_BasicPython/Activities/M02-99-1-Exercises.html#solution-2",
+    "title": "M02 In-Class Exercises",
+    "section": "Solution 2",
+    "text": "Solution 2\n\nmsg = \"\"\"\nTwinkle, twinkle, little star, \n\\tHow I wonder what you are! \n\\t\\tUp above the world so high, \n\\t\\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\\tHow I wonder what you are!\n\"\"\"\n\n\nprint(msg)\n\n\nTwinkle, twinkle, little star, \n    How I wonder what you are! \n        Up above the world so high, \n        Like a diamond in the sky. \nTwinkle, twinkle, little star, \n    How I wonder what you are!"
   },
   {
     "objectID": "modules/M02_BasicPython/HW/M02-HW.html",
