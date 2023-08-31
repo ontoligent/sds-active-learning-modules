@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="R.C. Alvarado">
-<meta name="dcterms.date" content="2023-08-23">
 
-<title>DS 1001 Active Learning Modules</title>
+<title>DS 1001 Active Learning Modules - 4&nbsp; Module: Control Structures</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./rubric.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../modules/M03_ControlStructures/M03-01-Readings.html" rel="next">
+<link href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">DS 1001 Active Learning Modules</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Module: Control Structures</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -85,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">DS 1001 Active Learning Modules</a> 
+      <a href="../../">DS 1001 Active Learning Modules</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/ontoligent/sds-active-learning-modules" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
 </div>
@@ -100,12 +99,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Preface</a>
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">Preface</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rubric.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubric</span></a>
+  <a href="../../rubric.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubric</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -118,52 +117,52 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02A-UsingPython.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Using Python</span></a>
+  <a href="../../modules/M02_BasicPython/M02A-UsingPython.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Using Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M02_BasicPython/M02B-VariablesAndData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Variables and Data</span></a>
+  <a href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Variables and Data</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">M03</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">M03</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-00-Goals.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Control Structures</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-00-Goals.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module: Control Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-01-Readings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Readings</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-01-Readings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Readings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-02-IterablesAndIterators.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Iterables and Iterators</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-02-IterablesAndIterators.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Iterables and Iterators</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-03-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-03-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-04-Comprehensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Comprehensions</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-04-Comprehensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Comprehensions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/M03_ControlStructures/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Homework</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Homework</span></a>
   </div>
 </li>
       </ul>
@@ -177,9 +176,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
-  <li><a href="#motivation-and-design" id="toc-motivation-and-design" class="nav-link" data-scroll-target="#motivation-and-design">Motivation and Design</a></li>
-  <li><a href="#project-goals" id="toc-project-goals" class="nav-link" data-scroll-target="#project-goals">Project Goals</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link active" data-scroll-target="#learning-goals">Learning Goals</a>
+  <ul class="collapse">
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -188,26 +188,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">DS 1001 Active Learning Modules</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Module: Control Structures</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>R.C. Alvarado </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">August 23, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -215,32 +203,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This site contains three active learning modules for an introductory undergraduate course on programming for data science.</p>
-<p>These modules have been developed as part of the <a href="https://news.virginia.edu/content/new-funding-highlights-student-experience-and-well-being-sense-belonging-uva">Data Science Active Learning Lab</a> (DSALL) project, sponsored by the <a href="https://provost.virginia.edu/president-and-provosts-funding-institutionally-related-research">President and Provost’s Fund for Institutionally Related Research</a> at UVA. The project is headed by Professor Brian Wright, in collaboration with Professor Pete Alonzi, of the School of Data Science at UVA.</p>
-</section>
-<section id="motivation-and-design" class="level1">
-<h1>Motivation and Design</h1>
-<p>DSALL is motivated by the observation that active learning approaches (AL) have not been widely applied and tested in data science courses, even though a body of significant research demonstrates the benefits of AL and many instructors of computer science have adopted AL successfully.</p>
-<p>A key element of AL is the design, development, and testing of <strong>authentic</strong> and <strong>transparent</strong> assessments.</p>
-<p><strong>Authentic assignments</strong> ask students to either inhabit a role seen in the discipline or do the work of the discipline.</p>
-<p><strong>Transparent assignments</strong> explicity state their purpose, tasks, and criteria. Research has shown that transparent assignments improve a wide range of student success metrics, including a sense of belonging which can be a significant factor in the retention of underrepresented student populations, particularly in STEM.</p>
-<p>A major obstacle to creating authentic and transparent active learning assessments is the time and effort required to develop, implement, and test them. <strong>DSALL will provide the resources and structure necessary for collaborative course development.</strong> The Lab will enable faculty and graduate students to work together to develop and empirically test active learning activities in their data science courses. This will result in the identification and validation of best practices along with practical tools that can be shared broadly and openly across the field of Data Science.</p>
-<p>The Lab will reduce the time burden on faculty to create effective assessments. More important, it will establish a trusted research framework and tools that have been empirically tested for effectiveness. Such a resource is currently unavailable in data science pedagogy. We also have a unique opportunity, given the newness of the field, to develop cultural norms around teaching that are known to benefit underrepresented groups and first-generation students. This funding will go a long way to advance that effort by establishing a pedological research lab specifically focused on student success in a historically fast-growing field.</p>
-</section>
-<section id="project-goals" class="level1">
-<h1>Project Goals</h1>
-<p>In pursuit of the mission to provide resources to enable faculty to create effective active learning assessments for data science, the project has the following goals.</p>
+<section id="learning-goals" class="level1">
+<h1>Learning Goals</h1>
+<p>After completing this module, the student should:</p>
 <ul>
-<li><p>Be a preeminent <strong>resource</strong> for empirically tested best practices in data science education.</p></li>
-<li><p>Establish a <strong>testing and validation framework</strong> for data science oriented active learning tools.</p></li>
-<li><p>Create and socialize <strong>teaching norms</strong> in data science that are proven to benefit underrepresented groups and first-generation students.</p></li>
-<li><p>Develop and test active learning assessments (labs) specifically for courses in the proposed <strong>data science undergraduate major</strong>. (Projected courses include the Foundation of Data Science, Foundations of Machine Learning, Computation Probability, Data Science Ethics and Policy, and Data Science Systems.)</p></li>
-<li><p><strong>Disseminate open instructional content</strong> in accordance with the School of Data Science open access policy and UVA’s Open Scholarship agreement.</p></li>
+<li>Understand the difference between statements and expressions in Python.</li>
+<li>Know the basic control structures in Python.</li>
+<li>Understand how conditional logic is used in these structures.</li>
+<li>Know about iterators.</li>
+<li>Understand comprehensions in Python and know how to use them.</li>
+</ul>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>In terms of specific knowledge, skills, and abilities, after completing this module students should be able to:</p>
+<ul>
+<li>Recognize primary control structures available in Python and their basic use cases.</li>
+<li>Write comprehensions for each of Python’s list-like data structures.</li>
+<li>Recognize when iterators are used by Python functions (such as <code>open()</code>).</li>
+<li>Understand basic conditional logic statements and their role in designing data flow in a program.</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -395,10 +379,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module: Variables and Data</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./rubric.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Rubric</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../modules/M03_ControlStructures/M03-01-Readings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Readings</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

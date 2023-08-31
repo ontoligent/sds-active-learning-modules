@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DS 1001 Active Learning Modules - 2&nbsp; Module: Using Python</title>
+<title>DS 1001 Active Learning Modules - 9&nbsp; M03 Homework</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,8 +93,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" rel="next">
-<link href="../../rubric.html" rel="prev">
+<link href="../../modules/M03_ControlStructures/M03-Exercises.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -125,6 +124,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -134,7 +134,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Module: Using Python</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">M03 Homework</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -172,15 +172,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">M02</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">M02</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02A-UsingPython.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module: Using Python</span></a>
+  <a href="../../modules/M02_BasicPython/M02A-UsingPython.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Using Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -192,12 +192,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">M03</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">M03</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../modules/M03_ControlStructures/M03-00-Goals.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Control Structures</span></a>
@@ -225,7 +225,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Homework</span></a>
+  <a href="../../modules/M03_ControlStructures/M03-HW.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">M03 Homework</span></a>
   </div>
 </li>
       </ul>
@@ -239,19 +239,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link active" data-scroll-target="#learning-goals">Learning Goals</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
-  <li><a href="#acitivity-1-hello-world" id="toc-acitivity-1-hello-world" class="nav-link" data-scroll-target="#acitivity-1-hello-world">Acitivity 1: Hello, World!</a>
-  <ul class="collapse">
-  <li><a href="#which-python" id="toc-which-python" class="nav-link" data-scroll-target="#which-python">Which Python?</a></li>
-  <li><a href="#aside" id="toc-aside" class="nav-link" data-scroll-target="#aside">Aside</a></li>
-  <li><a href="#the-python-interactive-shell" id="toc-the-python-interactive-shell" class="nav-link" data-scroll-target="#the-python-interactive-shell">The Python Interactive Shell</a></li>
-  <li><a href="#try-this" id="toc-try-this" class="nav-link" data-scroll-target="#try-this">Try <code>this</code></a></li>
-  <li><a href="#running-python-files" id="toc-running-python-files" class="nav-link" data-scroll-target="#running-python-files">Running Python Files</a></li>
-  </ul></li>
-  <li><a href="#activity-2-using-jupyter-lab" id="toc-activity-2-using-jupyter-lab" class="nav-link" data-scroll-target="#activity-2-using-jupyter-lab">Activity 2: Using Jupyter Lab</a></li>
-  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link active" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#task-1" id="toc-task-1" class="nav-link" data-scroll-target="#task-1">Task 1</a></li>
+  <li><a href="#task-2" id="toc-task-2" class="nav-link" data-scroll-target="#task-2">Task 2</a></li>
+  <li><a href="#task-3" id="toc-task-3" class="nav-link" data-scroll-target="#task-3">Task 3</a></li>
   </ul>
 </nav>
     </div>
@@ -260,7 +251,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Module: Using Python</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">M03 Homework</span></h1>
 </div>
 
 
@@ -275,100 +266,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="learning-goals" class="level1">
-<h1>Learning Goals</h1>
-<p>After completing this module, the student should:</p>
+<p>Name:</p>
+<section id="instructions" class="level1">
+<h1>Instructions</h1>
+<p>In your <strong>private course repo on Rivanna</strong>, write a Jupyter notebook running Python that performs the numbered tasks below.</p>
+<p>For each task, create a code cell to perform the task.</p>
+<p>Save your notebook in the <code>M03</code> directory as <code>hw03.ipynb</code>.</p>
+<p>Add and commit these files to your repo.</p>
+<p>Then push your commits to your repo on GitHib.</p>
+<p>Be sure to fill out the <strong>Student Info</strong> block above.</p>
+<p>To submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.</p>
+<p><strong>12 points</strong></p>
+</section>
+<section id="task-1" class="level1">
+<h1>Task 1</h1>
+<p>(6 points)</p>
+<p>Using the <strong>for</strong> loop and <strong>if</strong> statement control structures, write a script that generates the integers from <span class="math inline">\(1\)</span> to <span class="math inline">\(100\)</span> and does the following things:</p>
 <ul>
-<li>Be able to run a simple script from a variety of contexts.</li>
-<li>Understand the difference between these contexts.</li>
+<li>If <span class="math inline">\(3\)</span> is a factor of the number, print <code>Wahoo</code>.</li>
+<li>If <span class="math inline">\(5\)</span> is a factor of the number, print <code>wah!</code>.</li>
+<li>If the number meets none of the above conditions, print nothing, not even a line break.</li>
+<li>If the number meets both of the conditions, print the strings on the same line with no space between them.</li>
+<li>Make sure that the line printed for each iteration in which a condition is met ends with a line break.</li>
+<li>When the loop is finished, print the number of times either conidtion was met, i.e.&nbsp;the number of lines that were printed.</li>
 </ul>
+<p>Hint: You may not need to use <strong>elif</strong> and <strong>else</strong> to accomplish these tasks.</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># CODE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="learning-outcomes" class="level1">
-<h1>Learning Outcomes</h1>
-<p>In terms of specific knowledge, skills, and abilities, after completing this module students should be able to:</p>
-<ul>
-<li>Be able to run a simple Python script from the command line.</li>
-<li>Be able to run simple lines of code from Python’s REPL.</li>
-<li>Be able to run a simple Python script from a Jupyter notebook in Jupyter Lab.</li>
-</ul>
+<section id="task-2" class="level1">
+<h1>Task 2</h1>
+<p>(3 points)</p>
+<p>Rewrite the <code>for</code> loop as a <code>while</code> loop.</p>
+<p>This time, only print lines where both conditions are met.</p>
+<p>Include a final line which prints the number of times both conditions are met.</p>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># CODE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="readings" class="level1">
-<h1>Readings</h1>
-<ul>
-<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/8f352965-cebb-43c0-b2ca-0f6bf944899e.xhtml">Katz and Katz 2019, Section 1, Preparing the Workspace</a></li>
-<li><a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch02.html">Lutz, Learning Python, Part I: Getting Started, Chapter 2</a></li>
-<li><a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch03.html">Lutz, Learning Python, Part I: Getting Started, Chapter 3</a></li>
-</ul>
-</section>
-<section id="acitivity-1-hello-world" class="level1">
-<h1>Acitivity 1: Hello, World!</h1>
-<p>In this activity, you will run Python from the command line and become acquainted with its most basic mode of operation.</p>
-<p>To get started, log onto the Rivanna shell and move into in the course directory you created for this class.</p>
-<section id="which-python" class="level2">
-<h2 class="anchored" data-anchor-id="which-python">Which Python?</h2>
-<p>Once you are in Rivanna, you will want to know which version of Python you have installed as the default.</p>
-<p>To find out, from the command line type:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> python</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This will show you the “path” to a python interpreter. For example:</p>
-<p><img src="../../media/which-python.png" class="img-fluid"></p>
-<p>If you do not see “anaconda” in that path, then run the following command:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> load anaconda</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This will update your environment to use Anaconda’s distribution of Python.</p>
-<p>After running the command, enter the command to see which pythion is being used to confirm that it is the one from Ancaconda.</p>
-</section>
-<section id="aside" class="level2">
-<h2 class="anchored" data-anchor-id="aside">Aside</h2>
-<p>Note that you can use <code>module</code> to run other programs on your Rivanna account.</p>
-<p>Type <code>module list</code> to see which programs have already been installed on your account.</p>
-<p>Type <code>module spider</code> to see all the programs you can install.</p>
-</section>
-<section id="the-python-interactive-shell" class="level2">
-<h2 class="anchored" data-anchor-id="the-python-interactive-shell">The Python Interactive Shell</h2>
-<p>From the command line, enter python</p>
-<p>You should get the Python Shell:</p>
-<p><img src="../../media/python-prompt.png" class="img-fluid"></p>
-<p>This is also called the Python standard REPL, which stands for “Read-Eval-Print Loop”.</p>
-<p>Make sure you see that you are using version 3 of Python.</p>
-<p>If you see Python 2, exit the shell by entering <code>quit()</code> and try again by entering python3 at the command line.</p>
-<p>At the <code>&gt;&gt;&gt;</code> prompt type <code>print("Hello, World!")</code> and press return.</p>
-<p>If you’ve never used Python, you’ve just completed an important ritual. If you have used Python, well, you did it again :-)</p>
-</section>
-<section id="try-this" class="level2">
-<h2 class="anchored" data-anchor-id="try-this">Try <code>this</code></h2>
-<p>Now, enter following line at the prompt and press return:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> this</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>What do you see?</p>
-<p>To exit the Python Shell, enter <code>quit()</code> or <code>exit()</code> and hit return.</p>
-</section>
-<section id="running-python-files" class="level2">
-<h2 class="anchored" data-anchor-id="running-python-files">Running Python Files</h2>
-<p>Now create a file called <code>hello.py</code> using the command line editor <code>nano</code>. Enter the same commands you used above.</p>
-<p>Then run it from the command line by directly invoking the Python interpreter python.</p>
-</section>
-</section>
-<section id="activity-2-using-jupyter-lab" class="level1">
-<h1>Activity 2: Using Jupyter Lab</h1>
-<p>Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.</p>
-<p>Go the OnDemand site to access Rivanna. As a reminder, the URL is <a href="https://rivanna-portal.hpc.virginia.edu/">https://rivanna-portal.hpc.virginia.edu/</a>.</p>
-<p>From the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session. Your form should have the following values:</p>
-<hr>
-<p><img src="../../media/jupyter-on-rivanna-form.png" class="img-fluid"></p>
-<hr>
-<blockquote class="blockquote">
-<p>Note that you may increase the number of hours, cores, and megabytes of RAM, but asking for too much will increase the time it takes to start your session. So select just the resources needed and enter the course allocation given by your instructor if this value is different than in the image above.</p>
-</blockquote>
-<p>Once the session is ready, launch the notebook.</p>
-<p>Once you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class — one for course content from the instructor, and one for your own course work. Use the latter for this exercise.</p>
-<p>In a code cell in the notebook, enter the code to print <code>"Hello, World!"</code>, and run the cell.</p>
-<p>Save your notebook as <code>hello-world.ipynb</code>.</p>
-</section>
-<section id="quiz" class="level1">
-<h1>Quiz</h1>
-<p><strong>Q1. Which of the following are valid ways to run lines of Python code?</strong></p>
-<p>A. From within the GitHub website, by clicking on a Jupyter notebook.</p>
-<p>B. From the command line, by typing in python, pressing return, and then interactively entering the lines.</p>
-<p>C. From within a code cell in a Jupyter notebook running on Jupyter Lab.</p>
-<p>D. From a text file, with a .py extension. as an argument to calling Python from the command line.</p>
+<section id="task-3" class="level1">
+<h1>Task 3</h1>
+<p>(3 points)</p>
+<p>Write a list comprehension that iterates through the integers from <span class="math inline">\(1\)</span> to <span class="math inline">\(100\)</span> and returns a list containing the sum of the boolean values of the two conditions described in Task 1.</p>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># CODE</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
@@ -525,14 +468,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../rubric.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Rubric</span></span>
+      <a href="../../modules/M03_ControlStructures/M03-Exercises.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Module: Variables and Data</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

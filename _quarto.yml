@@ -17,6 +17,15 @@ book:
       chapters:
         - modules/M02_BasicPython/M02A-UsingPython.ipynb
         - modules/M02_BasicPython/M02B-VariablesAndData.ipynb
+    - part: "M03"
+      chapters:
+        - modules/M03_ControlStructures/M03-00-Goals.ipynb
+        - modules/M03_ControlStructures/M03-01-Readings.ipynb
+        - modules/M03_ControlStructures/M03-02-IterablesAndIterators.ipynb
+        - modules/M03_ControlStructures/M03-03-ControlStructures.ipynb
+        - modules/M03_ControlStructures/M03-04-Comprehensions.ipynb
+        - modules/M03_ControlStructures/M03-Exercises.html
+        - modules/M03_ControlStructures/M03-HW.ipynb
     
     # - part: index.qmd                                                     # Preface
     #   chapters:

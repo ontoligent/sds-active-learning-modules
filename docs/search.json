@@ -173,5 +173,124 @@
     "title": "Module: Variables and Data",
     "section": "Q10",
     "text": "Q10\n(1 point) Which of the following are built-in Python data structures?\nA. list\nB. dict\nC. set\nD. tuple"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-00-Goals.html",
+    "href": "modules/M03_ControlStructures/M03-00-Goals.html",
+    "title": "Module: Control Structures",
+    "section": "",
+    "text": "Learning Goals\nAfter completing this module, the student should:"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-00-Goals.html#learning-outcomes",
+    "href": "modules/M03_ControlStructures/M03-00-Goals.html#learning-outcomes",
+    "title": "Module: Control Structures",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nIn terms of specific knowledge, skills, and abilities, after completing this module students should be able to:\n\nRecognize primary control structures available in Python and their basic use cases.\nWrite comprehensions for each of Python’s list-like data structures.\nRecognize when iterators are used by Python functions (such as open()).\nUnderstand basic conditional logic statements and their role in designing data flow in a program."
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-01-Readings.html#optional",
+    "href": "modules/M03_ControlStructures/M03-01-Readings.html#optional",
+    "title": "Readings",
+    "section": "Optional",
+    "text": "Optional\n\nVariables, Expressions, Statements, Types (Python Notes)\nMore Control Flow Tools (Python Docs)\nIf … Then (W3S)\nIterators (GFG)"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-01-Readings.html#reading-values-variables-expressions-and-statements",
+    "href": "modules/M03_ControlStructures/M03-01-Readings.html#reading-values-variables-expressions-and-statements",
+    "title": "Readings",
+    "section": "Reading: Values, Variables, Expressions, and Statements",
+    "text": "Reading: Values, Variables, Expressions, and Statements\nDefinitions\n\nValues: Raw data elements represented in a program, e.g. numbers and strings.\nVariables: Names to which values are assigned.\nExpressions: Combinations of values, variables, operators, functions, and other expressions that evaluate to a value.\nStatements: Groupings of expressions that produce some result. Statements do things.\n\nStatement Types\nSee Statement Types in Lutz."
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html",
+    "href": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html",
+    "title": "NB: Iterables and Iterators",
+    "section": "",
+    "text": "Defining Iterables and Iterators\nIterable objects or iterables can return elements one at a time.\nAn iterator is an object that iterates over iterable objects such as sets, lists, tuples, dictionaries, and strings.\nIteration can be implemented: - with a for loops - with the next() method\nNext, we show examples for various iterables.\nWe iterated over a list. Next we will illustrate for other iterables: str, tuple, set, dict\nlists, tuples, and strings are sequences. Sequences are designed so that elements come out of them in the same order they were put in.\nSets and dictionaries are not sequences, since they don’t keep elements in order. They are called collections. The ordering of the items is arbitrary.\nNOTE: This has changed for dictionaries in Python 3.7: > the insertion-order preservation nature of dict objects has been declared to be an official part of the Python language spec.\n– What’s New in Python 3.7\niterating using for\niterating using iter() and next()\niterating using for\niterating using iter() and next()\niterating using for\niterating using iter() and next()\niterating using for\nAlternatively, keys and values can be extracted from the dict by: - looping over the keys - extract the value by indexing into the dict with the key\niterating using for\nIf you just want to iterate for a known number of times, use range().\nVery often you will want to know iteration number you are on in a loop.\nThis can be used to name files or dict keys, for example.\nenumerate() will return the index and key for each iteration.\nIterations can be nested!\nThis works well with nested data structures, like dicts within dicts.\nThis is basically how JSON files are handled, BTW.\nBe careful, though – these can get deep and complicated.\niterating using iter() and next()"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html#iterating-using-for",
+    "href": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html#iterating-using-for",
+    "title": "NB: Iterables and Iterators",
+    "section": "iterating using for",
+    "text": "iterating using for\n\ntokens = ['living room', 'was', 'quite', 'large']\n\nfor tok in tokens:\n    print(tok)\n\nliving room\nwas\nquite\nlarge"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html#iterating-using-iter-and-next",
+    "href": "modules/M03_ControlStructures/M03-02-IterablesAndIterators.html#iterating-using-iter-and-next",
+    "title": "NB: Iterables and Iterators",
+    "section": "iterating using iter() and next()",
+    "text": "iterating using iter() and next()\niter() gets an iterator. Pops out a value each time it’s used.\nnext() gets the next item from the iterator\n\ntokens = ['living room','was','quite','large']\nmyit = iter(tokens)\nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \n\nliving room\nwas\nquite\nlarge\n\n\nCalling next() when the iterator has reached the end of the list produces an exception:\n\nprint(next(myit))\n\nStopIteration: \n\n\nNext, look at the type of the iterator, and the documentation\n\ntype(myit)\n\nlist_iterator\n\n\n\n# help(myit)\n\n\nhelp(next)\n\nHelp on built-in function next in module builtins:\n\nnext(...)\n    next(iterator[, default])\n    \n    Return the next item from the iterator. If default is given and the iterator\n    is exhausted, it is returned instead of raising StopIteration.\n\n\n\nNote that for implicitly creates an iterator and executes next() on each loop iteration. This is best way to iterate through a list-like object."
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-03-ControlStructures.html#introducing-control-structures",
+    "href": "modules/M03_ControlStructures/M03-03-ControlStructures.html#introducing-control-structures",
+    "title": "NB: Control Structures",
+    "section": "Introducing Control Structures",
+    "text": "Introducing Control Structures\nPython includes structures to control the flow of a program:\n\nconditions (if, else)\nloops\n\nwhile-loop\nExecute statements while a condition is true\nfor-loop\nIterates over a iterable object (list, tuple, dict, set, string)"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-03-ControlStructures.html#indentation",
+    "href": "modules/M03_ControlStructures/M03-03-ControlStructures.html#indentation",
+    "title": "NB: Control Structures",
+    "section": "Indentation",
+    "text": "Indentation\nThis is where Python differs from most languages. To define control structures,\nand functional blocks of code in general, most languages use either characters like braces { and } or key words like IF ... END IF.\nPython uses tabs – spaces, actually – to signify logical blocks off code.\nIt is therefore imperative to understand and get a feel for indentation. For more information, see Lutz 2019, “A Tale of Two Ifs.”"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-03-ControlStructures.html#conditions",
+    "href": "modules/M03_ControlStructures/M03-03-ControlStructures.html#conditions",
+    "title": "NB: Control Structures",
+    "section": "Conditions",
+    "text": "Conditions\n\nif and else can be used for conditional processing.\n\nval = -2\n\nif val >= 0:\n    print(val)\nelse:\n    print(-val)\n\n2\n\n\n\n\nelif\nelif is reached when the previous statements are not.\n\nval = -2\n\nif -10 < val < -5:\n    print('bucket 1')\nelif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\n\nbucket 3\n\n\n\n\nelse\nelse can be used as a catchall\n\nval = 5\n\nif -10 < val < -5:\n    print('bucket 1')\nelif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\nelse:\n    print('bucket 4')\n\nbucket 4\n\n\n\n\nif and else as one-liners\n\nx = 3\nprint('odd') if x % 2 == 1 else print('even')\n\nodd\n\n\nNotice == for checking the condition x % 2 == 1.\nboth if and else are required. This breaks:\n\nprint('odd') if x % 2 == 1\n\nSyntaxError: invalid syntax (471325368.py, line 1)\n\n\n\n\nUsing multiple conditions\nIf statements can be complex combinations of expressions.\nUse parentheses carefully, to keep order of operations correct.\n\n## correct\n\nval = 2\n\nif (-2 < val < 2) or (val > 10):\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\nbucket 2\n\n\n\n## incorrect - misplaced parenthesis\n\nif (-2 < val) < 2 or val > 10:\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\nbucket 1\n\n\nand this is because True < 2, as True is cast to integer value 1\nthis is not the desired result…but does it make sense?"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-03-ControlStructures.html#loops",
+    "href": "modules/M03_ControlStructures/M03-03-ControlStructures.html#loops",
+    "title": "NB: Control Structures",
+    "section": "Loops",
+    "text": "Loops\n\nwhile\nWhat does this print?\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\nprint(ix)\n\n16\n\n\n\n\nbreak to exit the loop altogether\nsometimes you want to quit the loop early, if some condition is met.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        break\nprint(ix)\n\n4\n\n\nThe break causes the loop to end early\n\n\ncontinue to stop the current iteration\nsometimes you want to introduce skipping behavior in the loop.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        print('skipping 4...')\n        continue\n    print(ix)\n\n2\nskipping 4...\n8\n16\n\n\nThe continue causes the loop to skip printing 4\n\n\nfor\niterate over an iterable\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\nsf\nbos\nla\n\n\nquit early if SF reached, using break\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        break\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\n\n\nskip over SF if reached, using continue\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        continue\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\nbos\nla"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-03-ControlStructures.html#while-vs-for",
+    "href": "modules/M03_ControlStructures/M03-03-ControlStructures.html#while-vs-for",
+    "title": "NB: Control Structures",
+    "section": "while vs for",
+    "text": "while vs for\nFor loops are used to loop through a list of values or an operation in which the number of iterations is known in advance.\nWhile loops are when you don’t know how many interations it will take – you are depending on some condition to be met.\nIt is possible for while loops to be unending, for example:\nwhile 1:\n    print(\"This is so annoying\")"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-04-Comprehensions.html",
+    "href": "modules/M03_ControlStructures/M03-04-Comprehensions.html",
+    "title": "NB: Comprehensions",
+    "section": "",
+    "text": "List Comprehensions\nConsider this task: check if each integer in a list is odd.\nWithout list comprehensions, you might do this:\nComprehensions provide a concise method for iterating over any list-like object to a new list like object.\nThere are comprehensions for each list-like object: * List comprehensions * Dictionary comprehensions * Tuple comprehensions * Set comprehensions\nComprehensions are essentially very concise for loops. They are compact visually, but they also are more efficient than loops.\nAll comprehensions have the form:\nlistlike_result = [ expression + context]\nThe type of comprehension is indicated by the use of enclosing pairs, just like anonymous constructors:\nExpression defines what to do with each element in the list. This has the structure of the kind of comprehension. So, dictionary comprehension expressions take the form k:v while sets use v.\nContext defines which list elements to select. The context always consists of an arbitrary number of for and if statements.\nDictionary comprehensions provide a concise method for iterating over a dictionary to create a new dictionary.\nThis is common when data is structured as key-value pairs, and we’d like to filter the dict.\nWe build the key-value pairs using key:model_arch[key], where the key indexes into the dict model_arch"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-04-Comprehensions.html#check-if-odd",
+    "href": "modules/M03_ControlStructures/M03-04-Comprehensions.html#check-if-odd",
+    "title": "NB: Comprehensions",
+    "section": "Check if Odd",
+    "text": "Check if Odd\n\nvals = [1,5,6,8,12,15]\nis_odd = []\n\nfor val in vals:   \n    if val % 2: # if remainder is one, val is odd\n        is_odd.append(True)\n    else:       # else it's not odd\n        is_odd.append(False)\n\nis_odd\n\n[True, True, False, False, False, True]\n\n\nThe code loops over each value in the list, checks the condition, and appends to a new list.\nThe code works, but it’s lengthy compared to a list comprehension.\nThe approach takes extra time to write and understand.\nLet’s solve with a list comprehension:\n\nis_odd = [val % 2 == 1 for val in vals]\nis_odd\n\n[True, True, False, False, False, True]\n\n\nMuch shorter, and if you understand the syntax, quicker to interpet.\nNote the in-place use of an expression.\nNow let’s discuss the syntax."
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-04-Comprehensions.html#stop-word-remover",
+    "href": "modules/M03_ControlStructures/M03-04-Comprehensions.html#stop-word-remover",
+    "title": "NB: Comprehensions",
+    "section": "Stop Word Remover",
+    "text": "Stop Word Remover\nCreate list of words, and list of stop words.\nFilter out the stop words (considered not important).\n\nstop_words = ['a','am','an','i','the','of']\nwords      = ['i','am','not','a','fan','of','the','film']\n\nclean_words = [wd for wd in words if wd not in stop_words]\nclean_words\n\n['not', 'fan', 'film']\n\n\nplacing the color-coding on the list comprehension:\n[ wd   for wd in words  if wd not in stop_words]\n\nthe expression is very simple: wd. keep the word if meets condition\nthe condition does the work: if the word isn’t in list of stop words, keep it\n\nSide note: This task can also be done with sets, if you are not concerned with mulitple instances of the same word:\n\ns1 = set(stop_words)\ns2 = set(words)\ns3 = s2 - s1\n\n\ns3\n\n{'fan', 'film', 'not'}"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-04-Comprehensions.html#select-tokens-containing-units",
+    "href": "modules/M03_ControlStructures/M03-04-Comprehensions.html#select-tokens-containing-units",
+    "title": "NB: Comprehensions",
+    "section": "Select Tokens Containing Units",
+    "text": "Select Tokens Containing Units\nGiven a list of measurements, retain elements containing mmHg (millimeters of mercury)\n\nunits = 'mmHg'\nmeasures = ['20', '115mmHg', '5mg', '10 mg', '7.5dl', '120 mmHg']\nmeas_mmhg = [meas for meas in measures if units in meas]\n\n\nmeas_mmhg   \n\n['115mmHg', '120 mmHg']\n\n\nFiltering on two conditions\n\nunits1 = 'mmHg'\nunits2 = 'dl'\nmeas_mmhg_dl = [meas for meas in measures if units1 in meas or units2 in meas]\n\n\nmeas_mmhg_dl\n\n['115mmHg', '7.5dl', '120 mmHg']\n\n\nThis can be written differently for clarity:\n\n[meas \n for meas in measures \n if units1 in meas \n or units2 in meas]\n\n['115mmHg', '7.5dl', '120 mmHg']"
+  },
+  {
+    "objectID": "modules/M03_ControlStructures/M03-HW.html",
+    "href": "modules/M03_ControlStructures/M03-HW.html",
+    "title": "M03 Homework",
+    "section": "",
+    "text": "Name:\n\nInstructions\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create a code cell to perform the task.\nSave your notebook in the M03 directory as hw03.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\n12 points\n\n\nTask 1\n(6 points)\nUsing the for loop and if statement control structures, write a script that generates the integers from \\(1\\) to \\(100\\) and does the following things:\n\nIf \\(3\\) is a factor of the number, print Wahoo.\nIf \\(5\\) is a factor of the number, print wah!.\nIf the number meets none of the above conditions, print nothing, not even a line break.\nIf the number meets both of the conditions, print the strings on the same line with no space between them.\nMake sure that the line printed for each iteration in which a condition is met ends with a line break.\nWhen the loop is finished, print the number of times either conidtion was met, i.e. the number of lines that were printed.\n\nHint: You may not need to use elif and else to accomplish these tasks.\n\n# CODE\n\n\n\nTask 2\n(3 points)\nRewrite the for loop as a while loop.\nThis time, only print lines where both conditions are met.\nInclude a final line which prints the number of times both conditions are met.\n\n# CODE\n\n\n\nTask 3\n(3 points)\nWrite a list comprehension that iterates through the integers from \\(1\\) to \\(100\\) and returns a list containing the sum of the boolean values of the two conditions described in Task 1.\n\n# CODE"
   }
 ]

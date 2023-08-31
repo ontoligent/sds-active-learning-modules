@@ -2,18 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/index.html</loc>
-    <lastmod>2023-08-31T19:01:49.100Z</lastmod>
+    <lastmod>2023-08-31T19:23:42.748Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/rubric.html</loc>
-    <lastmod>2023-08-31T19:01:49.101Z</lastmod>
+    <lastmod>2023-08-31T19:23:42.749Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02A-UsingPython.html</loc>
-    <lastmod>2023-08-31T19:01:49.102Z</lastmod>
+    <lastmod>2023-08-31T19:23:42.750Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02B-VariablesAndData.html</loc>
-    <lastmod>2023-08-31T19:01:49.104Z</lastmod>
+    <lastmod>2023-08-31T19:23:42.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-00-Goals.html</loc>
+    <lastmod>2023-08-31T19:23:42.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-01-Readings.html</loc>
+    <lastmod>2023-08-31T19:23:42.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-02-IterablesAndIterators.html</loc>
+    <lastmod>2023-08-31T19:23:42.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-03-ControlStructures.html</loc>
+    <lastmod>2023-08-31T19:23:42.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-04-Comprehensions.html</loc>
+    <lastmod>2023-08-31T19:23:42.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-HW.html</loc>
+    <lastmod>2023-08-31T19:23:42.757Z</lastmod>
   </url>
 </urlset>
