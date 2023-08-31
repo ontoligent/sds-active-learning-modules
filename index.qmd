@@ -17,3 +17,17 @@ A key element of AL is the design, development, and testing of **authentic** and
 A major obstacle to creating authentic and transparent active learning assessments is the time and effort required to develop, implement, and test them. **DSALL will provide the resources and structure necessary for collaborative course development.** The Lab will enable faculty and graduate students to work together to develop and empirically test active learning activities in their data science courses. This will result in the identification and validation of best practices along with practical tools that can be shared broadly and openly across the field of Data Science.
 
 The Lab will reduce the time burden on faculty to create effective assessments. More important, it will establish a trusted research framework and tools that have been empirically tested for effectiveness. Such a resource is currently unavailable in data science pedagogy. We also have a unique opportunity, given the newness of the field, to develop cultural norms around teaching that are known to benefit underrepresented groups and first-generation students. This funding will go a long way to advance that effort by establishing a pedological research lab specifically focused on student success in a historically fast-growing field.
+
+# Project Goals
+
+In pursuit of the mission to provide resources to enable faculty to create effective active learning assessments for data science, the project has the following goals.
+
+-   Be a preeminent **resource** for empirically tested best practices in data science education.
+
+-   Establish a **testing and validation framework** for data science oriented active learning tools.
+
+-   Create and socialize **teaching norms** in data science that are proven to benefit underrepresented groups and first-generation students.
+
+-   Develop and test active learning assessments (labs) specifically for courses in the proposed **data science undergraduate major**. (Projected courses include the Foundation of Data Science, Foundations of Machine Learning, Computation Probability, Data Science Ethics and Policy, and Data Science Systems.)
+
+-   **Disseminate open instructional content** in accordance with the School of Data Science open access policy and UVA's Open Scholarship agreement.
