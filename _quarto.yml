@@ -27,6 +27,18 @@ book:
         - modules/M03_ControlStructures/M03-Exercises.html
         - modules/M03_ControlStructures/M03-Quiz.md
         - modules/M03_ControlStructures/M03-HW.ipynb
+    # - part: "M04: Functions"
+    #   chapters:
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+    #     - modules/M04_PythonFunctions/
+        
     
     # - part: index.qmd                                                     # Preface
     #   chapters:
