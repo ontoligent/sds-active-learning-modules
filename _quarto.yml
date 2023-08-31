@@ -11,12 +11,13 @@ book:
     - part: index.qmd                                                     # Preface
       chapters:
       - rubric.md
-    - part: modules/M02_BasicPython/Experimental/M02-ALL.ipynb
     - part: modules/M02_BasicPython/M02-00-1-Intro.qmd                    # M02 
       chapters:
+        # Part 1      
         - modules/M02_BasicPython/M02-00-2-OnData.qmd
-        # - modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.qmd
-        # - modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.qmd
+        - modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.qmd
+        - modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.qmd
+        # Part 2
         - modules/M02_BasicPython/M02-01-DataTypes.ipynb
         - modules/M02_BasicPython/M02-02-Numbers.ipynb
         - modules/M02_BasicPython/M02-03-Booleans.ipynb

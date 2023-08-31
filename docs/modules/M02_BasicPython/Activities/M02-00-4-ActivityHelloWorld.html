@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DS 1001 Active Learning Modules - M02: Basic Python</title>
+<title>DS 1001 Active Learning Modules - 3&nbsp; Activity: Hello, World!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -30,8 +93,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<link href="../../../modules/M02_BasicPython/M02-00-1-Intro.html" rel="next">
-<link href="../../../rubric.html" rel="prev">
+<link href="../../../modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html" rel="next">
+<link href="../../../modules/M02_BasicPython/M02-00-2-OnData.html" rel="prev">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">M02: Basic Python</h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity: Hello, World!</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -110,19 +173,26 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">M02: Basic Python</span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../modules/M02_BasicPython/M02-00-1-Intro.html" class="sidebar-item-text sidebar-link">M02 Introducing Python</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../modules/M02_BasicPython/M02-00-2-OnData.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Data and Code</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity: Hello, World!</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Jupyter Lab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -165,11 +235,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../modules/M03_ControlStructures/M03-00-1-Intro.html" class="sidebar-item-text sidebar-link">M03 Control Structures</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
@@ -210,11 +280,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../../modules/M04_PythonFunctions/M04-00-1-Intro.html" class="sidebar-item-text sidebar-link">M04 Functions</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../modules/M04_PythonFunctions/M04-01-Importing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Importing Functions</span></a>
@@ -266,19 +336,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#topics" id="toc-topics" class="nav-link active" data-scroll-target="#topics">Topics</a>
-  <ul class="collapse">
-  <li><a href="#programming-in-data-science" id="toc-programming-in-data-science" class="nav-link" data-scroll-target="#programming-in-data-science">Programming in Data Science</a></li>
-  <li><a href="#running-python" id="toc-running-python" class="nav-link" data-scroll-target="#running-python">Running Python</a></li>
-  <li><a href="#values-literals-and-variables" id="toc-values-literals-and-variables" class="nav-link" data-scroll-target="#values-literals-and-variables">Values, Literals, and Variables</a></li>
-  <li><a href="#data-types" id="toc-data-types" class="nav-link" data-scroll-target="#data-types">Data Types</a></li>
-  <li><a href="#operators-functions-and-methods" id="toc-operators-functions-and-methods" class="nav-link" data-scroll-target="#operators-functions-and-methods">Operators, Functions, and Methods</a></li>
-  <li><a href="#know-how-to-convert-a-value-of-one-type-to-another" id="toc-know-how-to-convert-a-value-of-one-type-to-another" class="nav-link" data-scroll-target="#know-how-to-convert-a-value-of-one-type-to-another">Know how to convert a value of one type to another</a></li>
-  <li><a href="#know-how-to-find-our-the-type-of-value-or-variable" id="toc-know-how-to-find-our-the-type-of-value-or-variable" class="nav-link" data-scroll-target="#know-how-to-find-our-the-type-of-value-or-variable">Know how to find our the type of value or variable</a></li>
-  <li><a href="#know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets" id="toc-know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets" class="nav-link" data-scroll-target="#know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets">Know Python’s built-in data structures – tuples, lists, dictionaries, and sets</a></li>
-  <li><a href="#know-the-basic-operators-methods-and-functions-associated-with-each-data-structure" id="toc-know-the-basic-operators-methods-and-functions-associated-with-each-data-structure" class="nav-link" data-scroll-target="#know-the-basic-operators-methods-and-functions-associated-with-each-data-structure">Know the basic operators, methods, and functions associated with each data structure</a></li>
-  <li><a href="#understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions" id="toc-understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions" class="nav-link" data-scroll-target="#understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions">Understand the concept of an expression and its relation to literals, variables, operators, and functions</a></li>
-  </ul></li>
+  <li><a href="#which-python" id="toc-which-python" class="nav-link active" data-scroll-target="#which-python">Which Python?</a></li>
+  <li><a href="#aside" id="toc-aside" class="nav-link" data-scroll-target="#aside">Aside</a></li>
+  <li><a href="#the-python-interactive-shell" id="toc-the-python-interactive-shell" class="nav-link" data-scroll-target="#the-python-interactive-shell">The Python Interactive Shell</a></li>
+  <li><a href="#try-this" id="toc-try-this" class="nav-link" data-scroll-target="#try-this">Try <code>this</code></a></li>
+  <li><a href="#running-python-files" id="toc-running-python-files" class="nav-link" data-scroll-target="#running-python-files">Running Python Files</a></li>
   </ul>
 </nav>
     </div>
@@ -287,7 +349,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">M02: Basic Python</h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity: Hello, World!</span></h1>
 </div>
 
 
@@ -302,114 +364,63 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="topics" class="level1">
-<h1>Topics</h1>
-<section id="programming-in-data-science" class="level2">
-<h2 class="anchored" data-anchor-id="programming-in-data-science">Programming in Data Science</h2>
-<p><strong>Outcome</strong>: Describe the idea of programming from the perspective of data science</p>
-<p><strong>Read this</strong>: <a href="https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02-00-2-OnData.html">On Data</a></p>
-<p><strong>Answer this</strong>:</p>
-<p><em>Which of the following statements make sense based on the reading above?</em></p>
-<p>A. Algorithm design can always compensate for poorly designed data structures.</p>
-<p>B. Good data design leads to better algorithm design.</p>
-<p>C. Programmers should invest time in understanding how their data are structured.</p>
-<p>D. It’s a good idea for a programmer to convert their knowledge of a problem into the organization of their data, because this allows the program’s algorithms to be simple to understand and easier to maintain and communicate.</p>
-<p><strong>Answer:</strong></p>
-<p>A. Algorithm design can always compensate for poorly designed data structures.</p>
-<blockquote class="blockquote">
-<p>FALSE. Complicated or poorly structured data may lead to excessively complicated and error-prone algorithms.</p>
-</blockquote>
-<p>B. Good data design leads to better algorithm design.</p>
-<blockquote class="blockquote">
-<p>TRUE. Well designed data makes it easer to produce code that is intelligible and maintainable.</p>
-</blockquote>
-<p>C. Programmers should invest time in understanding how their data are structured.</p>
-<blockquote class="blockquote">
-<p>TRUE. This is essentially the same as B.</p>
-</blockquote>
-<p>D. It’s a good idea for a programmer to convert their knowledge of a problem into the organization of their data, because this allows the program’s algorithms to be simple to understand and easier to maintain and communicate.</p>
-<blockquote class="blockquote">
-<p>TRUE. This follow’s from <a href="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html">Eric Raymond’s “Rule of Representation”</a>.</p>
-</blockquote>
+<p>In this activity, you will run Python from the command line and become acquainted with its most basic mode of operation.</p>
+<p>To get started, log onto the Rivanna shell and move into in the course directory you created for this class.</p>
+<section id="which-python" class="level2">
+<h2 class="anchored" data-anchor-id="which-python">Which Python?</h2>
+<p>Once you are in Rivanna, you will want to know which version of Python you have installed as the default.</p>
+<p>To find out, from the command line type:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">which</span> python</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will show you the “path” to a python interpreter. For example:</p>
+<p><img src="../../../media/which-python.png" class="img-fluid"></p>
+<p>If you do not see “anaconda” in that path, then run the following command:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> load anaconda</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will update your environment to use Anaconda’s distribution of Python.</p>
+<p>After running the command, enter the command to see which pythion is being used to confirm that it is the one from Ancaconda.</p>
 </section>
-<section id="running-python" class="level2">
-<h2 class="anchored" data-anchor-id="running-python">Running Python</h2>
-<p><strong>Outcome</strong>: Write a simple Python script and run it from a notebook or from the command line.</p>
-<p><strong>Read this:</strong></p>
-<ul>
-<li><p><a href=""></a></p></li>
-<li><p><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/8f352965-cebb-43c0-b2ca-0f6bf944899e.xhtml">Katz and Katz 2019: Preparing the Workspace</a></p></li>
-<li><p><a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch02.html">Lutz 2013: Chapter 2</a></p></li>
-<li><p><a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/ch03.html">Lutz 2013: Chapter 3</a></p></li>
-</ul>
-<p><strong>Do this:</strong></p>
-<ul>
-<li><a href="../Activities/M02-00-4-ActivityHelloWorld.qmd">Activity 1: Hello, World!</a></li>
-<li><a href="../Activities/M02-00-5-ActivityJupyterLabOnRivanna.qmd">Activity 2: Jupyter on Rivanna</a></li>
-</ul>
-<p><strong>Answer this:</strong></p>
-<p><em>Which of the following are valid ways to run lines of Python code?</em></p>
-<p>A. From within the GitHub website, by clicking on a Jupyter notebook.</p>
-<p>B. From the command line, by typing in python, pressing return, and then interactively entering the lines.</p>
-<p>C. From within a code cell in a Jupyter notebook running on Jupyter Lab.</p>
-<p>D. From a text file, with a .py extension. as an argument to calling Python from the command line.</p>
-<p><strong>Answer:</strong></p>
-<p>B, C, and D all represent valid ways of running a Python program. A is not because although GitHub allows you to see rendered Jupyter notebools, it does not have a place to run them.</p>
+<section id="aside" class="level2">
+<h2 class="anchored" data-anchor-id="aside">Aside</h2>
+<p>Note that you can use <code>module</code> to run other programs on your Rivanna account.</p>
+<p>Type <code>module list</code> to see which programs have already been installed on your account.</p>
+<p>Type <code>module spider</code> to see all the programs you can install.</p>
 </section>
-<section id="values-literals-and-variables" class="level2">
-<h2 class="anchored" data-anchor-id="values-literals-and-variables">Values, Literals, and Variables</h2>
-<p><strong>Outcomes:</strong></p>
-<ul>
-<li>Know the distinction between a literal value and a variable.</li>
-<li>Know to assign a value to a variable.</li>
-</ul>
-<p><strong>Read this:</strong></p>
-<ul>
-<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/fffca032-3bc1-4693-b159-a52585b5bd91.xhtml">Katz 2019: Assigning variables</a></li>
-<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/64a7ad27-aa3a-4ba0-9a41-a8005d335a5f.xhtml">Katz 2019: Naming the variable</a></li>
-</ul>
-<p><strong>Do this:</strong></p>
-<p><strong>Answer this:</strong></p>
+<section id="the-python-interactive-shell" class="level2">
+<h2 class="anchored" data-anchor-id="the-python-interactive-shell">The Python Interactive Shell</h2>
+<p>From the command line, enter python</p>
+<p>You should get the Python Shell:</p>
+<p><img src="../../../media/python-prompt.png" class="img-fluid"></p>
+<p>This is also called the Python standard REPL, which stands for “Read-Eval-Print Loop”.</p>
+<p>Make sure you see that you are using version 3 of Python.</p>
+<p>If you see Python 2, exit the shell by entering <code>quit()</code> and try again by entering python3 at the command line.</p>
+<p>At the <code>&gt;&gt;&gt;</code> prompt type <code>print("Hello, World!")</code> and press return.</p>
+<p>If you’ve never used Python, you’ve just completed an important ritual. If you have used Python, well, you did it again :-)</p>
 </section>
-<section id="data-types" class="level2">
-<h2 class="anchored" data-anchor-id="data-types">Data Types</h2>
-<p><strong>Outcome:</strong> Know the names of primary data types in Python – floats, integers, booleans, and strings – and how to represent literal values for each</p>
-<p><strong>Read this:</strong></p>
-<ul>
-<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/2c35b6a2-e5eb-4fc0-8aec-5cf2caa7751b.xhtml">Katz 2019: Understanding data types</a></li>
-<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/4c05fdc2-ed02-41fc-9886-33790404b0f5.xhtml">Katz 2019: Converting the data types</a> <!--
-- [Built-in Types (Official)](https://docs.python.org/3/library/stdtypes.html)
-- [Python Data Types (GFG)](https://www.geeksforgeeks.org/python-data-types/)
-- [Python Operators (W3S)](https://www.w3schools.com/python/python_operators.asp)
-- [Immutable vs Mutable Data Types in Python (Medium)](https://towardsdatascience.com/immutable-vs-mutable-data-types-in-python-e8a9a6fcfbdc)
---></li>
-</ul>
+<section id="try-this" class="level2">
+<h2 class="anchored" data-anchor-id="try-this">Try <code>this</code></h2>
+<p>Now, enter following line at the prompt and press return:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> this</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>What do you see?</p>
+<p>To exit the Python Shell, enter <code>quit()</code> or <code>exit()</code> and hit return.</p>
 </section>
-<section id="operators-functions-and-methods" class="level2">
-<h2 class="anchored" data-anchor-id="operators-functions-and-methods">Operators, Functions, and Methods</h2>
-<p><strong>Outcome:</strong></p>
-<ul>
-<li>Know the basic operators, functions, and methods associated with each data type.</li>
-<li>Understand the distinction between and operator, function, and method</li>
-</ul>
-</section>
-<section id="know-how-to-convert-a-value-of-one-type-to-another" class="level2">
-<h2 class="anchored" data-anchor-id="know-how-to-convert-a-value-of-one-type-to-another">Know how to convert a value of one type to another</h2>
-</section>
-<section id="know-how-to-find-our-the-type-of-value-or-variable" class="level2">
-<h2 class="anchored" data-anchor-id="know-how-to-find-our-the-type-of-value-or-variable">Know how to find our the type of value or variable</h2>
-</section>
-<section id="know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets" class="level2">
-<h2 class="anchored" data-anchor-id="know-pythons-built-in-data-structures-tuples-lists-dictionaries-and-sets">Know Python’s built-in data structures – tuples, lists, dictionaries, and sets</h2>
-</section>
-<section id="know-the-basic-operators-methods-and-functions-associated-with-each-data-structure" class="level2">
-<h2 class="anchored" data-anchor-id="know-the-basic-operators-methods-and-functions-associated-with-each-data-structure">Know the basic operators, methods, and functions associated with each data structure</h2>
-</section>
-<section id="understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions" class="level2">
-<h2 class="anchored" data-anchor-id="understand-the-concept-of-an-expression-and-its-relation-to-literals-variables-operators-and-functions">Understand the concept of an expression and its relation to literals, variables, operators, and functions</h2>
+<section id="running-python-files" class="level2">
+<h2 class="anchored" data-anchor-id="running-python-files">Running Python Files</h2>
+<p>Now create a file called <code>hello.py</code> using the command line editor <code>nano</code>. Enter the same commands you used above.</p>
+<p>Then run it from the command line by directly invoking the Python interpreter python.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>See <a href="https://343772-1.kaf.kaltura.com/media/M02%20Activity%3A%20Hello%2C%20World!/1_mk92k4i5">video</a> in Canvas.</p>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -564,13 +575,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../rubric.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Rubric Active Learning Lab Sessions</span></span>
+      <a href="../../../modules/M02_BasicPython/M02-00-2-OnData.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Data and Code</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../modules/M02_BasicPython/M02-00-1-Intro.html" class="pagination-link">
-        <span class="nav-page-text">M02 Introducing Python</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../../modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Activity: Jupyter Lab</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

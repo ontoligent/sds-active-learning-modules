@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.262">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>m02-00-3-objecttypes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="M02-00-3-ObjectTypes_files/libs/clipboard/clipboard.min.js"></script>
+<script src="M02-00-3-ObjectTypes_files/libs/quarto-html/quarto.js"></script>
+<script src="M02-00-3-ObjectTypes_files/libs/quarto-html/popper.min.js"></script>
+<script src="M02-00-3-ObjectTypes_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="M02-00-3-ObjectTypes_files/libs/quarto-html/anchor.min.js"></script>
+<link href="M02-00-3-ObjectTypes_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="M02-00-3-ObjectTypes_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="M02-00-3-ObjectTypes_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="M02-00-3-ObjectTypes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="M02-00-3-ObjectTypes_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="reading-python-object-types" class="level1">
+<h1>Reading: Python Object Types</h1>
+<p>Python is organized into a hierarchy of <strong>object types</strong>. Sometimes, these are just call <strong>types</strong>.</p>
+<p>Objects are the basic unit out of which the language is constructed.</p>
+<p>We’ll learn about objects later – what they are and how to create your own – but for now just understand that they have two main things associated with them:</p>
+<ul>
+<li>First, they can contain <strong>data</strong>.</li>
+<li>Second, they can have <strong>behaviors</strong>, frequently in relation to the data they contain.</li>
+</ul>
+<p><img src="../../media/Python_3._The_standard_type_hierarchy.png" class="img-fluid"></p>
+<section id="data-types-and-data-structures" class="level2">
+<h2 class="anchored" data-anchor-id="data-types-and-data-structures">Data Types and Data Structures</h2>
+<p>Data types and data structures are kinds of objects.</p>
+<p><strong>Data types are atomic</strong> — they don’t contain other data types.</p>
+<p><strong>Data structures contain data types</strong> organized in a certain way.</p>
+<p><strong>Data Types</strong></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>name</th>
+<th>type</th>
+<th>literal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>int</code></td>
+<td>integer</td>
+<td><code>1</code></td>
+</tr>
+<tr class="even">
+<td><code>str</code></td>
+<td>string</td>
+<td><code>"1"</code>, <code>'1'</code></td>
+</tr>
+<tr class="odd">
+<td><code>float</code></td>
+<td>floating point (real)</td>
+<td><code>1.</code></td>
+</tr>
+<tr class="even">
+<td><code>complex</code></td>
+<td>complex</td>
+<td><code>1j</code> (imaginary component)</td>
+</tr>
+<tr class="odd">
+<td><code>bool</code></td>
+<td>boolean</td>
+<td><code>True</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data Structures</strong></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>name</th>
+<th>mutable</th>
+<th>constructor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>tuple</code></td>
+<td>no</td>
+<td><code>()</code>, <code>tuple()</code></td>
+</tr>
+<tr class="even">
+<td><code>list</code></td>
+<td>yes</td>
+<td><code>[]</code>, <code>list()</code></td>
+</tr>
+<tr class="odd">
+<td><code>dict</code></td>
+<td>yes</td>
+<td><code>{}</code> with key/value pairs, <code>dict()</code></td>
+</tr>
+<tr class="even">
+<td><code>set</code></td>
+<td>yes</td>
+<td><code>{}</code> with single values, <code>set()</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="about-strings" class="level2">
+<h2 class="anchored" data-anchor-id="about-strings">About Strings</h2>
+<p>Strings are data types, but internally they are like data structures.</p>
+<p>However, strings can’t contain any of the data types specified by Python, so they are unlike the data structures considered here.</p>
+<p>Internally, a string is a sequence of Unicode code points, which are not exposed as data types (as they are in some other languages).</p>
+<ul>
+<li>A code point is a numerical value that maps to a specific character.</li>
+<li>Unicode is an international standard of code points that map onto the alphabets of many languages.</li>
+</ul>
+<p>Each character is an element in an immutable list-like structure.</p>
+<p>You can access it’s elements as if it were a tuple of characters:</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
