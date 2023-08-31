@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>DS 1001 Active Learning Modules - 2&nbsp; Data and Code</title>
+<title>DS 1001 Active Learning Modules - 3&nbsp; Module: Variables and Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html" rel="next">
-<link href="../../modules/M02_BasicPython/M02-00-1-Intro.html" rel="prev">
+<link href="../../modules/M02_BasicPython/M02A-UsingPython.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Data and Code</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Module: Variables and Data</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -94,176 +93,26 @@ ul.task-list li input[type="checkbox"] {
       </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../index.html" class="sidebar-item-text sidebar-link">Preface</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../rubric.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rubric Active Learning Lab Sessions</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../modules/M02_BasicPython/M02-00-1-Intro.html" class="sidebar-item-text sidebar-link">M02 Introducing Python</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-00-2-OnData.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Data and Code</span></a>
+  <a href="../../modules/M02_BasicPython/M02A-UsingPython.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module: Using Python</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Hello, World!</span></a>
+  <a href="../../modules/M02_BasicPython/M02B-VariablesAndData.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module: Variables and Data</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/Activities/M02-00-5-ActivityJupyterLabOnRivanna.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Jupyter Lab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-01-DataTypes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Data Types, Operators, and Expressions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-02-Numbers.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Numbers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-03-Booleans.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Booleans</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-04-Strings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Strings</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/M02-05-Structures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Structures</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/Activities/M02-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M02 In-Class Exercises</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M02_BasicPython/HW/M02-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M02 Homework</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../modules/M03_ControlStructures/M03-00-1-Intro.html" class="sidebar-item-text sidebar-link">M03 Control Structures</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-00-2-ValsVarsExpressionsStatements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Values, Variables, Expressions, and Statements</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-01-ControlStructures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Control Structures</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-02-IterablesAndIterators.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Iterables and Iterators</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-03-Comprehensions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Comprehensions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/M03-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Exercises</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M03_ControlStructures/HW/M03-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M03 Homework</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../modules/M04_PythonFunctions/M04-00-1-Intro.html" class="sidebar-item-text sidebar-link">M04 Functions</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-01-Importing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Importing Functions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-02-Functions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Introduction to Functions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-03-LambdaFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Lambda Functions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-04-RecursiveFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Recursion</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-05-Scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Variable Scope</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-06-FunctionsCallingFunctions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NB: Functions Calling Functions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/M04-99-1-Exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M04 Exercises</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../modules/M04_PythonFunctions/HW/M04-HW.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">M04 Homework</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -273,9 +122,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#code-should-be-simple" id="toc-code-should-be-simple" class="nav-link active" data-scroll-target="#code-should-be-simple">Code should be simple</a></li>
-  <li><a href="#simplicity-of-code-follows-from-the-structure-of-data" id="toc-simplicity-of-code-follows-from-the-structure-of-data" class="nav-link" data-scroll-target="#simplicity-of-code-follows-from-the-structure-of-data">Simplicity of code follows from the structure of data</a></li>
-  <li><a href="#supporting-references" id="toc-supporting-references" class="nav-link" data-scroll-target="#supporting-references">Supporting References</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link active" data-scroll-target="#learning-goals">Learning Goals</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a>
+  <ul class="collapse">
+  <li><a href="#reading-data-and-code" id="toc-reading-data-and-code" class="nav-link" data-scroll-target="#reading-data-and-code">Reading: Data and Code</a></li>
+  <li><a href="#reading-python-object-types" id="toc-reading-python-object-types" class="nav-link" data-scroll-target="#reading-python-object-types">Reading: Python Object Types</a>
+  <ul class="collapse">
+  <li><a href="#data-types-and-data-structures" id="toc-data-types-and-data-structures" class="nav-link" data-scroll-target="#data-types-and-data-structures">Data Types and Data Structures</a></li>
+  </ul></li>
+  <li><a href="#notebooks" id="toc-notebooks" class="nav-link" data-scroll-target="#notebooks">Notebooks</a></li>
+  </ul></li>
+  <li><a href="#activity-in-class-exercises" id="toc-activity-in-class-exercises" class="nav-link" data-scroll-target="#activity-in-class-exercises">Activity: In-Class Exercises</a></li>
+  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a>
+  <ul class="collapse">
+  <li><a href="#q1" id="toc-q1" class="nav-link" data-scroll-target="#q1">Q1</a></li>
+  <li><a href="#q2" id="toc-q2" class="nav-link" data-scroll-target="#q2">Q2</a></li>
+  <li><a href="#q3" id="toc-q3" class="nav-link" data-scroll-target="#q3">Q3</a></li>
+  <li><a href="#q4" id="toc-q4" class="nav-link" data-scroll-target="#q4">Q4</a></li>
+  <li><a href="#q5" id="toc-q5" class="nav-link" data-scroll-target="#q5">Q5</a></li>
+  <li><a href="#q6" id="toc-q6" class="nav-link" data-scroll-target="#q6">Q6</a></li>
+  <li><a href="#q7" id="toc-q7" class="nav-link" data-scroll-target="#q7">Q7</a></li>
+  <li><a href="#q8" id="toc-q8" class="nav-link" data-scroll-target="#q8">Q8</a></li>
+  <li><a href="#q9" id="toc-q9" class="nav-link" data-scroll-target="#q9">Q9</a></li>
+  <li><a href="#q10" id="toc-q10" class="nav-link" data-scroll-target="#q10">Q10</a></li>
+  </ul></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
     </div>
@@ -284,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Data and Code</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Module: Variables and Data</span></h1>
 </div>
 
 
@@ -299,26 +171,55 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="code-should-be-simple" class="level2">
-<h2 class="anchored" data-anchor-id="code-should-be-simple">Code should be simple</h2>
+<section id="learning-goals" class="level1">
+<h1>Learning Goals</h1>
+<ul>
+<li>Understand the concept of data-centric programming.</li>
+<li>Understand the distinction between data types and data structures.</li>
+<li>Become familiar with the most basic basic data types and their operations.</li>
+<li>Become familiar with the most basic basic data structures and their operations.</li>
+</ul>
+</section>
+<section id="learning-outcomes" class="level1">
+<h1>Learning Outcomes</h1>
+<ul>
+<li>Describe the idea of programming from the perspective of Data Science.</li>
+<li>Know the distinction between a literal value and a variable.</li>
+<li>Know to assign a value to a variable.</li>
+<li>Know the names of primary data types in Python — floats, integers, booleans, and strings — and how to represent literal values for each.</li>
+<li>Know the basic operators, functions, and methods associated with each data type.</li>
+<li>Understand the distinction between and operator, function, and method.</li>
+<li>Know how to convert a value of one type to another.</li>
+<li>Know how to find our the type of value or variable.</li>
+<li>Know Python’s built-in data structures – tuples, lists, dictionaries, and sets.</li>
+<li>Know the basic operators, methods, and functions associated with each data structure.</li>
+<li>Understand the concept of an expression and its relation to literals, variables, operators, and functions.</li>
+</ul>
+</section>
+<section id="readings" class="level1">
+<h1>Readings</h1>
+<ul>
+<li><a href="https://learning.oreilly.com/library/view/learning-python-5th/9781449355722/part02.html">Lutz, Learning Python, Part II: Types and Operations, Chapters 4–9</a></li>
+<li><a href="https://learning.oreilly.com/library/view/learn-python-by/9781789535365/5fea535c-b144-4c8b-b20b-0a0ee1c1f157.xhtml">Katz and Katz 2019, Section 1, First Steps in Coding—Variables and Data Types</a></li>
+</ul>
+<p><strong>For reference:</strong> - <a href="https://docs.python.org/3/library/stdtypes.html">Built-in Types (Official)</a></p>
+<section id="reading-data-and-code" class="level2">
+<h2 class="anchored" data-anchor-id="reading-data-and-code">Reading: Data and Code</h2>
+<p><strong>Code should be simple</strong></p>
 <p>An important principle for writing effective and intelligible code is that code should be simple — to quote Einstein, as simple as possible but no simpler.</p>
 <ul>
 <li>A contributing factor to code simplicity is how it is related to the data it is designed to process.</li>
 <li>This relationship depends largely on how the data are structured.</li>
 <li>A program is always written with data in mind — what kind of data it is and how it is structured.</li>
 </ul>
-</section>
-<section id="simplicity-of-code-follows-from-the-structure-of-data" class="level2">
-<h2 class="anchored" data-anchor-id="simplicity-of-code-follows-from-the-structure-of-data">Simplicity of code follows from the structure of data</h2>
+<p><strong>Simplicity of code follows from the structure of data</strong></p>
 <p>There is a view among programmers which, although not orthodoxy, is commonplace.</p>
 <ul>
 <li>It is the idea that the complexity of a program — its algorithms — is a function of the quality of the data structure it processes.</li>
 <li>If a data structure is not well designed, algorithms may be excessively complex and hard to understand.</li>
 <li>However if a data structure is well designed, the algorithms that process them are more robust and intelligible.</li>
 </ul>
-</section>
-<section id="supporting-references" class="level2">
-<h2 class="anchored" data-anchor-id="supporting-references">Supporting References</h2>
+<p><strong>Supporting References</strong></p>
 <p>Consider these quotes cited in an essay on <a href="https://medium.com/webdevops/data-structures-548cbea9c520">Data Structures</a>. by Igor Budasov, reproduced here:</p>
 <p>Here’s <a href="https://lwn.net/Articles/193245/">a quote from Linus Torvalds in 2006</a>:</p>
 <blockquote class="blockquote">
@@ -341,19 +242,195 @@ Beyond craftsmanship lies invention, and it is here that lean, spare, fast progr
 <blockquote class="blockquote">
 <p><strong>Much more often, strategic breakthrough will come from redoing the representation of the data or tables.</strong> This is where the heart of your program lies. Show me your flowcharts and conceal your tables, and I shall be continued to be mystified. Show me your tables, and I won’t usually need your flowcharts; they’ll be obvious.</p>
 </blockquote>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>See <a href="https://canvas.its.virginia.edu/courses/75059/modules/items/821906">video</a> on Canvas.</p>
-</div>
-</div>
+</section>
+<section id="reading-python-object-types" class="level2">
+<h2 class="anchored" data-anchor-id="reading-python-object-types">Reading: Python Object Types</h2>
+<p>Python is organized into a hierarchy of <strong>object types</strong>. Sometimes, these are just call <strong>types</strong>.</p>
+<p>Objects are the basic unit out of which the language is constructed.</p>
+<p>We’ll learn about objects later – what they are and how to create your own – but for now just understand that they have two main things associated with them:</p>
+<ul>
+<li>First, they can contain <strong>data</strong>.</li>
+<li>Second, they can have <strong>behaviors</strong>, frequently in relation to the data they contain.</li>
+</ul>
+<p><img src="../../media/Python_3._The_standard_type_hierarchy.png" class="img-fluid"></p>
+<section id="data-types-and-data-structures" class="level3">
+<h3 class="anchored" data-anchor-id="data-types-and-data-structures">Data Types and Data Structures</h3>
+<p>Data types and data structures are kinds of objects.</p>
+<p><strong>Data types are atomic</strong> — they don’t contain other data types.</p>
+<p><strong>Data structures contain data types</strong> organized in a certain way.</p>
+<p><strong>Data Types</strong></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>name</th>
+<th>type</th>
+<th>literal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>int</code></td>
+<td>integer</td>
+<td><code>1</code></td>
+</tr>
+<tr class="even">
+<td><code>str</code></td>
+<td>string</td>
+<td><code>"1"</code>, <code>'1'</code></td>
+</tr>
+<tr class="odd">
+<td><code>float</code></td>
+<td>floating point (real)</td>
+<td><code>1.</code></td>
+</tr>
+<tr class="even">
+<td><code>complex</code></td>
+<td>complex</td>
+<td><code>1j</code> (imaginary component)</td>
+</tr>
+<tr class="odd">
+<td><code>bool</code></td>
+<td>boolean</td>
+<td><code>True</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Data Structures</strong></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>name</th>
+<th>mutable</th>
+<th>constructor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>tuple</code></td>
+<td>no</td>
+<td><code>()</code>, <code>tuple()</code></td>
+</tr>
+<tr class="even">
+<td><code>list</code></td>
+<td>yes</td>
+<td><code>[]</code>, <code>list()</code></td>
+</tr>
+<tr class="odd">
+<td><code>dict</code></td>
+<td>yes</td>
+<td><code>{}</code> with key/value pairs, <code>dict()</code></td>
+</tr>
+<tr class="even">
+<td><code>set</code></td>
+<td>yes</td>
+<td><code>{}</code> with single values, <code>set()</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="notebooks">Notebooks</h2>
+<ul>
+<li><a href="M02-02-Numbers.ipynb">Numbers</a></li>
+<li><a href="M02-03-Booleans.ipynb">Booleans</a></li>
+<li><a href="M02-04-Strings.ipynb">Strings</a></li>
+<li><a href="M02-05-Structures.ipynb">Structures</a></li>
+</ul>
+</section>
+</section>
+<section id="activity-in-class-exercises" class="level1">
+<h1>Activity: In-Class Exercises</h1>
+<p>Click on the link below to open a web page that contains a slide deck with exercises.</p>
+<p>For each exercise, read the prompt and attempt to provide an answer, usually in the form of code.</p>
+<p>See the answers by clicking the down arrow in the lower right corner.</p>
+<p>Go to the next exercise prompt by clicking on the right arrow.</p>
+<p>Create a new notebook to store your work.</p>
+<p><a href="M02A-Exercises.html">Exercise Slides</a></p>
+</section>
+<section id="quiz" class="level1">
+<h1>Quiz</h1>
+<section id="q1" class="level2">
+<h2 class="anchored" data-anchor-id="q1">Q1</h2>
+<p>(1 point) Which of the following are valid ways to run lines of Python code?</p>
+<p>A. From within the GitHub website, by clicking on a Jupyter notebook.<br>
+B. From the command line, by typing in python, pressing return, and then interactively entering the lines.<br>
+C. From within a code cell in a Jupyter notebook running on Jupyter Lab.<br>
+D. From a text file, with a .py extension. as an argument to calling Python from the command line.</p>
+</section>
+<section id="q2" class="level2">
+<h2 class="anchored" data-anchor-id="q2">Q2</h2>
+<p>(1 point) What statement best describes the difference between data types and data structures?</p>
+<p>A. There is no real difference; the expressions are interchangeable.<br>
+B. Data types refer to primitive kinds of data, whereas data structures organize data types into collections with specific organizational properties.<br>
+C. Data types refer to built-in objects, whereas data structures are imported.<br>
+D. Data types don’t have associated operators, whereas data types do.</p>
+</section>
+<section id="q3" class="level2">
+<h2 class="anchored" data-anchor-id="q3">Q3</h2>
+<p>(1 point) Which of the following items have corresponding Python data types?</p>
+<p>A. Integers<br>
+B. Booleans<br>
+C. Characters (e.g.&nbsp;individual letters)<br>
+D. Reals</p>
+</section>
+<section id="q4" class="level2">
+<h2 class="anchored" data-anchor-id="q4">Q4</h2>
+<p>(1 point) What built-in Python function returns the object type (i.e.&nbsp;class name) of a value stored in the Python variable x?</p>
+<p>A. class(x)<br>
+B. type(x)<br>
+C. id(x)<br>
+D. ord(x)</p>
+</section>
+<section id="q5" class="level2">
+<h2 class="anchored" data-anchor-id="q5">Q5</h2>
+<p>(1 point) Which of the following literals would Python interpret as integers? A. 1<br>
+B. 1.<br>
+C. “1”<br>
+D. +1</p>
+</section>
+<section id="q6" class="level2">
+<h2 class="anchored" data-anchor-id="q6">Q6</h2>
+<p>(1 point) What value does the following expression return: int(1.) == 1</p>
+<p>True<br>
+False</p>
+</section>
+<section id="q7" class="level2">
+<h2 class="anchored" data-anchor-id="q7">Q7</h2>
+<p>(1 point) Which are valid constructors of a Python list named x?</p>
+<p>A. x = []<br>
+B. x = list()<br>
+C. x = ()<br>
+D. x = {}</p>
+</section>
+<section id="q8" class="level2">
+<h2 class="anchored" data-anchor-id="q8">Q8</h2>
+<p>(1 point) Given the list x = [1, 2, 4, 8] what will the expression the following evaluate to? x[1:4]</p>
+<p>A. [1, 2, 4, 8]<br>
+B. [2, 4, 8]<br>
+C. [1, 2, 4]<br>
+D. [1, 4]</p>
+</section>
+<section id="q9" class="level2">
+<h2 class="anchored" data-anchor-id="q9">Q9</h2>
+<p>(1 point) What value will the following expression evaluate to? [1, 2, 4] * 2</p>
+<p>A. [2, 4, 8]<br>
+B. None # The * operator does not work with lists<br>
+C. [1, 2, 4, 1, 2, 4]<br>
+D. [1, 2, 4, 2]</p>
+</section>
+<section id="q10" class="level2">
+<h2 class="anchored" data-anchor-id="q10">Q10</h2>
+<p>(1 point) Which of the following are built-in Python data structures?</p>
+<p>A. list<br>
+B. dict<br>
+C. set<br>
+D. tuple</p>
+</section>
+</section>
+<section id="homework" class="level1">
+<h1>Homework</h1>
+<p>To finish this module, complete <a href="M02B-HW.ipynb">this homework assignment</a>.</p>
 
 
 </section>
@@ -510,14 +587,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../modules/M02_BasicPython/M02-00-1-Intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">M02 Introducing Python</span>
+      <a href="../../modules/M02_BasicPython/M02A-UsingPython.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module: Using Python</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../modules/M02_BasicPython/Activities/M02-00-4-ActivityHelloWorld.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Activity: Hello, World!</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
