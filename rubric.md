@@ -3,7 +3,7 @@
 
 President and Provost's Fund for Institutionally Related Research: Data Science Active Learning Lab.
 
-## PROJECT DESCRIPTION
+## Project Description
 
 Active learning approaches have not been widely applied and tested in data science courses despite significant research supporting their benefits and its successful adoption in computer science. One study notes a 33% increase in pass rates for computer science courses employing active learning as compared to traditional lecture classes ^\[3\]^. The Academy for Teaching Excellence has thousands of resources to aid in the teaching of computer science content with hundreds of assignments, but essentially no empirically tested resources for data science ^\[4\].^ 
 
@@ -13,7 +13,7 @@ A major obstacle to creating authentic and transparent active learning assessmen
 
 The Lab will reduce the time burden on faculty to create effective assessments. More important, it will establish a trusted research framework and tools that have been empirically tested for effectiveness. Such a resource is currently unavailable in data science pedagogy. We also have a unique opportunity, given the newness of the field, to develop cultural norms around teaching that are known to benefit underrepresented groups and first-generation students. This funding will go a long way to advance that effort by establishing a pedological research lab specifically focused on student success in a historically fast-growing field.
 
-## PROJECT GOALS
+## Project Goals
 
 In pursuit of the mission to provide resources to enable faculty to create effective active learning assessments for data science, the project has the following goals.
 
@@ -44,7 +44,7 @@ VI. Review process to encourage retention.
 
 The remainder of this document will describe each of these elements.
 
-## MATERIALS
+## Materials
 
 ### Learning Goals
 
@@ -77,7 +77,9 @@ various machine learning models.
 
 3.1a) Execute and effectively describe dealing with missing data
 
-II\. **Pre-Reading and/or Video Material** -- This should reference
+### II. Pre-Reading and/or Video Material
+
+This should reference
 specific sections in books known to be of high quality related to the
 content. I have a tendency to lean more heavily on books that include
 "theory" explanations aside from simple how-to text given that much of
@@ -92,7 +94,9 @@ the beginning of class to encourage students to watch and engage with
 the content. I also usually place these videos on YouTube as unlisted,
 but this does still allow you to track the watch time.
 
-III\. **Active Learning Sessions** -- The definition of active learning
+### III. Active Learning Sessions
+
+The definition of active learning
 is fairly broad, but in it's simplest form it suggests that students
 should not be passive in their learning. This doesn't eliminate
 classical lecturing methods but augments them to include directed
@@ -120,7 +124,9 @@ cognitive construction of knowledge."
 The article is available here:
 <https://journals.sagepub.com/doi/pdf/10.1177/1529100620973974>
 
-IV\. **Assessments** can be the hardest and potentially the most
+###  IV. Assessments
+
+Assessments can be the hardest and potentially the most
 time-consuming portion of course materials. The traditional path in most
 Data Science oriented classes is an assessment that focuses on
 implementing a method in code. I would encourage you to continue this
@@ -136,9 +142,58 @@ be evaluated and what the expectations are for the assessment. Below is
 an example assessment Pete developed for the DS 1001, though not a
 coding-based assessment the general structure is still relevant.
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+### V. Evaluation rubrics for learning outcomes
 
-LOOK Rubric -- Systems
+This step can likely be included in the development of assessments but having it as a standalone emphasizes the need for thoughtful design. 
+
+The goal here should be evaluation measures tailored to the assessments but also universal enough to be used in a standard lecture format. 
+
+Meaning that the rubrics will be included as part of the experimental design to assess the variances in learning that occurs in an active learning environment when compared to a lecture format. 
+
+In the above example the quality of answers to the final question, "How do the answers to the questions make you feel as it relates to the presence of data driven technologies in our everyday lives?", could be a focus on the evaluation rubric as it relates to the specific learning outcome around "understanding the growing influence of data on society".
+
+### VI. **Review process** to encourage retention -- The idea here is to
+not compartmentalize the learning objectives but blend them together
+from week to week to help reinforce the topics throughout the semesters.
+
+One method example is to have quizzes that include questions from all
+weeks in the class not just the current topic. I think for this use
+case, simple direct sessions that are short in nature, 10-15 minutes,
+that review topics from the session makes more sense. 
+
+Examples might
+include a guided back and forth on the key topics from the previous week
+or a team assignment that is short in nature but requires the students
+to pull previous information forward. 
+
+If the previous week's topic was
+Decision Trees, I've shown some code and an image of DT in class that
+had three errors and ask the students to find and describe the errors in
+10 minutes, as an example, before moving into the new session for the
+week.
+
+## Additional Notes 
+
+-   We want to publish these materials online, so when building please
+    consider the goal is to make the materials publicly available.
+
+-   We are also hoping to "empirically" test these in a classroom in the
+    Spring of 24, so also be *thinking* about the development of
+    non-active learning materials and where best to measure results.
+
+-   You've got great ideas, this is just a framework, so feel free to
+    move as you see fit.
+
+-   This process should be useful for future and current SDS faculty.
+    So, keep an eye on the ideal that we are in some ways culture
+    building/establishing best practices, which I hope gets noticed.
+
+-   Pete and I will create a Team site with folders for your content and
+    as a placeholder for documentation on the project. You do not need
+    to use these folders, just an option.
+
+
+## Appendix: LOOK Rubric for Assessment Design
 
 **DS 1001 -- Spring 2023 - Professors Alonzi & Wright**
 
@@ -291,54 +346,3 @@ criteria in this rubric.
 coaching us. This structure is from [Streifer & Palmer
 (2020)](https://cte.virginia.edu/blog/2020/12/04/alternative-grading-practices-support-both-equity-and-learning).
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-
-V. **Evaluation rubrics** for learning outcomes -- 
-
-This step can likely be included in the development of assessments but having it as a standalone emphasizes the need for thoughtful design. 
-
-The goal here should be evaluation measures tailored to the assessments but also universal enough to be used in a standard lecture format. 
-
-Meaning that the rubrics will be included as part of the experimental design to assess the variances in learning that occurs in an active learning environment when compared to a lecture format. 
-
-In the above example the quality of answers to the final question, "How do the answers to the questions make you feel as it relates to the presence of data driven technologies in our everyday lives?", could be a focus on the evaluation rubric as it relates to the specific learning outcome around "understanding the growing influence of data on society".
-
-VI\. **Review process** to encourage retention -- The idea here is to
-not compartmentalize the learning objectives but blend them together
-from week to week to help reinforce the topics throughout the semesters.
-
-One method example is to have quizzes that include questions from all
-weeks in the class not just the current topic. I think for this use
-case, simple direct sessions that are short in nature, 10-15 minutes,
-that review topics from the session makes more sense. 
-
-Examples might
-include a guided back and forth on the key topics from the previous week
-or a team assignment that is short in nature but requires the students
-to pull previous information forward. 
-
-If the previous week's topic was
-Decision Trees, I've shown some code and an image of DT in class that
-had three errors and ask the students to find and describe the errors in
-10 minutes, as an example, before moving into the new session for the
-week.
-
-## **III. Additional Notes** 
-
--   We want to publish these materials online, so when building please
-    consider the goal is to make the materials publicly available.
-
--   We are also hoping to "empirically" test these in a classroom in the
-    Spring of 24, so also be *thinking* about the development of
-    non-active learning materials and where best to measure results.
-
--   You've got great ideas, this is just a framework, so feel free to
-    move as you see fit.
-
--   This process should be useful for future and current SDS faculty.
-    So, keep an eye on the ideal that we are in some ways culture
-    building/establishing best practices, which I hope gets noticed.
-
--   Pete and I will create a Team site with folders for your content and
-    as a placeholder for documentation on the project. You do not need
-    to use these folders, just an option.

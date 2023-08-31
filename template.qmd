@@ -6,47 +6,14 @@
 - Goals
 - Objectives
 - Materials
-
 - Activities
-
 - Assessments
-
 - Evaluation
 - Review 
 
-# Metadata
+# Expansions
 
-Topic: Python Data Types and Data Structures
-Author: R.C. Alvarado
-Date:
-
-# Learning Goals
-
-1.
-2.
-3.
-
-# Learning Objectives
-
-# Materials
-
-Videos, readings, websites, etc.
-
-# Activities
-
-These are components of Active Learning Sessions.
-
-Think, Pair, Share
-
-Pair Programming
-
-Challenges
-
-# Assessments
-
-## Quiz
-
-## Homework
+## Transparency
 
 - General Description
 - Why am I doing this?
@@ -54,14 +21,14 @@ Challenges
 - Tips for success
 - How will I know I have succeeded? -> Spec Rubric
 
-# Evaluation
+## Evaluation
 
 Rubrics for measurably evaluating outcomes.
 
 Rubrics will inform the experimental design to assess the variances in learning that occurs in an active learning environment when compared to a lecture format. 
 
 
-# Review
+## Review
 
 Cumulative assessments.
 
