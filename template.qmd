@@ -1,15 +1,24 @@
 # Template
 
+# To include:
+
+I.  Summary of the learning objectives for the session.\
+II. Pre-reading and/or video material.\
+III. Two Active learning lecture sessions and associated material\
+IV. Assessments -- assignments, reflections, quizzes, group work etc.\
+V.  Evaluation rubrics for learning outcomes.\
+VI. Review process to encourage retention.
+
+
 # TOC
 
 - Metadata
-- Goals
-- Objectives
-- Materials
-- Activities
+- Goals and Objectives
+- Pre-reading Materials
+- Activities (2)
 - Assessments
-- Evaluation
-- Review 
+- Evaluation Rubrics
+- Review Process
 
 # Expansions
 

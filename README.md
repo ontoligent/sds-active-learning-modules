@@ -44,5 +44,3 @@ IV. Assessments -- assignments, reflections, quizzes, group work etc.
 V.  Evaluation rubrics for learning outcomes.
 
 VI. Review process to encourage retention.
-
-The remainder of this document will describe each of these elements.

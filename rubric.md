@@ -1,7 +1,7 @@
 
 # Rubric Active Learning Lab Sessions
 
-President and Provost's Fund for Institutionally Related Research: Data Science Active Learning Lab.
+This work is sponsered by the UVA's President and Provost's Fund for Institutionally Related Research: Data Science Active Learning Lab.
 
 ## Project Description
 
@@ -27,22 +27,21 @@ In pursuit of the mission to provide resources to enable faculty to create effec
 
 -   **Disseminate open instructional content** in accordance with the School of Data Science open access policy and UVA's Open Scholarship agreement.
 
+## Summer 2023 
+
 The goal of the summer is for each faculty member to create three
-implementable active learning sessions that can be embedded into classes in the next academic year. These active learning sessions should include the following materials covering a roughly two-week period.
+implementable active learning sessions that can be embedded into classes in the next academic year. 
 
-I.  Summary of the learning objectives for the session.
+These active learning sessions should include the following materials covering a roughly two-week period:
 
-II. Pre-reading and/or video material.
-
-III. Two Active learning lecture sessions and associated material
-
-IV. Assessments -- assignments, reflections, quizzes, group work etc.
-
-V.  Evaluation rubrics for learning outcomes.
-
+I.  Summary of the learning objectives for the session.\
+II. Pre-reading and/or video material.\
+III. Two Active learning lecture sessions and associated material\
+IV. Assessments -- assignments, reflections, quizzes, group work etc.\
+V.  Evaluation rubrics for learning outcomes.\
 VI. Review process to encourage retention.
 
-The remainder of this document will describe each of these elements.
+Each of these items are explained in more detail below.
 
 ## Materials
 
