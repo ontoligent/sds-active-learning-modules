@@ -13,8 +13,10 @@ book:
   chapters:
     - index.qmd
     - rubric.md
-    - modules/M02_BasicPython/M02A-UsingPython.ipynb
-    - modules/M02_BasicPython/M02B-VariablesAndData.ipynb
+    - part: "M02"
+      chapters:
+        - modules/M02_BasicPython/M02A-UsingPython.ipynb
+        - modules/M02_BasicPython/M02B-VariablesAndData.ipynb
     
     # - part: index.qmd                                                     # Preface
     #   chapters:
