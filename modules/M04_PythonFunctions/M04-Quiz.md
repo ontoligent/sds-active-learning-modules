@@ -1,3 +1,5 @@
+# Quiz
+
 ## Q1 
 
 (1.0 points) Consider this function:

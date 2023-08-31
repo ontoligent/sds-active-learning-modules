@@ -644,149 +644,156 @@
     "text": "Concluding Observations\n\nNotice how each example has functions that build on each other.\nThese functions share both data and a general goal.\nThe fact that data and functions go together is the motivation for creating classes."
   },
   {
+    "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q1",
+    "href": "modules/M04_PythonFunctions/M04-Quiz.html#q1",
+    "title": "Quiz",
+    "section": "Q1",
+    "text": "Q1\n(1.0 points) Consider this function:\ndef make_bigger(txt):\n    new_txt = txt.upper()\n    return new_txt\nWhich of these is a correct function call?\nA. make_bigger['somethingInTheWaySheMoves']\nB. 'somethingInTheWaySheMoves'.make_bigger()\nC. make_bigger('somethingInTheWaySheMoves')\nD. none of these"
+  },
+  {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q2",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q2",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q2",
     "text": "Q2\n(1.0 points) True or False: Default arguments must follow non-default arguments.\nA. True\nB. False"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q3",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q3",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q3",
     "text": "Q3\n(1.0 points) Python functions require a return statement\nA. True\nB. False"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q4",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q4",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q4",
     "text": "Q4\n(1.0 points) Consider this function:\ndef commute_to_work(w, x):\n    a = 10\n    out = a * w + x\n    return out\nFor all given values of c and d, where c and d are NOT EQUAL, do the following function calls produce equivalent results?\nA. yes\nB. no\nC. cannot be determined"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q5",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q5",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q5",
     "text": "Q5\n(1.0 points) Functions should (select all that apply):\nA. Do one thing\nB. Have a good name\nC. Contain a docstring\nD. Be shorter than ten lines in length"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q6",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q6",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q6",
     "text": "Q6\n(1.0 points) What does this return? (lambda x: 1 - x%2)(5)\nA. an error\nB. 1\nC. 5\nD. 0"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q7",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q7",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q7",
     "text": "Q7\n(1.0 points) What does this code block print?\ndef gamma(x):\n    if x < 10:\n        return(0)\n    elif x == 10:\n        return(x**2)\n    return(1)\ny = gamma(20)\nprint(y)\nA. 0\nB. 400\nC. 1\nD. an error"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q8",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q8",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q8",
     "text": "Q8\n(1 point) Recursive functions can often be replaced by code blocks that use a looping operation (e.g. for or while statement).\nA. True\nB. False"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q9",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q9",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q9",
     "text": "Q9\n(1 point) Which of the following are good reasons to define groups of functions that call each other and share data?\nA. Functions often are designed to solve a common problem.\nB. Complex functions should be broken up into simpler and reusable functions\nC. Functions often perform different roles in a program, such as apply a mathematical formula or interact with a user.\nD. Functions must return values, and these values need to be used somehow"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-Quiz.html#q10",
     "href": "modules/M04_PythonFunctions/M04-Quiz.html#q10",
-    "title": "Q1",
+    "title": "Quiz",
     "section": "Q10",
     "text": "Q10\n(1 point) Which of the following are true statements about how Python handles variable scope in functions?\nA. Functions can never see variables defined outside of them.\nB. Unless a variable is declared to be global within a function, a variable is considered local to a function if that variable is assigned a value in the function.\nC. Code outside of a function may see variables defined inside of a function.\nD. A name, such as x , can refer to many different variables in a program."
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html",
     "href": "modules/M04_PythonFunctions/M04-HW.html",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "",
     "text": "Instructions\nIn your private course repo on Rivanna, write a Jupyter notebook running Python that performs the numbered tasks below.\nFor each task, create one or more code cells to perform the task.\nSave your notebook in the M04 directory as hw04.ipynb.\nAdd and commit these files to your repo.\nThen push your commits to your repo on GitHib.\nBe sure to fill out the Student Info block above.\nTo submit your homework, save the notebook as a PDF and upload it to GradeScope, following the instructions.\nTOTAL POINTS: 14\nIn this homework, you will work with the Forest Fires Data Set from UCI.\nThere is a local copy of these data as a CSV file in the HW directory for this module in the course repo.\nYou will create a group of related functions to process these data.\nThis notebook will set the table for you by importing and structuring the data first.\nFirst, we read in our local copy of the dataset and save it as a list of lines.\nThen, we inspect first ten lines, replacing commas with tabs for readability.\nFor the first tasks, we grab the first two columns of our table, which define the spatial coordinates within the Monteshino park map.\nNext, we work the area column of our data.\nThe month column contains months of the year in abbreviated form — jan to dec.\nDMC - DMC index from the FWI system: 1.1 to 291.3\nFFMC - FFMC index from the FWI system: 18.7 to 96.20"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#convert-csv-into-datafame-like-data-structure",
     "href": "modules/M04_PythonFunctions/M04-HW.html#convert-csv-into-datafame-like-data-structure",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Convert CSV into Datafame-like Data Structure",
     "text": "Convert CSV into Datafame-like Data Structure\nWe use a helper function to convert the data into the form of a dataframe-like dictionary.\nThat is, we convert a list of rows into a dictionary of columns, each cast to the appropriate data type.\nLater, we will use Pandas and R dataframes to do this work.\nFirst, we define the data types by inspecting the data and creating a dictionary of lambda functions to do our casting.\n\ndtypes = ['i', 'i', 's', 's', 'f', 'f', 'f', 'f', 'f', 'i', 'f', 'f', 'f']\n# dtypes = list(\"iissfffffifff\") # We could have done it this way, too\n\ncaster = {\n    'i': lambda x: int(x),\n    's': lambda x: str(x),\n    'f': lambda x: float(x)\n}\n\nNext, we grab the column names from the first row or list.\nNote that .strip() is a string function that removes extra whitespace from before and after a string.\n\ncols = data_file[0].strip().split(',')\n\nFinally, we iterate through the list of rows and flip them into a dictionary of columns.\nThe key of each dictionary element is the columns name, and the value is a list of values with a common data type.\n\n# Get the rows, but not the first, and convert them into lists\nrows = [line.strip().split(',') for line in data_file[1:]]\n\n# Initialize the dataframe by defining a dictionary of lists, with each column name as a key\nfiredata = {col:[] for col in cols}\n\n# Iterate through the rows and convert them to columns \nfor row in rows:\n    for j, col in enumerate(row):\n        firedata[cols[j]].append(caster[dtypes[j]](col))\n\nTest to see if it worked …\n\nfiredata['Y'][:5]\n\n[5, 4, 4, 6, 6]"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-1",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-1",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 1",
     "text": "Task 1\n(2 points)\nWrite a function called coord_builder() with these requirements:\n\nTakes two lists, X and Y, as inputs. X and Y must be of equal length.\nReturns a list of tuples [(x1,y1), (x2,y2), ..., (xn,yn)] where (xi,yi) are the ordered pairs from X and Y.\nUses the zip() function to create the returned list.\nUse a list comprehension to actually build the returned list.\nContains a docstring with short description of the function.\n\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-2",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-2",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 2",
     "text": "Task 2\n(1 PT)\nCall your coord_builder() function, passing in X and Y.\nThen print the first ten tuples.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-3",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-3",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 3",
     "text": "Task 3\n(1 PT)\nWrite code to print the minimum area and maximum area in a tuple (min_value, max_value).\nSave min_value and max_value as floats.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-4",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-4",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 4",
     "text": "Task 4\n(2 PTS)\nWrite a lambda function that applies the following function to \\(x\\):\n\n\\(log_{10}(1 + x)\\)\n\nReturn the rounded value to \\(2\\) decimals.\nAssign the function to the variable mylog10.\nThen call the lambda function on area and print the last 10 values.\nHints: * Use the log10 function from Python’s math module. You’ll need to import it. * Use a list comprehension to make the lambda function a one-liner. * To get the last members of a list, used negative offset slicing. See the Python documentation on lists for a refresher on slicing.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-5",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-5",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 5",
     "text": "Task 5\n(1 PT)\nCreate a function called get_uniques() that extracts the unique values from a list. * Do not use set() but instead use a dictionary comprehension to capture the unique names. * Hint: They keys in a dictionary are unique. * Hint: You do not need to count how many times a name appears in the source list.\nThen function should optionally return the list as sorted in ascending order.\nThen apply it to the month column of our data with sorting turned on.\nThen print the unique months.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-6",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-6",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 6",
     "text": "Task 6\n(1 PT)\nWrite a lambda function called get_month_for_letter that uses a list comprehension to select all months starting with a given letter from the list of unique month names you just crreated.\nThe function should assume that the list of unique month names exists in the global context.\nThe returned list should contain uppercase strings.\nRun and print the result with a as the paramter.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-7",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-7",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 7",
     "text": "Task 7\n(2 PTS)\nWrite a function called bandpass_filter() with these requirements:\n\nTakes three inputs:\n\nA list of numbers num_list.\nAn integer serving as a lower bound lower_bound.\nAn integer serving as an upper bound upper_bound.\n\nReturns a new array containing only the values from the original array which are greater than lower_bound and less than upper_bound.\n\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-8",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-8",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 8",
     "text": "Task 8\n(1 PT)\nCall bandpass_filter() passing dmc as the list, with lower_bound=25 and upper_bound=35.\nThen print the result.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-9",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-9",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 9",
     "text": "Task 9\n(2 PTS)\nWrite a lambda function get_mean that computes the mean \\(\\mu\\) of a list of numbers. * The mean is jus the sum of a list of numeric values divided by the length of that list.\nWrite another lambda function get_ssd that computes the squared deviation of a number. * The function takes two arguments, a number from a given list and the mean of the numbers in that list. * The function is meant to be used in a for-loop that iterates through a list. * The squared deviation of a list element \\(x_i\\) is \\((x_i - \\mu)^2\\).\nThen write get_sum_sq_err() with these requirements: * Takes a numeric list as input. * Computes the mean \\(\\mu\\) of the list using get_mean. * Computes the sum of squared deviations for the list using a list comprehension that applies get_ssd. * Returns the sum of squared deviations.\n\n# CODE HERE"
   },
   {
     "objectID": "modules/M04_PythonFunctions/M04-HW.html#task-10",
     "href": "modules/M04_PythonFunctions/M04-HW.html#task-10",
-    "title": "M04 Homework",
+    "title": "Homework",
     "section": "Task 10",
     "text": "Task 10\n(1 PT)\nCall sum_sq_err() passing ffmc as the list and print the result.\n\n# CODE HERE"
   }

@@ -2,86 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/index.html</loc>
-    <lastmod>2023-08-31T20:29:32.092Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.155Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/rubric.html</loc>
-    <lastmod>2023-08-31T20:29:32.095Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.157Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02A-UsingPython.html</loc>
-    <lastmod>2023-08-31T20:29:32.097Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.158Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02B-VariablesAndData.html</loc>
-    <lastmod>2023-08-31T20:29:32.100Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.161Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-00-Goals.html</loc>
-    <lastmod>2023-08-31T20:29:32.101Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.162Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-01-Readings.html</loc>
-    <lastmod>2023-08-31T20:29:32.103Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.163Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-02-IterablesAndIterators.html</loc>
-    <lastmod>2023-08-31T20:29:32.108Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.167Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-03-ControlStructures.html</loc>
-    <lastmod>2023-08-31T20:29:32.113Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.171Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-04-Comprehensions.html</loc>
-    <lastmod>2023-08-31T20:29:32.116Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.174Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-Quiz.html</loc>
-    <lastmod>2023-08-31T20:29:32.118Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.176Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-HW.html</loc>
-    <lastmod>2023-08-31T20:29:32.121Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.178Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-00-Goals.html</loc>
-    <lastmod>2023-08-31T20:29:32.123Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.179Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-01-Readings.html</loc>
-    <lastmod>2023-08-31T20:29:32.124Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.180Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-02-Importing.html</loc>
-    <lastmod>2023-08-31T20:29:32.133Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.187Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-03-Functions.html</loc>
-    <lastmod>2023-08-31T20:29:32.140Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.192Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-04-LambdaFunctions.html</loc>
-    <lastmod>2023-08-31T20:29:32.143Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.194Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-05-RecursiveFunctions.html</loc>
-    <lastmod>2023-08-31T20:29:32.149Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.199Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-06-Scope.html</loc>
-    <lastmod>2023-08-31T20:29:32.154Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.203Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-07-FunctionsCallingFunctions.html</loc>
-    <lastmod>2023-08-31T20:29:32.159Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.207Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-Quiz.html</loc>
-    <lastmod>2023-08-31T20:29:32.161Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.209Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M04_PythonFunctions/M04-HW.html</loc>
-    <lastmod>2023-08-31T20:29:32.165Z</lastmod>
+    <lastmod>2023-08-31T20:32:31.212Z</lastmod>
   </url>
 </urlset>
