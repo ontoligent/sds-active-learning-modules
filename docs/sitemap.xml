@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/index.html</loc>
-    <lastmod>2023-08-31T19:23:42.748Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.334Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/rubric.html</loc>
-    <lastmod>2023-08-31T19:23:42.749Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.335Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02A-UsingPython.html</loc>
-    <lastmod>2023-08-31T19:23:42.750Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.335Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M02_BasicPython/M02B-VariablesAndData.html</loc>
-    <lastmod>2023-08-31T19:23:42.751Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.336Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-00-Goals.html</loc>
-    <lastmod>2023-08-31T19:23:42.751Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.337Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-01-Readings.html</loc>
-    <lastmod>2023-08-31T19:23:42.752Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.338Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-02-IterablesAndIterators.html</loc>
-    <lastmod>2023-08-31T19:23:42.753Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.342Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-03-ControlStructures.html</loc>
-    <lastmod>2023-08-31T19:23:42.755Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.343Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-04-Comprehensions.html</loc>
-    <lastmod>2023-08-31T19:23:42.756Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-Quiz.html</loc>
+    <lastmod>2023-08-31T19:42:43.345Z</lastmod>
   </url>
   <url>
     <loc>https://ontoligent.github.io/sds-active-learning-modules/modules/M03_ControlStructures/M03-HW.html</loc>
-    <lastmod>2023-08-31T19:23:42.757Z</lastmod>
+    <lastmod>2023-08-31T19:42:43.346Z</lastmod>
   </url>
 </urlset>
