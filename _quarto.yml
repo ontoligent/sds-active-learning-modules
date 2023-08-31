@@ -13,11 +13,11 @@ book:
   chapters:
     - index.qmd
     - rubric.md
-    - part: "M02"
+    - part: "M02: Basic Python"
       chapters:
         - modules/M02_BasicPython/M02A-UsingPython.ipynb
         - modules/M02_BasicPython/M02B-VariablesAndData.ipynb
-    - part: "M03"
+    - part: "M03: Control Structures"
       chapters:
         - modules/M03_ControlStructures/M03-00-Goals.ipynb
         - modules/M03_ControlStructures/M03-01-Readings.ipynb
