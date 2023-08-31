@@ -7,6 +7,9 @@ book:
   title: "DS 1001 Active Learning Modules"
   author: "R.C. Alvarado"
   date: "8/23/2023"
+  site-url: https://ontoligent.github.io/sds-active-learning-modules
+  repo-url: https://github.com/ontoligent/sds-active-learning-modules
+
   chapters:
     - index.qmd
     - rubric.md
